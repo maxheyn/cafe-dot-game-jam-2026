@@ -1,0 +1,31 @@
+{
+  "id": "MAP_ROUTE_101_EXTENDED",
+  "name": "CDGJ_Route_101_Extended",
+  "layout": "LAYOUT_ROUTE_101_EXTENDED",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC__CDGJ_MERRIWAVE_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE101",
+      "offset": 6,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_CAVE_EXIT",
+      "offset": -7,
+      "direction": "up"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
+}

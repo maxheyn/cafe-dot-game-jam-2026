@@ -1163,3 +1163,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/scripts/dexnav.inc"
 	.include "data/scripts/battle_frontier.inc"
 	.include "data/scripts/apricorn_tree.inc"
+
+	.include "data/maps/startcity/scripts.inc"
+
+	.include "data/maps/StartCity/scripts.inc"
+
+	.include "data/maps/SampleMapTest/scripts.inc"

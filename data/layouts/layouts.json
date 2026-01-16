@@ -4410,6 +4410,156 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_MERRIWAVE_TOWN",
+      "name": "Merriwave_Town_Layout",
+      "width": 60,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Slateport",
+      "border_filepath": "data/layouts/CDGJ_Merriwave_Town/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_Merriwave_Town/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAFE_DOT",
+      "name": "CafeDot_Layout",
+      "width": 20,
+      "height": 13,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/CDGJ_CafeDot/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_CafeDot/map.bin"
+    },
+    {
+      "id": "LAYOUT_MERRIWAVE_TOWN_POKEMON_CENTER_1F",
+      "name": "MerriwaveTown_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/CDGJ_MerriwaveTown_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_MerriwaveTown_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MERRIWAVE_TOWN_MART",
+      "name": "MerriwaveTown_Mart_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/CDGJ_MerriwaveTown_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_MerriwaveTown_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_MERRIWAVE_TOWN_HOUSE",
+      "name": "MerriwaveTown_House_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/CDGJ_MerriwaveTown_House/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_MerriwaveTown_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_MERRIWAVE_GYM",
+      "name": "Merriwave_Gym_Layout",
+      "width": 9,
+      "height": 112,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PetalburgGym",
+      "border_filepath": "data/layouts/CDGJ_Merriwave_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_Merriwave_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE_SEA_ROUTE",
+      "name": "Route_SeaRoute_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Slateport",
+      "border_filepath": "data/layouts/CDGJ_Route_SeaRoute/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_Route_SeaRoute/map.bin"
+    },
+    {
+      "id": "LAYOUT_SEA_RIGHT",
+      "name": "Sea_Right_Layout",
+      "width": 20,
+      "height": 80,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Slateport",
+      "border_filepath": "data/layouts/CDGJ_Sea_Right/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_Sea_Right/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTH_MERRIWAVE",
+      "name": "North_Merriwave_Layout",
+      "width": 80,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Slateport",
+      "border_filepath": "data/layouts/CDGJ_NorthMerriwave/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_NorthMerriwave/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE_101_EXTENDED",
+      "name": "Route_101_Extended_Layout",
+      "width": 60,
+      "height": 80,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/CDGJ_Route_101_Extended/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_Route_101_Extended/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAVE_EXIT",
+      "name": "CaveExit_Layout",
+      "width": 50,
+      "height": 50,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/CDGJ_CaveExit/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_CaveExit/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEWROUTE",
+      "name": "Newroute_Layout",
+      "width": 40,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/CDGJ_Newroute/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_Newroute/map.bin"
+    },
+    {
+      "id": "LAYOUT_LILGUY",
+      "name": "LilGuy_Layout",
+      "width": 8,
+      "height": 12,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/CDGJ_LiLGuy/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_LilGuy/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAKE",
+      "name": "LakeArea_Layout",
+      "width": 50,
+      "height": 50,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/CDGJ_LakeArea/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_LakeArea/map.bin"
+    },
+    {
+      "id": "LAYOUT_CONNECTINGROUTE",
+      "name": "ConnectingRoute_Layout",
+      "width": 80,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/CDGJ_ConnectingRoute/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_ConnectingRoute/map.bin"
     }
   ]
 }

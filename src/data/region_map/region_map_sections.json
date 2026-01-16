@@ -1,6 +1,22 @@
 {
   "map_sections": [
     {
+      "id": "MAPSEC__CDGJ_MERRIWAVE_TOWN",
+      "name": "MERRIWAVE TOWN",
+      "x": 4,
+      "y": 11,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC__CDGJ_CAVE",
+      "name": "MERRIWAVE TOWN",
+      "x": 4,
+      "y": 11,
+      "width": 1,
+      "height": 1
+    },
+    {
       "id": "MAPSEC_LITTLEROOT_TOWN",
       "name": "LITTLEROOT TOWN",
       "x": 4,
@@ -490,7 +506,7 @@
     },
     {
       "id": "MAPSEC_ABANDONED_SHIP",
-      "name": "ABANDONED SHIP",
+      "name": "CAFEDOT",
       "x": 6,
       "y": 14,
       "width": 1,
