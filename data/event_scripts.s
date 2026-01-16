@@ -1164,8 +1164,18 @@ EventScript_VsSeekerChargingDone::
 	.include "data/scripts/battle_frontier.inc"
 	.include "data/scripts/apricorn_tree.inc"
 
-	.include "data/maps/startcity/scripts.inc"
-
-	.include "data/maps/StartCity/scripts.inc"
-
-	.include "data/maps/SampleMapTest/scripts.inc"
+	.include "data/maps/CDGJ_CafeDot/scripts.inc"
+	.include "data/maps/CDGJ_CaveExit/scripts.inc"
+	.include "data/maps/CDGJ_ConnectingRoute/scripts.inc"
+	.include "data/maps/CDGJ_LakeArea/scripts.inc"
+	.include "data/maps/CDGJ_LilGuy/scripts.inc"
+	.include "data/maps/CDGJ_Merriwave_Gym/scripts.inc"
+	.include "data/maps/CDGJ_Merriwave_Town/scripts.inc"
+	.include "data/maps/CDGJ_MerriwaveTown_House/scripts.inc"
+	.include "data/maps/CDGJ_MerriwaveTown_Mart/scripts.inc"
+	.include "data/maps/CDGJ_MerriwaveTown_PokemonCenter_1F/scripts.inc"
+	.include "data/maps/CDGJ_Newroute/scripts.inc"
+	.include "data/maps/CDGJ_NorthMerriwave/scripts.inc"
+	.include "data/maps/CDGJ_Route_101_Extended/scripts.inc"
+	.include "data/maps/CDGJ_Route_SeaRoute/scripts.inc"
+	.include "data/maps/CDGJ_Sea_Right/scripts.inc"
