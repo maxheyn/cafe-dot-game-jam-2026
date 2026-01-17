@@ -1,4 +1,356 @@
-raw `
-CDGJ_CafeDot_MapScripts::
-	.byte 0
-`
+mapscripts CDGJ_CafeDot_MapScripts {
+	MAP_SCRIPT_ON_FRAME_TABLE [
+		VAR_CDGJ_INTRO_STATE, 0: CDGJ_CafeDot_EventScript_NewGameIntro
+	]
+}
+
+script CDGJ_CafeDot_EventScript_NewGameIntro {
+	lockall
+
+	delay(60)
+	
+	setvar(VAR_CDGJ_INTRO_STATE, 1)
+
+	applymovement(LOCALID_PLAYER, PlayerLoadsInWalksUp)
+	waitmovement(0)
+
+	// Rival is shocked!!!
+	applymovement(7, RivalIsShocked)
+
+	delay(60)
+
+	// Rival calls out to you
+	msgbox("...\pHey!")
+	waitmessage
+	closemessage
+
+	// Rival walks over to you
+	applymovement(7, RivalGreetsPlayer)
+	waitmovement(0)
+
+	msgbox("{PLAYER}!\pYou made it!\p...\pI was hoping we could meet\nsomewhere quiet.")
+	waitmessage
+	closemessage
+
+	// Player and Rival walk back to seats
+	applymovement(LOCALID_PLAYER, PlayerWalksToSeatNextToRival)
+	applymovement(7, RivalWalksBackToSeat)
+	waitmovement(LOCALID_PLAYER)  // Player takes longer to walk to seat
+
+	msgbox("Have you heard the news yet?")
+	waitmessage
+	closemessage
+	
+	msgbox("I guess I should say it\nout loud...\p...\p...")
+	waitmessage
+
+	msgbox("I'm retiring.\nFrom the Gym.")
+	waitmessage
+
+	msgbox("Today's my last day as Merriwave\ngym leader.\pThe festival of thanks is tonight.\pEveryone's been really kind\nabout retirement. Truly.")
+	waitmessage
+	closemessage
+
+	applymovement(7, RivalTakesABreather)
+	waitmovement(0)
+
+	msgbox("Honestly, I think being Champion\nwas easier.")
+	waitmessage
+	closemessage
+
+	msgbox("Y'know, before I decided to be\na gym leader instead.")
+	waitmessage
+	closemessage
+
+	msgbox("I didn't have as many\nresponsibilities to the town\llike I do now...\pBattles are easy. They have rules.\pPeople don't.")
+	waitmessage
+
+
+	msgbox("Anyway.")
+	waitmessage
+	closemessage
+
+	msgbox("I didn't just ask you here to\nunload all that!")
+	waitmessage
+	closemessage
+
+	// Rival turns to look at pokeballs/pokemon
+	applymovement(7, RivalLooksAtPokemon)
+	waitmovement(0)
+
+	msgbox("I wanted to give you something!")
+	waitmessage
+	closemessage
+
+	// Starter Pokemon selection
+	call(CDGJ_CafeDot_EventScript_ChooseStarter)
+
+	msgbox("Good choice.")
+	waitmessage
+	closemessage
+
+	delay(60)
+
+	msgbox("You know...")
+	waitmessage
+	closemessage
+
+	msgbox("It's never too late to start\nbeing a trainer.")
+	waitmessage
+	closemessage
+
+	// Rival turns to look at door
+	applymovement(7, RivalLooksAtDoor)
+	waitmovement(0)
+
+	msgbox("Let's step outside for a minute.")
+	waitmessage
+	closemessage
+
+	delay(60)
+
+	applymovement(7, RivalLeavesBuilding)
+	waitmovement
+
+	removeobject(7)
+
+	setflag(FLAG_CDGJ_INTRO_COMPLETED)
+	releaseall		
+
+	end
+}
+
+script CDGJ_CafeDot_EventScript_ChooseStarter {
+	msgbox("Take your time.\pThey're all good pokemon.")
+	waitmessage
+	closemessage
+
+	// Show Pichu
+	showmonpic(SPECIES_PICHU, 10, 3)
+	msgbox("Pichu, the Tiny Mouse Pokémon.\pDo you want this Pokemon?", MSGBOX_YESNO)
+	if (var(VAR_RESULT) == YES) {
+		givemon(SPECIES_PICHU, 5, ITEM_POKE_BALL)
+
+		playfanfare(MUS_OBTAIN_ITEM)
+
+		setmonmove(0, 0, MOVE_THUNDER_SHOCK)
+		setmonmove(0, 1, MOVE_CHARM)
+		setmonmove(0, 2, MOVE_QUICK_ATTACK)
+		setmonmove(0, 3, MOVE_THUNDER_WAVE)
+
+		hidemonpic
+
+		setflag(FLAG_SYS_POKEMON_GET)
+
+		call(NicknamePartyMon)
+
+		return
+	}
+	hidemonpic
+	
+	// Show Mime Jr.
+	showmonpic(SPECIES_MIME_JR, 10, 3)
+	msgbox("Mime Jr., the Mime Pokémon.\pDo you want this Pokemon?", MSGBOX_YESNO)
+	if (var(VAR_RESULT) == YES) {
+		givemon(SPECIES_MIME_JR, 5, ITEM_POKE_BALL)
+
+		playfanfare(MUS_OBTAIN_ITEM)
+
+		setmonmove(0, 0, MOVE_CONFUSION)
+		setmonmove(0, 1, MOVE_COPYCAT)
+		setmonmove(0, 2, MOVE_ENCORE)
+		setmonmove(0, 3, MOVE_LIGHT_SCREEN)
+		
+		hidemonpic
+		
+		setflag(FLAG_SYS_POKEMON_GET)
+		
+		call(NicknamePartyMon)
+		
+		return
+	}
+	hidemonpic
+	
+	// Show Togepi
+	showmonpic(SPECIES_TOGEPI, 10, 3)
+	msgbox("Togepi, the Spike Ball Pokémon.\pDo you want this Pokemon?", MSGBOX_YESNO)
+	if (var(VAR_RESULT) == YES) {
+		givemon(SPECIES_TOGEPI, 5, ITEM_POKE_BALL)
+		
+		playfanfare(MUS_OBTAIN_ITEM)
+		
+		setmonmove(0, 0, MOVE_FAIRY_WIND)
+		setmonmove(0, 1, MOVE_METRONOME)
+		setmonmove(0, 2, MOVE_SWEET_KISS)
+		setmonmove(0, 3, MOVE_ANCIENT_POWER)
+		
+		hidemonpic
+		
+		setflag(FLAG_SYS_POKEMON_GET)
+		
+		call(NicknamePartyMon)
+		
+		return
+	}
+	
+	hidemonpic
+	
+	// If they said no to all, loop back
+	msgbox("Take another look!")
+	call(CDGJ_CafeDot_EventScript_ChooseStarter)
+	
+	return
+}
+
+script NicknamePartyMon {
+	msgbox("Nickname your new Pokémon?", MSGBOX_YESNO)
+	hidemonpic
+
+	if (var(VAR_RESULT) == YES) {
+		call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+	}
+}
+
+movement PlayerLoadsInWalksUp {
+	walk_up * 2
+}
+
+movement RivalGreetsPlayer {
+	walk_down * 2
+	walk_left * 6
+	face_down
+}
+
+movement RivalWalksBackToSeat {
+	walk_up * 1
+	walk_right * 6
+	walk_up
+	face_right
+}
+
+movement PlayerWalksToSeatNextToRival {
+	walk_up * 1
+	walk_right * 8
+	walk_up * 2
+	face_left
+}
+
+movement RivalTakesABreather {
+	walk_down
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	walk_up
+	face_right
+}
+
+movement RivalIsShocked {
+	emote_exclamation_mark
+	delay_16
+	face_left
+	delay_16
+	face_right
+	delay_16
+	face_down
+}
+
+movement RivalLooksAtPokemon {
+	face_up
+}
+
+movement RivalLooksAtDoor {
+	face_down
+}
+
+movement RivalLeavesBuilding {
+	walk_down * 3
+	walk_left * 5
+	walk_down * 3
+}
+
+// ============================================================
+// PATRON DIALOGUE STUFF
+// ============================================================
+script CDGJ_CafeDot_EventScript_Patron_Pikachu_Dialogue {
+	applymovement(5, EmoteExclamationMark)
+	waitmovement
+
+	delay(30)
+
+	playmoncry(SPECIES_PIKACHU, CRY_MODE_NORMAL)
+
+	applymovement(5, FacePlayer)
+	waitmovement
+	
+	msgbox("Piiiikaaa!")	
+	waitmessage
+	closemessage
+
+	delay(30)
+
+	msgbox("Wow... they even let Pokemon\nin here!\pSo welcoming!")
+	waitmessage
+	closemessage
+	
+	end
+}
+
+script CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue {
+	playmoncry(SPECIES_POOCHYENA, CRY_MODE_NORMAL)
+	
+	applymovement(2, FacePlayer)
+	waitmovement
+	
+	msgbox("Pet Poochy?", MSGBOX_YESNO)	
+	waitmessage
+	closemessage
+
+	if (var(VAR_RESULT) == YES) {
+		applymovement(2, EmoteExclamationMark)
+		waitmovement
+		delay(30)
+		
+		applymovement(2, JumpInPlace)
+		waitmovement
+		delay(60)
+		
+		applymovement(2, EmoteHeart)
+		delay(30)
+		waitmovement
+
+		msgbox("Yay!")
+		waitmessage
+		closemessage
+
+		return
+	} else {
+		playmoncry(SPECIES_POOCHYENA, CRY_MODE_WEAK)
+	}
+	
+	
+	end
+}
+
+script CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue
+
+movement EmoteExclamationMark {
+	emote_exclamation_mark
+}
+
+movement EmoteHeart {
+	emote_heart
+}
+
+movement FacePlayer {
+	face_player
+}
+
+movement JumpInPlace {
+	face_player
+	jump_in_place_down
+	jump_in_place_down
+	jump_in_place_down
+	face_player
+}
