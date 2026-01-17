@@ -458,82 +458,142 @@ CDGJ_CafeDot_EventScript_Patron_Pikachu_Dialogue::
 	waitmessage
 # 295 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
+# 297 "data/maps/CDGJ_CafeDot/scripts.pory"
+	releaseall
 	end
 
 
 CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue::
-# 301 "data/maps/CDGJ_CafeDot/scripts.pory"
-	playmoncry SPECIES_POOCHYENA, CRY_MODE_NORMAL
 # 303 "data/maps/CDGJ_CafeDot/scripts.pory"
+	playmoncry SPECIES_POOCHYENA, CRY_MODE_NORMAL
+# 305 "data/maps/CDGJ_CafeDot/scripts.pory"
 	applymovement 2, FacePlayer
-# 304 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmovement
 # 306 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue_Text_0, MSGBOX_YESNO
-# 307 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
+	waitmovement
 # 308 "data/maps/CDGJ_CafeDot/scripts.pory"
-	closemessage
+	msgbox CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue_Text_0, MSGBOX_YESNO
+# 309 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
 # 310 "data/maps/CDGJ_CafeDot/scripts.pory"
+	closemessage
+# 312 "data/maps/CDGJ_CafeDot/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue_2
-# 325 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 331 "data/maps/CDGJ_CafeDot/scripts.pory"
 	playmoncry SPECIES_POOCHYENA, CRY_MODE_WEAK
+# 334 "data/maps/CDGJ_CafeDot/scripts.pory"
+	releaseall
 	end
 
 CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue_2:
-# 311 "data/maps/CDGJ_CafeDot/scripts.pory"
-	applymovement 2, EmoteExclamationMark
-# 312 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmovement
 # 313 "data/maps/CDGJ_CafeDot/scripts.pory"
-	delay 30
+	applymovement 2, EmoteExclamationMark
+# 314 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmovement
 # 315 "data/maps/CDGJ_CafeDot/scripts.pory"
-	applymovement 2, JumpInPlace
-# 316 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmovement
-# 317 "data/maps/CDGJ_CafeDot/scripts.pory"
-	delay 60
-# 319 "data/maps/CDGJ_CafeDot/scripts.pory"
-	applymovement 2, EmoteHeart
-# 320 "data/maps/CDGJ_CafeDot/scripts.pory"
 	delay 30
-# 321 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 317 "data/maps/CDGJ_CafeDot/scripts.pory"
+	applymovement 2, JumpInPlace
+# 318 "data/maps/CDGJ_CafeDot/scripts.pory"
 	waitmovement
+# 319 "data/maps/CDGJ_CafeDot/scripts.pory"
+	delay 60
+# 321 "data/maps/CDGJ_CafeDot/scripts.pory"
+	applymovement 2, EmoteHeart
+# 322 "data/maps/CDGJ_CafeDot/scripts.pory"
+	delay 30
+# 323 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmovement
+# 325 "data/maps/CDGJ_CafeDot/scripts.pory"
+	msgbox CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue_Text_1
+# 326 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 327 "data/maps/CDGJ_CafeDot/scripts.pory"
+	closemessage
 	return
 
 
-# 331 "data/maps/CDGJ_CafeDot/scripts.pory"
+CDGJ_CafeDot_EventScript_Patron_Man_Dialogue::
+# 340 "data/maps/CDGJ_CafeDot/scripts.pory"
+	applymovement 4, FacePlayer
+# 341 "data/maps/CDGJ_CafeDot/scripts.pory"
+	msgbox CDGJ_CafeDot_EventScript_Patron_Man_Dialogue_Text_0
+# 342 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 343 "data/maps/CDGJ_CafeDot/scripts.pory"
+	closemessage
+# 345 "data/maps/CDGJ_CafeDot/scripts.pory"
+	releaseall
+	end
+
+
+CDGJ_CafeDot_EventScript_Patron_Girl_Dialogue::
+# 352 "data/maps/CDGJ_CafeDot/scripts.pory"
+	applymovement 3, FacePlayer
+# 353 "data/maps/CDGJ_CafeDot/scripts.pory"
+	msgbox CDGJ_CafeDot_EventScript_Patron_Girl_Dialogue_Text_0
+# 354 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 355 "data/maps/CDGJ_CafeDot/scripts.pory"
+	closemessage
+# 357 "data/maps/CDGJ_CafeDot/scripts.pory"
+	releaseall
+	end
+
+
+CDGJ_CafeDot_EventScript_Patron_Barista_Dialogue::
+# 363 "data/maps/CDGJ_CafeDot/scripts.pory"
+	applymovement 1, FacePlayer
+# 364 "data/maps/CDGJ_CafeDot/scripts.pory"
+	msgbox CDGJ_CafeDot_EventScript_Patron_Barista_Dialogue_Text_0
+# 365 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 366 "data/maps/CDGJ_CafeDot/scripts.pory"
+	closemessage
+# 368 "data/maps/CDGJ_CafeDot/scripts.pory"
+	releaseall
+	end
+
+
+# 373 "data/maps/CDGJ_CafeDot/scripts.pory"
 EmoteExclamationMark:
-# 332 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 374 "data/maps/CDGJ_CafeDot/scripts.pory"
 	emote_exclamation_mark
 	step_end
 
-# 335 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 377 "data/maps/CDGJ_CafeDot/scripts.pory"
 EmoteHeart:
-# 336 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 378 "data/maps/CDGJ_CafeDot/scripts.pory"
 	emote_heart
 	step_end
 
-# 339 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 381 "data/maps/CDGJ_CafeDot/scripts.pory"
 FacePlayer:
-# 340 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 382 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_player
 	step_end
 
-# 343 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 385 "data/maps/CDGJ_CafeDot/scripts.pory"
 JumpInPlace:
-# 344 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 386 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_player
-# 345 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 387 "data/maps/CDGJ_CafeDot/scripts.pory"
 	jump_in_place_down
-# 346 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 388 "data/maps/CDGJ_CafeDot/scripts.pory"
 	jump_in_place_down
-# 347 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 389 "data/maps/CDGJ_CafeDot/scripts.pory"
 	jump_in_place_down
-# 348 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 390 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_player
 	step_end
+
+CDGJ_CafeDot_EventScript_Item_OnTable::
+# 397 "data/maps/CDGJ_CafeDot/scripts.pory"
+	giveitem ITEM_MOOMOO_MILK, 1
+# 398 "data/maps/CDGJ_CafeDot/scripts.pory"
+	setflag FLAG_CDGJ_OBTAIN_CAFE_DOT_MOOMOO_MILK
+	end
+
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_0:
 # 23 "data/maps/CDGJ_CafeDot/scripts.pory"
@@ -601,19 +661,19 @@ CDGJ_CafeDot_EventScript_NewGameIntro_Text_15:
 
 CDGJ_CafeDot_EventScript_ChooseStarter_Text_0:
 # 124 "data/maps/CDGJ_CafeDot/scripts.pory"
-	.string "Take your time.\pThey're all good pokemon.$"
+	.string "Take your time.\pThey're all good Pokémon.$"
 
 CDGJ_CafeDot_EventScript_ChooseStarter_Text_1:
 # 130 "data/maps/CDGJ_CafeDot/scripts.pory"
-	.string "Pichu, the Tiny Mouse Pokémon.\pDo you want this Pokemon?$"
+	.string "Pichu, the Tiny Mouse Pokémon.\pDo you want this Pokémon?$"
 
 CDGJ_CafeDot_EventScript_ChooseStarter_Text_2:
 # 153 "data/maps/CDGJ_CafeDot/scripts.pory"
-	.string "Mime Jr., the Mime Pokémon.\pDo you want this Pokemon?$"
+	.string "Mime Jr., the Mime Pokémon.\pDo you want this Pokémon?$"
 
 CDGJ_CafeDot_EventScript_ChooseStarter_Text_3:
 # 176 "data/maps/CDGJ_CafeDot/scripts.pory"
-	.string "Togepi, the Spike Ball Pokémon.\pDo you want this Pokemon?$"
+	.string "Togepi, the Spike Ball Pokémon.\pDo you want this Pokémon?$"
 
 CDGJ_CafeDot_EventScript_ChooseStarter_Text_4:
 # 199 "data/maps/CDGJ_CafeDot/scripts.pory"
@@ -629,8 +689,24 @@ CDGJ_CafeDot_EventScript_Patron_Pikachu_Dialogue_Text_0:
 
 CDGJ_CafeDot_EventScript_Patron_Pikachu_Dialogue_Text_1:
 # 293 "data/maps/CDGJ_CafeDot/scripts.pory"
-	.string "Wow... they even let Pokemon\nin here!\pSo welcoming!$"
+	.string "Wow... they even let Pokémon\nin here!\pSo welcoming!$"
 
 CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue_Text_0:
-# 306 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 308 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "Pet Poochy?$"
+
+CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue_Text_1:
+# 325 "data/maps/CDGJ_CafeDot/scripts.pory"
+	.string "Yay!$"
+
+CDGJ_CafeDot_EventScript_Patron_Man_Dialogue_Text_0:
+# 341 "data/maps/CDGJ_CafeDot/scripts.pory"
+	.string "Hard to believe ths gym leader\nis really retiring, isn't it?\pThey've done a lot for this town.\p...\p...\p...\pWhat do you mean I was eavesdropping?$"
+
+CDGJ_CafeDot_EventScript_Patron_Girl_Dialogue_Text_0:
+# 353 "data/maps/CDGJ_CafeDot/scripts.pory"
+	.string "You got a Pokémon from the leader?\nWow, luck you!$"
+
+CDGJ_CafeDot_EventScript_Patron_Barista_Dialogue_Text_0:
+# 364 "data/maps/CDGJ_CafeDot/scripts.pory"
+	.string "Where is Matcha when you need\nher? She said something about\pneeding to find some sort\pof secret ingredient.\p...\p...But I'm left all alone now!\nIt's my first day on the job!$"

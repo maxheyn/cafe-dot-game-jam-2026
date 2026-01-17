@@ -121,13 +121,13 @@ script CDGJ_CafeDot_EventScript_NewGameIntro {
 }
 
 script CDGJ_CafeDot_EventScript_ChooseStarter {
-	msgbox("Take your time.\pThey're all good pokemon.")
+	msgbox("Take your time.\pThey're all good Pokémon.")
 	waitmessage
 	closemessage
 
 	// Show Pichu
 	showmonpic(SPECIES_PICHU, 10, 3)
-	msgbox("Pichu, the Tiny Mouse Pokémon.\pDo you want this Pokemon?", MSGBOX_YESNO)
+	msgbox("Pichu, the Tiny Mouse Pokémon.\pDo you want this Pokémon?", MSGBOX_YESNO)
 	if (var(VAR_RESULT) == YES) {
 		givemon(SPECIES_PICHU, 5, ITEM_POKE_BALL)
 
@@ -150,7 +150,7 @@ script CDGJ_CafeDot_EventScript_ChooseStarter {
 	
 	// Show Mime Jr.
 	showmonpic(SPECIES_MIME_JR, 10, 3)
-	msgbox("Mime Jr., the Mime Pokémon.\pDo you want this Pokemon?", MSGBOX_YESNO)
+	msgbox("Mime Jr., the Mime Pokémon.\pDo you want this Pokémon?", MSGBOX_YESNO)
 	if (var(VAR_RESULT) == YES) {
 		givemon(SPECIES_MIME_JR, 5, ITEM_POKE_BALL)
 
@@ -173,7 +173,7 @@ script CDGJ_CafeDot_EventScript_ChooseStarter {
 	
 	// Show Togepi
 	showmonpic(SPECIES_TOGEPI, 10, 3)
-	msgbox("Togepi, the Spike Ball Pokémon.\pDo you want this Pokemon?", MSGBOX_YESNO)
+	msgbox("Togepi, the Spike Ball Pokémon.\pDo you want this Pokémon?", MSGBOX_YESNO)
 	if (var(VAR_RESULT) == YES) {
 		givemon(SPECIES_TOGEPI, 5, ITEM_POKE_BALL)
 		
@@ -290,9 +290,11 @@ script CDGJ_CafeDot_EventScript_Patron_Pikachu_Dialogue {
 
 	delay(30)
 
-	msgbox("Wow... they even let Pokemon\nin here!\pSo welcoming!")
+	msgbox("Wow... they even let Pokémon\nin here!\pSo welcoming!")
 	waitmessage
 	closemessage
+
+	releaseall
 	
 	end
 }
@@ -329,11 +331,44 @@ script CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue {
 		playmoncry(SPECIES_POOCHYENA, CRY_MODE_WEAK)
 	}
 	
+	releaseall
 	
 	end
 }
 
-script CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue
+script CDGJ_CafeDot_EventScript_Patron_Man_Dialogue {
+	applymovement(4, FacePlayer)
+	msgbox("Hard to believe ths gym leader\nis really retiring, isn't it?\pThey've done a lot for this town.\p...\p...\p...\pWhat do you mean I was eavesdropping?")
+	waitmessage
+	closemessage
+
+	releaseall
+
+	end
+}
+
+
+script CDGJ_CafeDot_EventScript_Patron_Girl_Dialogue {
+	applymovement(3, FacePlayer)
+	msgbox("You got a Pokémon from the leader?\nWow, luck you!")
+	waitmessage
+	closemessage
+
+	releaseall
+
+	end
+}
+
+script CDGJ_CafeDot_EventScript_Patron_Barista_Dialogue {
+	applymovement(1, FacePlayer)
+	msgbox("Where is Matcha when you need\nher? She said something about\pneeding to find some sort\pof secret ingredient.\p...\p...But I'm left all alone now!\nIt's my first day on the job!")
+	waitmessage
+	closemessage
+
+	releaseall
+
+	end
+}
 
 movement EmoteExclamationMark {
 	emote_exclamation_mark
@@ -353,4 +388,13 @@ movement JumpInPlace {
 	jump_in_place_down
 	jump_in_place_down
 	face_player
+}
+
+// ============================================================
+// ITEMS AND SUCH
+// ============================================================
+script CDGJ_CafeDot_EventScript_Item_OnTable {
+	giveitem(ITEM_MOOMOO_MILK, 1)
+	setflag(FLAG_CDGJ_OBTAIN_CAFE_DOT_MOOMOO_MILK)
+	end
 }
