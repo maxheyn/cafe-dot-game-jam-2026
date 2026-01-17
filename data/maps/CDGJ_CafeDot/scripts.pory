@@ -325,12 +325,13 @@ script CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue {
 		msgbox("Yay!")
 		waitmessage
 		closemessage
-
-		return
 	} else {
 		playmoncry(SPECIES_POOCHYENA, CRY_MODE_WEAK)
 	}
-	
+
+	applymovement(2, FaceRight)
+	waitmovement
+
 	releaseall
 	
 	end
@@ -341,7 +342,9 @@ script CDGJ_CafeDot_EventScript_Patron_Man_Dialogue {
 	msgbox("Hard to believe ths gym leader\nis really retiring, isn't it?\pThey've done a lot for this town.\p...\p...\p...\pWhat do you mean I was eavesdropping?")
 	waitmessage
 	closemessage
-
+	
+	applymovement(4, FaceLeft)
+	waitmovement
 	releaseall
 
 	end
@@ -354,6 +357,9 @@ script CDGJ_CafeDot_EventScript_Patron_Girl_Dialogue {
 	waitmessage
 	closemessage
 
+	applymovement(3, FaceRight)
+	waitmovement
+
 	releaseall
 
 	end
@@ -361,7 +367,7 @@ script CDGJ_CafeDot_EventScript_Patron_Girl_Dialogue {
 
 script CDGJ_CafeDot_EventScript_Patron_Barista_Dialogue {
 	applymovement(1, FacePlayer)
-	msgbox("Where is Matcha when you need\nher? She said something about\pneeding to find some sort\pof secret ingredient.\p...\p...But I'm left all alone now!\nIt's my first day on the job!")
+	msgbox("Where is Matcha when you need her?\nShe said something about needing to\pfind some sort of secret ingredient.\p...\p...But I'm left all alone now! It's my\nfirst day on the job! Aaahh!!")
 	waitmessage
 	closemessage
 
@@ -382,6 +388,14 @@ movement FacePlayer {
 	face_player
 }
 
+movement FaceLeft {
+	face_left
+}
+
+movement FaceRight {
+	face_right
+}
+
 movement JumpInPlace {
 	face_player
 	jump_in_place_down
@@ -395,6 +409,12 @@ movement JumpInPlace {
 // ============================================================
 script CDGJ_CafeDot_EventScript_Item_OnTable {
 	giveitem(ITEM_MOOMOO_MILK, 1)
+	waitmessage
+	closemessage
+
 	setflag(FLAG_CDGJ_OBTAIN_CAFE_DOT_MOOMOO_MILK)
+
+	removeobject(6)
+
 	end
 }

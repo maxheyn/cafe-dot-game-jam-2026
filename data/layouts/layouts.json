@@ -4538,7 +4538,7 @@
       "height": 12,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Rustboro",
-      "border_filepath": "data/layouts/CDGJ_LilGuy/border.bin",
+      "border_filepath": "data/layouts/CDGJ_LiLGuy/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_LilGuy/map.bin"
     },
     {

@@ -479,9 +479,14 @@ CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue::
 # 312 "data/maps/CDGJ_CafeDot/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue_2
-# 331 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 329 "data/maps/CDGJ_CafeDot/scripts.pory"
 	playmoncry SPECIES_POOCHYENA, CRY_MODE_WEAK
-# 334 "data/maps/CDGJ_CafeDot/scripts.pory"
+CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue_1:
+# 332 "data/maps/CDGJ_CafeDot/scripts.pory"
+	applymovement 2, FaceRight
+# 333 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmovement
+# 335 "data/maps/CDGJ_CafeDot/scripts.pory"
 	releaseall
 	end
 
@@ -510,88 +515,114 @@ CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue_2:
 	waitmessage
 # 327 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-	return
+	goto CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue_1
 
 
 CDGJ_CafeDot_EventScript_Patron_Man_Dialogue::
-# 340 "data/maps/CDGJ_CafeDot/scripts.pory"
-	applymovement 4, FacePlayer
 # 341 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_Patron_Man_Dialogue_Text_0
+	applymovement 4, FacePlayer
 # 342 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
+	msgbox CDGJ_CafeDot_EventScript_Patron_Man_Dialogue_Text_0
 # 343 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 344 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-# 345 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 346 "data/maps/CDGJ_CafeDot/scripts.pory"
+	applymovement 4, FaceLeft
+# 347 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmovement
+# 348 "data/maps/CDGJ_CafeDot/scripts.pory"
 	releaseall
 	end
 
 
 CDGJ_CafeDot_EventScript_Patron_Girl_Dialogue::
-# 352 "data/maps/CDGJ_CafeDot/scripts.pory"
-	applymovement 3, FacePlayer
-# 353 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_Patron_Girl_Dialogue_Text_0
-# 354 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
 # 355 "data/maps/CDGJ_CafeDot/scripts.pory"
-	closemessage
+	applymovement 3, FacePlayer
+# 356 "data/maps/CDGJ_CafeDot/scripts.pory"
+	msgbox CDGJ_CafeDot_EventScript_Patron_Girl_Dialogue_Text_0
 # 357 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 358 "data/maps/CDGJ_CafeDot/scripts.pory"
+	closemessage
+# 360 "data/maps/CDGJ_CafeDot/scripts.pory"
+	applymovement 3, FaceRight
+# 361 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmovement
+# 363 "data/maps/CDGJ_CafeDot/scripts.pory"
 	releaseall
 	end
 
 
 CDGJ_CafeDot_EventScript_Patron_Barista_Dialogue::
-# 363 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 369 "data/maps/CDGJ_CafeDot/scripts.pory"
 	applymovement 1, FacePlayer
-# 364 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 370 "data/maps/CDGJ_CafeDot/scripts.pory"
 	msgbox CDGJ_CafeDot_EventScript_Patron_Barista_Dialogue_Text_0
-# 365 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 371 "data/maps/CDGJ_CafeDot/scripts.pory"
 	waitmessage
-# 366 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 372 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-# 368 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 374 "data/maps/CDGJ_CafeDot/scripts.pory"
 	releaseall
 	end
 
 
-# 373 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 379 "data/maps/CDGJ_CafeDot/scripts.pory"
 EmoteExclamationMark:
-# 374 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 380 "data/maps/CDGJ_CafeDot/scripts.pory"
 	emote_exclamation_mark
 	step_end
 
-# 377 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 383 "data/maps/CDGJ_CafeDot/scripts.pory"
 EmoteHeart:
-# 378 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 384 "data/maps/CDGJ_CafeDot/scripts.pory"
 	emote_heart
 	step_end
 
-# 381 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 387 "data/maps/CDGJ_CafeDot/scripts.pory"
 FacePlayer:
-# 382 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 388 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_player
 	step_end
 
-# 385 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 391 "data/maps/CDGJ_CafeDot/scripts.pory"
+FaceLeft:
+# 392 "data/maps/CDGJ_CafeDot/scripts.pory"
+	face_left
+	step_end
+
+# 395 "data/maps/CDGJ_CafeDot/scripts.pory"
+FaceRight:
+# 396 "data/maps/CDGJ_CafeDot/scripts.pory"
+	face_right
+	step_end
+
+# 399 "data/maps/CDGJ_CafeDot/scripts.pory"
 JumpInPlace:
-# 386 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 400 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_player
-# 387 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 401 "data/maps/CDGJ_CafeDot/scripts.pory"
 	jump_in_place_down
-# 388 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 402 "data/maps/CDGJ_CafeDot/scripts.pory"
 	jump_in_place_down
-# 389 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 403 "data/maps/CDGJ_CafeDot/scripts.pory"
 	jump_in_place_down
-# 390 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 404 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_player
 	step_end
 
 CDGJ_CafeDot_EventScript_Item_OnTable::
-# 397 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 411 "data/maps/CDGJ_CafeDot/scripts.pory"
 	giveitem ITEM_MOOMOO_MILK, 1
-# 398 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 412 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 413 "data/maps/CDGJ_CafeDot/scripts.pory"
+	closemessage
+# 415 "data/maps/CDGJ_CafeDot/scripts.pory"
 	setflag FLAG_CDGJ_OBTAIN_CAFE_DOT_MOOMOO_MILK
+# 417 "data/maps/CDGJ_CafeDot/scripts.pory"
+	removeobject 6
 	end
 
 
@@ -700,13 +731,13 @@ CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue_Text_1:
 	.string "Yay!$"
 
 CDGJ_CafeDot_EventScript_Patron_Man_Dialogue_Text_0:
-# 341 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 342 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "Hard to believe ths gym leader\nis really retiring, isn't it?\pThey've done a lot for this town.\p...\p...\p...\pWhat do you mean I was eavesdropping?$"
 
 CDGJ_CafeDot_EventScript_Patron_Girl_Dialogue_Text_0:
-# 353 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 356 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "You got a Pokémon from the leader?\nWow, luck you!$"
 
 CDGJ_CafeDot_EventScript_Patron_Barista_Dialogue_Text_0:
-# 364 "data/maps/CDGJ_CafeDot/scripts.pory"
-	.string "Where is Matcha when you need\nher? She said something about\pneeding to find some sort\pof secret ingredient.\p...\p...But I'm left all alone now!\nIt's my first day on the job!$"
+# 370 "data/maps/CDGJ_CafeDot/scripts.pory"
+	.string "Where is Matcha when you need her?\nShe said something about needing to\pfind some sort of secret ingredient.\p...\p...But I'm left all alone now! It's my\nfirst day on the job! Aaahh!!$"
