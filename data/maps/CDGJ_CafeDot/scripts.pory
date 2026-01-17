@@ -339,7 +339,7 @@ script CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue {
 
 script CDGJ_CafeDot_EventScript_Patron_Man_Dialogue {
 	applymovement(4, FacePlayer)
-	msgbox("Hard to believe ths gym leader\nis really retiring, isn't it?\pThey've done a lot for this town.\p...\p...\p...\pWhat do you mean I was eavesdropping?")
+	msgbox("Hard to believe the gym leader\nis really retiring, isn't it?\pThey've done a lot for this town.\p...\p...\p...\pWhat do you mean I was eavesdropping?")
 	waitmessage
 	closemessage
 	
@@ -353,7 +353,7 @@ script CDGJ_CafeDot_EventScript_Patron_Man_Dialogue {
 
 script CDGJ_CafeDot_EventScript_Patron_Girl_Dialogue {
 	applymovement(3, FacePlayer)
-	msgbox("You got a Pokémon from the leader?\nWow, luck you!")
+	msgbox("You got a Pokémon from the leader?\nWow, lucky you!")
 	waitmessage
 	closemessage
 
@@ -394,6 +394,14 @@ movement FaceLeft {
 
 movement FaceRight {
 	face_right
+}
+
+movement FaceDown {
+	face_down
+}
+
+movement FaceUp {
+	face_up
 }
 
 movement JumpInPlace {

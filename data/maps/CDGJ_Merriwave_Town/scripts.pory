@@ -1,4 +1,160 @@
-raw `
-CDGJ_Merriwave_Town_MapScripts::
-	.byte 0
-	`
+mapscripts CDGJ_Merriwave_Town_MapScripts {
+	MAP_SCRIPT_ON_FRAME_TABLE [
+		VAR_CDGJ_INTRO_STATE, 1: CDGJ_Merriwave_Town_EventScript_IntroContinued
+	]
+}
+
+script CDGJ_Merriwave_Town_EventScript_IntroContinued {
+	lockall
+
+	applymovement(8, MoveRivalUpAfterPlayerWalksOut)
+	waitmovement
+
+	msgbox("Come on, follow me.")
+	waitmessage
+	closemessage
+
+	applymovement(8, RivalWalksToBeachFront)
+	applymovement(LOCALID_PLAYER, PlayerWalksToBeachFront)
+	waitmovement(LOCALID_PLAYER)
+
+	delay(60)
+
+	msgbox("...\p...\pIt's strange seeing the town like this,\nisn't it?\pTonight's festival isn't for people.\nIt's for Pokémon.")
+	waitmessage
+	closemessage
+
+	applymovement(8, FaceDown)
+	waitmovement
+	delay(60)
+
+	applymovement(8, FaceLeft)
+	waitmovement
+	delay(30)
+
+	applymovement(8, FaceRight)
+	waitmovement
+	delay(30)
+
+	applymovement(8, FaceUp)
+	waitmovement
+	delay(30)
+
+	applymovement(8, FaceDown)
+	waitmovement
+
+	delay(60)
+	delay(60)
+
+	msgbox("Pokémon do a lot for us. This is the one\nday we do something for them.")
+	waitmessage
+	closemessage
+
+	delay(60)
+
+	msgbox("We're making a special soup... hah!")
+	waitmessage
+	closemessage
+
+	applymovement(LOCALID_PLAYER, FaceRight)
+	waitmovement
+	delay(60)
+
+	msgbox("Don't worry... you won't have to\ntaste it.")
+	waitmessage
+	closemessage
+
+	delay(60)
+
+	applymovement(8, EmoteExclamationMark)
+	waitmovement
+
+	delay(60)
+	delay(20)
+	
+	applymovement(8, FaceLeft)
+	waitmovement
+
+	msgbox("But maybe... if you're up for it...\nCould you help gather a few ingredients?")
+	waitmessage
+	closemessage
+
+	playmoncry(SPECIES_ONIX, CRY_MODE_NORMAL)
+	msgbox("Stone from the mountains.")
+	waitmessage
+
+	playmoncry(SPECIES_TAILLOW, CRY_MODE_NORMAL)
+	msgbox("Berries from the forest.")
+	waitmessage
+
+	playmoncry(SPECIES_MARILL, CRY_MODE_NORMAL)
+	msgbox("...and fresh water from the lake.")
+	waitmessage
+	closemessage
+
+	msgbox("Could you do that, please?", MSGBOX_YESNO)
+	waitmessage
+	closemessage
+
+	applymovement(8, FaceDown)
+	waitmovement
+
+	delay(20)
+
+	if (var(VAR_RESULT) == YES) {
+		applymovement(8, JumpInPlace)
+		waitmovement
+		msgbox("Haha, I knew you were the right\nperson for the job!\pThe mountains are just outside of town.\nThe forest and lake aren't far either.\pI'll be around town when you come back!")
+	} else {
+		applymovement(8, EmoteExclamationMark)
+		waitmovement
+		msgbox("Haha, I love a good prank.\nAnyway...\pThe mountains are just outside of town.\nThe forest and lake aren't far either.\pI'll be around town when you come back!")
+	}
+
+	waitmessage
+	closemessage
+
+	msgbox("Oh, and here. These will be useful.")
+	waitmessage
+	giveitem(ITEM_POKE_BALL, 5)
+	waitmessage
+	playfanfare(MUS_OBTAIN_ITEM)
+	msgbox(LittlerootTown_Text_SwitchShoesWithRunningShoes)
+	waitfanfare
+	setflag(FLAG_RECEIVED_RUNNING_SHOES)
+	setflag(FLAG_SYS_B_DASH)
+	closemessage
+
+	applymovement(LOCALID_PLAYER, FaceDown)
+	waitmovement
+
+	setvar(VAR_CDGJ_INTRO_STATE, 2)
+
+	releaseall		
+
+	end
+}
+
+movement MoveRivalUpAfterPlayerWalksOut {
+	walk_up
+}
+
+movement RivalWalksToBeachFront {
+	walk_down
+	walk_right * 2
+	walk_down * 4
+	walk_right * 4
+	walk_down * 2
+	walk_right * 3
+	face_down
+}
+
+movement PlayerWalksToBeachFront {
+	walk_down * 2
+	walk_right * 2
+	walk_down * 4
+	walk_right * 4
+	walk_down * 2
+	walk_right * 2
+	face_down
+}

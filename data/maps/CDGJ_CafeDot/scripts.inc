@@ -599,29 +599,41 @@ FaceRight:
 	step_end
 
 # 399 "data/maps/CDGJ_CafeDot/scripts.pory"
-JumpInPlace:
+FaceDown:
 # 400 "data/maps/CDGJ_CafeDot/scripts.pory"
-	face_player
-# 401 "data/maps/CDGJ_CafeDot/scripts.pory"
-	jump_in_place_down
-# 402 "data/maps/CDGJ_CafeDot/scripts.pory"
-	jump_in_place_down
+	face_down
+	step_end
+
 # 403 "data/maps/CDGJ_CafeDot/scripts.pory"
-	jump_in_place_down
+FaceUp:
 # 404 "data/maps/CDGJ_CafeDot/scripts.pory"
+	face_up
+	step_end
+
+# 407 "data/maps/CDGJ_CafeDot/scripts.pory"
+JumpInPlace:
+# 408 "data/maps/CDGJ_CafeDot/scripts.pory"
+	face_player
+# 409 "data/maps/CDGJ_CafeDot/scripts.pory"
+	jump_in_place_down
+# 410 "data/maps/CDGJ_CafeDot/scripts.pory"
+	jump_in_place_down
+# 411 "data/maps/CDGJ_CafeDot/scripts.pory"
+	jump_in_place_down
+# 412 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_player
 	step_end
 
 CDGJ_CafeDot_EventScript_Item_OnTable::
-# 411 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 419 "data/maps/CDGJ_CafeDot/scripts.pory"
 	giveitem ITEM_MOOMOO_MILK, 1
-# 412 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 420 "data/maps/CDGJ_CafeDot/scripts.pory"
 	waitmessage
-# 413 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 421 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-# 415 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 423 "data/maps/CDGJ_CafeDot/scripts.pory"
 	setflag FLAG_CDGJ_OBTAIN_CAFE_DOT_MOOMOO_MILK
-# 417 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 425 "data/maps/CDGJ_CafeDot/scripts.pory"
 	removeobject 6
 	end
 
@@ -732,11 +744,11 @@ CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue_Text_1:
 
 CDGJ_CafeDot_EventScript_Patron_Man_Dialogue_Text_0:
 # 342 "data/maps/CDGJ_CafeDot/scripts.pory"
-	.string "Hard to believe ths gym leader\nis really retiring, isn't it?\pThey've done a lot for this town.\p...\p...\p...\pWhat do you mean I was eavesdropping?$"
+	.string "Hard to believe the gym leader\nis really retiring, isn't it?\pThey've done a lot for this town.\p...\p...\p...\pWhat do you mean I was eavesdropping?$"
 
 CDGJ_CafeDot_EventScript_Patron_Girl_Dialogue_Text_0:
 # 356 "data/maps/CDGJ_CafeDot/scripts.pory"
-	.string "You got a Pokémon from the leader?\nWow, luck you!$"
+	.string "You got a Pokémon from the leader?\nWow, lucky you!$"
 
 CDGJ_CafeDot_EventScript_Patron_Barista_Dialogue_Text_0:
 # 370 "data/maps/CDGJ_CafeDot/scripts.pory"
