@@ -4494,7 +4494,7 @@
     {
       "id": "LAYOUT_NORTH_MERRIWAVE",
       "name": "North_Merriwave_Layout",
-      "width": 80,
+      "width": 60,
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Slateport",
