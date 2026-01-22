@@ -13,7 +13,7 @@ CDGJ_Merriwave_Town_EventScript_IntroContinued::
 # 8 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	lockall
 # 10 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
-	applymovement 8, MoveRivalUpAfterPlayerWalksOut
+	applymovement LOCALID_RIVAL_MERRIWAVE, MoveRivalUpAfterPlayerWalksOut
 # 11 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	waitmovement
 # 13 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
@@ -23,7 +23,7 @@ CDGJ_Merriwave_Town_EventScript_IntroContinued::
 # 15 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	closemessage
 # 17 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
-	applymovement 8, RivalWalksToBeachFront
+	applymovement LOCALID_RIVAL_MERRIWAVE, RivalWalksToBeachFront
 # 18 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	applymovement LOCALID_PLAYER, PlayerWalksToBeachFront
 # 19 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
@@ -37,31 +37,31 @@ CDGJ_Merriwave_Town_EventScript_IntroContinued::
 # 25 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	closemessage
 # 27 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
-	applymovement 8, FaceDown
+	applymovement LOCALID_RIVAL_MERRIWAVE, FaceDown
 # 28 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	waitmovement
 # 29 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	delay 60
 # 31 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
-	applymovement 8, FaceLeft
+	applymovement LOCALID_RIVAL_MERRIWAVE, FaceLeft
 # 32 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	waitmovement
 # 33 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	delay 30
 # 35 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
-	applymovement 8, FaceRight
+	applymovement LOCALID_RIVAL_MERRIWAVE, FaceRight
 # 36 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	waitmovement
 # 37 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	delay 30
 # 39 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
-	applymovement 8, FaceUp
+	applymovement LOCALID_RIVAL_MERRIWAVE, FaceUp
 # 40 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	waitmovement
 # 41 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	delay 30
 # 43 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
-	applymovement 8, FaceDown
+	applymovement LOCALID_RIVAL_MERRIWAVE, FaceDown
 # 44 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	waitmovement
 # 46 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
@@ -97,7 +97,7 @@ CDGJ_Merriwave_Town_EventScript_IntroContinued::
 # 67 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	delay 60
 # 69 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
-	applymovement 8, EmoteExclamationMark
+	applymovement LOCALID_RIVAL_MERRIWAVE, EmoteExclamationMark
 # 70 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	waitmovement
 # 72 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
@@ -105,7 +105,7 @@ CDGJ_Merriwave_Town_EventScript_IntroContinued::
 # 73 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	delay 20
 # 75 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
-	applymovement 8, FaceLeft
+	applymovement LOCALID_RIVAL_MERRIWAVE, FaceLeft
 # 76 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	waitmovement
 # 78 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
@@ -141,7 +141,7 @@ CDGJ_Merriwave_Town_EventScript_IntroContinued::
 # 97 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	closemessage
 # 99 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
-	applymovement 8, FaceDown
+	applymovement LOCALID_RIVAL_MERRIWAVE, FaceDown
 # 100 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	waitmovement
 # 102 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
@@ -150,7 +150,7 @@ CDGJ_Merriwave_Town_EventScript_IntroContinued::
 	compare VAR_RESULT, YES
 	goto_if_eq CDGJ_Merriwave_Town_EventScript_IntroContinued_2
 # 109 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
-	applymovement 8, EmoteExclamationMark
+	applymovement LOCALID_RIVAL_MERRIWAVE, EmoteExclamationMark
 # 110 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	waitmovement
 # 111 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
@@ -192,7 +192,7 @@ CDGJ_Merriwave_Town_EventScript_IntroContinued_1:
 
 CDGJ_Merriwave_Town_EventScript_IntroContinued_2:
 # 105 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
-	applymovement 8, JumpInPlace
+	applymovement LOCALID_RIVAL_MERRIWAVE, JumpInPlace
 # 106 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	waitmovement
 # 107 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
@@ -282,6 +282,16 @@ PlayerWalksToBeachFront:
 	face_down
 	step_end
 
+CDGJ_Merriwave_Town_EventScript_CafeSign::
+# 163 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
+	msgbox CDGJ_Merriwave_Town_EventScript_CafeSign_Text_0
+# 164 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
+	waitmessage
+# 165 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
+	closemessage
+	return
+
+
 CDGJ_Merriwave_Town_EventScript_IntroContinued_Text_0:
 # 13 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	.string "Come on, follow me.$"
@@ -333,3 +343,7 @@ CDGJ_Merriwave_Town_EventScript_IntroContinued_Text_11:
 CDGJ_Merriwave_Town_EventScript_IntroContinued_Text_12:
 # 117 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
 	.string "Oh, and here. These will be useful.$"
+
+CDGJ_Merriwave_Town_EventScript_CafeSign_Text_0:
+# 163 "data/maps/CDGJ_Merriwave_Town/scripts.pory"
+	.string "Welcome to Café Dot!$"

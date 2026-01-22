@@ -490,6 +490,8 @@ const u8 gInitialMovementTypeFacingDirections[NUM_MOVEMENT_TYPES] = {
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPalette_Barista,           OBJ_EVENT_PAL_TAG_CDGJ_BARISTA},
+    {gObjectEventPalette_GIRL1,           OBJ_EVENT_PAL_TAG_CDGJ_GIRL1},
+    {gObjectEventPalette_BOY1,           OBJ_EVENT_PAL_TAG_CDGJ_BOY1},
     {gObjectEventPal_Npc1,                  OBJ_EVENT_PAL_TAG_NPC_1},
     {gObjectEventPal_Npc2,                  OBJ_EVENT_PAL_TAG_NPC_2},
     {gObjectEventPal_Npc3,                  OBJ_EVENT_PAL_TAG_NPC_3},

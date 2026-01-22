@@ -764,10 +764,10 @@
     {
       "id": "LAYOUT_PACIFIDLOG_TOWN_HOUSE1",
       "name": "PacifidlogTown_House1_Layout",
-      "width": 10,
-      "height": 9,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "width": 9,
+      "height": 10,
+      "primary_tileset": "gTileset_CafeDotGeneral",
+      "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/PacifidlogTown_House1/border.bin",
       "blockdata_filepath": "data/layouts/PacifidlogTown_House1/map.bin"
     },
@@ -4416,7 +4416,7 @@
       "name": "Merriwave_Town_Layout",
       "width": 60,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_CafeDotGeneral",
       "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/CDGJ_Merriwave_Town/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_Merriwave_Town/map.bin"
@@ -4476,7 +4476,7 @@
       "name": "Route_SeaRoute_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_CafeDotGeneral",
       "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/CDGJ_Route_SeaRoute/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_Route_SeaRoute/map.bin"
@@ -4486,7 +4486,7 @@
       "name": "Sea_Right_Layout",
       "width": 20,
       "height": 80,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_CafeDotGeneral",
       "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/CDGJ_Sea_Right/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_Sea_Right/map.bin"
@@ -4496,7 +4496,7 @@
       "name": "North_Merriwave_Layout",
       "width": 60,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_CafeDotGeneral",
       "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/CDGJ_NorthMerriwave/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_NorthMerriwave/map.bin"
@@ -4516,7 +4516,7 @@
       "name": "CaveExit_Layout",
       "width": 50,
       "height": 50,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_CafeDotGeneral",
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/CDGJ_CaveExit/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_CaveExit/map.bin"
@@ -4526,7 +4526,7 @@
       "name": "Newroute_Layout",
       "width": 40,
       "height": 30,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_CafeDotGeneral",
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/CDGJ_Newroute/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_Newroute/map.bin"
@@ -4536,7 +4536,7 @@
       "name": "LilGuy_Layout",
       "width": 8,
       "height": 12,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_CafeDotGeneral",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/CDGJ_LiLGuy/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_LilGuy/map.bin"
@@ -4546,7 +4546,7 @@
       "name": "LakeArea_Layout",
       "width": 50,
       "height": 50,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_CafeDotGeneral",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/CDGJ_LakeArea/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_LakeArea/map.bin"
@@ -4556,10 +4556,20 @@
       "name": "ConnectingRoute_Layout",
       "width": 80,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_CafeDotGeneral",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/CDGJ_ConnectingRoute/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_ConnectingRoute/map.bin"
+    },
+    {
+      "id": "LAYOUT_CDGJ_CAVE",
+      "name": "CDGJ_Cave_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/CDGJ_Cave/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_Cave/map.bin"
     }
   ]
 }

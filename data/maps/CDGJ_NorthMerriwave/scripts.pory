@@ -1,4 +1,33 @@
-raw `
-CDGJ_NorthMerriwave_MapScripts::
-	.byte 0
-	`
+mapscripts CDGJ_NorthMerriwave_MapScripts {}
+
+script CDGJ_NorthMerriwave_EventScript_CaveSign {
+	msgbox("Flowstone Cave ahead")
+	waitmessage
+	closemessage
+}
+
+script CDGJ_NorthMerriwave_EventScript_AlcoveSign {
+	msgbox("Please keep out of my garden!\p… … … … … … …\p… … … … … … …\p… … … … … … …\p… … … … … … …\p… … whose garden?")
+	waitmessage
+	closemessage
+}
+
+script CDGJ_NorthMerriwave_EventScript_HotelSign {
+	msgbox("North Merriwave Hotel\n… … Closed for renovations!")
+	waitmessage
+	closemessage
+}
+
+script CDGJ_NorthMerriwave_EventScript_TrainerBattle1 {
+    trainerbattle_single(
+        TRAINER_GRUNT_AQUA_HIDEOUT_4,
+        "You're a new trainer, right? Me too!",
+        "Wow! Your Pokémon trusts you already." 
+    )
+
+    msgbox("Good luck out there! Catch'em all!")
+    waitmessage
+    closemessage
+
+    end
+}

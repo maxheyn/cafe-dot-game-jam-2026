@@ -2,7 +2,7 @@
   "map_sections": [
     {
       "id": "MAPSEC__CDGJ_MERRIWAVE_TOWN",
-      "name": "Cafe Dot",
+      "name": "Merriwave Town",
       "x": 4,
       "y": 11,
       "width": 1,
@@ -10,7 +10,7 @@
     },
     {
       "id": "MAPSEC__CDGJ_CAVE",
-      "name": "MERRIWAVE TOWN",
+      "name": "Flowstone Cave",
       "x": 4,
       "y": 11,
       "width": 1,
@@ -1246,6 +1246,14 @@
       "y": 4,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC__CDGJ_NORTHMERRIWAVE",
+      "name": "North Merriwave"
+    },
+    {
+      "id": "MAPSEC__CDGJ_CAFEDOT",
+      "name": "Cafe Dot"
     }
   ]
 }

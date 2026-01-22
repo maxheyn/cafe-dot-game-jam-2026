@@ -51,7 +51,8 @@
     "CDGJ_Route_101_Extended",
     "CDGJ_Route_SeaRoute",
     "CDGJ_NorthMerriwave",
-    "CDGJ_Sea_Right"
+    "CDGJ_Sea_Right",
+    "CDGJ_Cave"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

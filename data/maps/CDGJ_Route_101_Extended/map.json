@@ -1,7 +1,7 @@
 {
   "id": "MAP_ROUTE_101_EXTENDED",
   "name": "CDGJ_Route_101_Extended",
-  "layout": "LAYOUT_ROUTE_101_EXTENDED",
+  "layout": "LAYOUT_PACIFIDLOG_TOWN_HOUSE1",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC__CDGJ_MERRIWAVE_TOWN",
   "requires_flash": false,
@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_NORTH_MERRIWAVE",
-      "offset": 0,
+      "offset": -1,
       "direction": "down"
     },
     {

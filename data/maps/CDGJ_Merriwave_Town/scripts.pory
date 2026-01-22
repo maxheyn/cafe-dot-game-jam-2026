@@ -7,14 +7,14 @@ mapscripts CDGJ_Merriwave_Town_MapScripts {
 script CDGJ_Merriwave_Town_EventScript_IntroContinued {
 	lockall
 
-	applymovement(8, MoveRivalUpAfterPlayerWalksOut)
+	applymovement(LOCALID_RIVAL_MERRIWAVE, MoveRivalUpAfterPlayerWalksOut)
 	waitmovement
 
 	msgbox("Come on, follow me.")
 	waitmessage
 	closemessage
 
-	applymovement(8, RivalWalksToBeachFront)
+	applymovement(LOCALID_RIVAL_MERRIWAVE, RivalWalksToBeachFront)
 	applymovement(LOCALID_PLAYER, PlayerWalksToBeachFront)
 	waitmovement(LOCALID_PLAYER)
 
@@ -24,23 +24,23 @@ script CDGJ_Merriwave_Town_EventScript_IntroContinued {
 	waitmessage
 	closemessage
 
-	applymovement(8, FaceDown)
+	applymovement(LOCALID_RIVAL_MERRIWAVE, FaceDown)
 	waitmovement
 	delay(60)
 
-	applymovement(8, FaceLeft)
+	applymovement(LOCALID_RIVAL_MERRIWAVE, FaceLeft)
 	waitmovement
 	delay(30)
 
-	applymovement(8, FaceRight)
+	applymovement(LOCALID_RIVAL_MERRIWAVE, FaceRight)
 	waitmovement
 	delay(30)
 
-	applymovement(8, FaceUp)
+	applymovement(LOCALID_RIVAL_MERRIWAVE, FaceUp)
 	waitmovement
 	delay(30)
 
-	applymovement(8, FaceDown)
+	applymovement(LOCALID_RIVAL_MERRIWAVE, FaceDown)
 	waitmovement
 
 	delay(60)
@@ -66,13 +66,13 @@ script CDGJ_Merriwave_Town_EventScript_IntroContinued {
 
 	delay(60)
 
-	applymovement(8, EmoteExclamationMark)
+	applymovement(LOCALID_RIVAL_MERRIWAVE, EmoteExclamationMark)
 	waitmovement
 
 	delay(60)
 	delay(20)
 	
-	applymovement(8, FaceLeft)
+	applymovement(LOCALID_RIVAL_MERRIWAVE, FaceLeft)
 	waitmovement
 
 	msgbox("But maybe... if you're up for it...\nCould you help gather a few ingredients?")
@@ -96,17 +96,17 @@ script CDGJ_Merriwave_Town_EventScript_IntroContinued {
 	waitmessage
 	closemessage
 
-	applymovement(8, FaceDown)
+	applymovement(LOCALID_RIVAL_MERRIWAVE, FaceDown)
 	waitmovement
 
 	delay(20)
 
 	if (var(VAR_RESULT) == YES) {
-		applymovement(8, JumpInPlace)
+		applymovement(LOCALID_RIVAL_MERRIWAVE, JumpInPlace)
 		waitmovement
 		msgbox("Haha, I knew you were the right\nperson for the job!\pThe mountains are just outside of town.\nThe forest and lake aren't far either.\pI'll be around town when you come back!")
 	} else {
-		applymovement(8, EmoteExclamationMark)
+		applymovement(LOCALID_RIVAL_MERRIWAVE, EmoteExclamationMark)
 		waitmovement
 		msgbox("Haha, I love a good prank.\nAnyway...\pThe mountains are just outside of town.\nThe forest and lake aren't far either.\pI'll be around town when you come back!")
 	}
@@ -157,4 +157,10 @@ movement PlayerWalksToBeachFront {
 	walk_down * 2
 	walk_right * 2
 	face_down
+}
+
+script CDGJ_Merriwave_Town_EventScript_CafeSign {
+	msgbox("Welcome to Café Dot!")
+	waitmessage
+	closemessage
 }

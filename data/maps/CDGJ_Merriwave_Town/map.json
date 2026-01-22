@@ -31,7 +31,6 @@
   ],
   "object_events": [
     {
-      "local_id": "LOCALID_GYM_LEADER_A",
       "graphics_id": "OBJ_EVENT_GFX_ANABEL",
       "x": 43,
       "y": 29,
@@ -45,7 +44,8 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_JUAN",
+      "local_id": "LOCALID_RIVAL_MERRIWAVE",
+      "graphics_id": "OBJ_EVENT_GFX_LINK_MAY",
       "x": 37,
       "y": 31,
       "elevation": 0,
@@ -96,5 +96,14 @@
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 38,
+      "y": 29,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "CDGJ_Merriwave_Town_EventScript_CafeSign"
+    }
+  ]
 }

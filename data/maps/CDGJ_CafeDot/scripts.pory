@@ -74,10 +74,6 @@ script CDGJ_CafeDot_EventScript_NewGameIntro {
 	waitmessage
 	closemessage
 
-	// Rival turns to look at pokeballs/pokemon
-	applymovement(7, RivalLooksAtPokemon)
-	waitmovement(0)
-
 	msgbox("I wanted to give you something!")
 	waitmessage
 	closemessage
@@ -129,7 +125,7 @@ script CDGJ_CafeDot_EventScript_ChooseStarter {
 	showmonpic(SPECIES_PICHU, 10, 3)
 	msgbox("Pichu, the Tiny Mouse Pokémon.\pDo you want this Pokémon?", MSGBOX_YESNO)
 	if (var(VAR_RESULT) == YES) {
-		givemon(SPECIES_PICHU, 5, ITEM_POKE_BALL)
+		givemon(SPECIES_PICHU, 55, ITEM_POKE_BALL)
 
 		playfanfare(MUS_OBTAIN_ITEM)
 
@@ -152,7 +148,7 @@ script CDGJ_CafeDot_EventScript_ChooseStarter {
 	showmonpic(SPECIES_MIME_JR, 10, 3)
 	msgbox("Mime Jr., the Mime Pokémon.\pDo you want this Pokémon?", MSGBOX_YESNO)
 	if (var(VAR_RESULT) == YES) {
-		givemon(SPECIES_MIME_JR, 5, ITEM_POKE_BALL)
+		givemon(SPECIES_MIME_JR, 55, ITEM_POKE_BALL)
 
 		playfanfare(MUS_OBTAIN_ITEM)
 
@@ -175,7 +171,7 @@ script CDGJ_CafeDot_EventScript_ChooseStarter {
 	showmonpic(SPECIES_TOGEPI, 10, 3)
 	msgbox("Togepi, the Spike Ball Pokémon.\pDo you want this Pokémon?", MSGBOX_YESNO)
 	if (var(VAR_RESULT) == YES) {
-		givemon(SPECIES_TOGEPI, 5, ITEM_POKE_BALL)
+		givemon(SPECIES_TOGEPI, 55, ITEM_POKE_BALL)
 		
 		playfanfare(MUS_OBTAIN_ITEM)
 		
@@ -290,7 +286,7 @@ script CDGJ_CafeDot_EventScript_Patron_Pikachu_Dialogue {
 
 	delay(30)
 
-	msgbox("Wow... they even let Pokémon\nin here!\pSo welcoming!")
+	msgbox("Wow... who painted this Pikachu?")
 	waitmessage
 	closemessage
 

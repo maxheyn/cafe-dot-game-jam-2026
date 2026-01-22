@@ -470,3 +470,5 @@ const u32 gObjectEventPic_ApricornTree[] = INCBIN_U32("graphics/object_events/pi
 
 //CDGJ_PALETTES
 const u16 gObjectEventPalette_Barista[] = INCBIN_U16("graphics/object_events/palettes/barista.gbapal");
+const u16 gObjectEventPalette_GIRL1[] = INCBIN_U16("graphics/object_events/palettes/girl_1.gbapal");
+const u16 gObjectEventPalette_BOY1[] = INCBIN_U16("graphics/object_events/palettes/boy_1.gbapal");

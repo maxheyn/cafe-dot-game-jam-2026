@@ -1179,3 +1179,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/CDGJ_Route_101_Extended/scripts.inc"
 	.include "data/maps/CDGJ_Route_SeaRoute/scripts.inc"
 	.include "data/maps/CDGJ_Sea_Right/scripts.inc"
+
+	.include "data/maps/CDGJ_Cave/scripts.inc"

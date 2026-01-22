@@ -1,0 +1,98 @@
+mapscripts CDGJ_Cave_MapScripts {}
+
+script CDGJ_Cave_EventScript_TrainerBattle1 {
+    trainerbattle_single(
+        TRAINER_SAWYER_1,
+        "I found some new Pokemon in this cave!",
+        "Man... I want better Pokemon!" 
+    )
+
+    msgbox("Good luck getting through this cave!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_Cave_EventScript_TrainerBattle2 {
+    trainerbattle_single(
+        TRAINER_GRUNT_AQUA_HIDEOUT_1,
+        "If I scream in this cave I can hear it echo!",
+        "ECHO ECHO Echo echo echooo..." 
+    )
+
+    msgbox("echo echo echooooo.....")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_Cave_EventScript_TrainerBattle3 {
+    trainerbattle_single(
+        TRAINER_GRUNT_AQUA_HIDEOUT_2,
+        "Man, I've never been this deep in\na cave before. Spooky!",
+        "Aaahh! Spooky!!!" 
+    )
+
+    msgbox("How are you going to get past this lake?")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_Cave_EventScript_TrainerBattle4 {
+    trainerbattle_single(
+        TRAINER_GRUNT_AQUA_HIDEOUT_3,
+        "Nothing this way... \nBut I'm itching for a battle!",
+        "Actually...\nThere might be something up there?" 
+    )
+    
+    msgbox("I think I saw something under that rock!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_Cave_EventScript_RockSmashGuy {
+    faceplayer
+
+    if (flag(FLAG_CDGJ_ROCK_BROKEN)) {
+        msgbox("Man... I love breaking rocks!")
+        waitmessage
+        closemessage
+        
+        end
+    }
+
+    msgbox("Wanna see me break this rock?", MSGBOX_YESNO)
+
+    if (var(VAR_RESULT) == YES) {
+        applymovement(LOCALID_ROCKGUY, FaceLeft)
+        delay(60)
+
+        playse(SE_M_ROCK_THROW)
+        waitfieldeffect(FLDEFF_USE_ROCK_SMASH)
+        waitse
+
+        faceplayer
+
+        removeobject(LOCALID_BREAKTHISROCK)
+
+        special(DrawWholeMapView)
+
+        setflag(FLAG_CDGJ_ROCK_BROKEN)
+
+        msgbox("There ya go!")
+    } else {
+        msgbox("Okay, just come back whenever!")
+    }
+
+	waitmessage
+	closemessage
+
+    release
+    end
+}
