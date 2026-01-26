@@ -1,4 +1,117 @@
-raw `
-CDGJ_ConnectingRoute_MapScripts::
-	.byte 0
-`
+
+mapscripts CDGJ_ConnectingRoute_MapScripts {}
+
+script CDGJ_ConnectingRoute_EventScript_TrainerBattle1 {
+    trainerbattle_single(
+        TRAINER_GRUNT_SPACE_CENTER_1,
+        "This is where we build the corn maze!",
+        "I'm allergic to corn!" 
+    )
+
+    msgbox("Just a fence maze this year.\nSo glad!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_ConnectingRoute_EventScript_TrainerBattle2 {
+    trainerbattle_single(
+        TRAINER_GRUNT_MT_PYRE_1,
+        "Hard to get my bike through here.",
+        "Too many sharp turns." 
+    )
+
+    msgbox("I miss my bike.")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_ConnectingRoute_EventScript_TrainerBattle3 {
+    trainerbattle_single(
+        TRAINER_GRUNT_MT_PYRE_2,
+        "I'm trying to catch some strong\nPokémon to show off to my friends!",
+        "Need to catch some stronger ones." 
+    )
+
+    msgbox("My friends have all of the\nEeveelutions! How cool!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+
+script CDGJ_ConnectingRoute_EventScript_TrainerBattle4 {
+    trainerbattle_single(
+        TRAINER_GRUNT_MT_PYRE_3,
+        "We just finished clearing up this\nroute for the festival!\pA battle is just what I need!",
+        "Man, I thought my Pokémon would\nbe stronger after all of that\pheavy lifting!" 
+    )
+
+    msgbox("Enjoy visiting the festival!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_ConnectingRoute_EventScript_Nurse {
+    faceplayer
+
+    msgbox("Do your Pokemon need healing?", MSGBOX_YESNO)
+
+    if (var(VAR_RESULT) == YES) {
+		call(Common_EventScript_OutOfCenterPartyHeal)
+		
+        msgbox("All healed up!")
+    }
+
+	waitmessage
+	closemessage
+
+    release
+    end
+}
+
+script CDGJ_ConnectingRoute_EventScript_Item1 {
+	giveitem(ITEM_FOCUS_SASH, 1)
+	waitmessage
+	closemessage
+
+	setflag(FLAG_CDGJ_FOCUSSASH_GET)
+
+	removeobject(LOCALID_ITEM_FOCUSSASH)
+
+	end
+}
+
+script CDGJ_ConnectingRoute_EventScript_Item2 {
+	giveitem(ITEM_ROCKY_HELMET, 1)
+	waitmessage
+	closemessage
+
+	setflag(FLAG_CDGJ_ROCKYHELMET_GET)
+
+	removeobject(LOCALID_ITEM_ROCKYHELM)
+
+	end
+}
+
+script CDGJ_ConnectingRoute_EventScript_LOCALID_TOLL_INFO {
+    applymovement(LOCALID_TOLL_INFO, FacePlayer)
+    msgbox("Did you know that this route used\nto be a toll route?\pThey opened it up to everyone after\nthe townspeople complained that\pthe cost of passing was\ntoo high!")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_ConnectingRoute_EventScript_LOCALID_CHORGOOGA {
+    applymovement(LOCALID_CHORGOOGA, FacePlayer)
+    msgbox("Chorgooga! Chorgooga!\nI love saying Chorgooga!\pSay it with me!\nChorgooooooooooooo\pooooooooooooo\pooooooooooooo\pooooooooooooo\poooooooooooooga.")
+    waitmessage
+    closemessage
+    release
+}

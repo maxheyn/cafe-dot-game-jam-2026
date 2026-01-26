@@ -1,6 +1,11 @@
-# 1 "data/maps/CDGJ_MerriwaveTown_PokemonCenter_1F/scripts.pory"
-
-# 2 "data/maps/CDGJ_MerriwaveTown_PokemonCenter_1F/scripts.pory"
 CDGJ_MerriwaveTown_PokemonCenter_1F_MapScripts::
-# 3 "data/maps/CDGJ_MerriwaveTown_PokemonCenter_1F/scripts.pory"
 	.byte 0
+
+
+CDGJ_MerriwaveTown_PokemonCenter_1F_Nurse::
+# 5 "data/maps/CDGJ_MerriwaveTown_PokemonCenter_1F/scripts.pory"
+	setvar VAR_0x800B, 0
+# 6 "data/maps/CDGJ_MerriwaveTown_PokemonCenter_1F/scripts.pory"
+	call Common_EventScript_PkmnCenterNurse
+	end
+

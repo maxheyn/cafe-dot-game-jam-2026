@@ -1181,3 +1181,19 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/CDGJ_Sea_Right/scripts.inc"
 
 	.include "data/maps/CDGJ_Cave/scripts.inc"
+
+	.include "data/maps/CDGJ_MerriwaveTown_House_4/scripts.inc"
+
+	.include "data/maps/CDGJ_MerriwaveTown_House_3/scripts.inc"
+
+	.include "data/maps/CDGJ_MerriwaveTown_House_2/scripts.inc"
+
+	.include "data/maps/CDGJ_NorthMerriwave_CaveHome/scripts.inc"
+
+	.include "data/maps/CDGJ_Berryroot_Woods_House/scripts.inc"
+
+	.include "data/maps/CDGJ_LakeArea_Mart/scripts.inc"
+
+	.include "data/maps/CDGJ_Merriwave_Town_Festive/scripts.inc"
+
+	.include "data/maps/testwarp/scripts.inc"

@@ -1254,6 +1254,26 @@
     {
       "id": "MAPSEC__CDGJ_CAFEDOT",
       "name": "Cafe Dot"
+    },
+    {
+      "id": "MAPSEC__CDGJ_MOUNTAINPASS",
+      "name": "Mountain Pass"
+    },
+    {
+      "id": "MAPSEC__CDGJ_BERRYROOT_WOODS",
+      "name": "Berryroot Woods"
+    },
+    {
+      "id": "MAPSEC__CDGJ_TOLLPASS",
+      "name": "Lakeside Path"
+    },
+    {
+      "id": "MAPSEC__CDGJ_LAKEAREA",
+      "name": "Clearleaf Lake"
+    },
+    {
+      "id": "MAPSEC__CDGJ_MERRIWAVE_TOWN_FESTIVE",
+      "name": " CDGJ MERRIWAVE TOWN FESTIVE"
     }
   ]
 }

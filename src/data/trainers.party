@@ -86,70 +86,12 @@ CDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJ
 CDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJ
 CDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJ
 START
- */
-
-/* CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE */
-=== TRAINER_SAWYER_1 ===
-Name: SAMANTHA
-Class: Pkmn Breeder
-Pic: Pokemon Breeder F
-Gender: Female
-Music: Hiker
-Double Battle: No
-AI: Basic Trainer
-
-Roggenrola
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
-Name: LANDON
-Class: Pkmn Breeder
-Pic: Pokemon Breeder M
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Poochyena
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Joltik
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_AQUA_HIDEOUT_2 ===
-Name: EMILIA
-Class: Pkmn Breeder
-Pic: Pokemon Breeder F
-Gender: Female
-Music: Hiker
-Double Battle: No
-AI: Basic Trainer
-
-Bonsly
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Lillipup
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_AQUA_HIDEOUT_3 ===
-Name: SPRANG
-Class: Pkmn Breeder
-Pic: Pokemon Breeder M
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Shieldon
-Level: 6
-IVs: 0 HP / 0 Atk / 2 Def / 0 SpA / 2 SpD / 0 Spe
+*/
 
 /* NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE */
+/* NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE */
+/* NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE */
+
 === TRAINER_GRUNT_AQUA_HIDEOUT_4 ===
 Name: BRENT
 Class: Bug Maniac
@@ -167,31 +109,114 @@ Scatterbug
 Level: 3
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-/* 
-END
-CDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJ
-CDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJ
-CDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJ
- */
-
-
-
-
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_1 ===
-Name: GRUNT
+Name: BILLY
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+
+Audino
+Level: 4
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ROSE_2 ===
+Name: ROSE
+Class: Aroma Lady
+Pic: Aroma Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Wingull
+Level: 4
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Magikarp
+Level: 4
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Magikarp
+Level: 6
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Magikarp
+Level: 10
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+/* CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE */
+/* CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE */
+/* CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE */
+
+=== TRAINER_SAWYER_1 ===
+Name: SAMANTHA
+Class: Pkmn Breeder
+Pic: Pokemon Breeder F
+Gender: Female
+Music: Hiker
+Double Battle: No
+AI: Basic Trainer
+
+Roggenrola
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
+Name: LANDON
+Class: Pkmn Breeder
+Pic: Pokemon Breeder M
+Gender: Male
+Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
 Poochyena
-Level: 36
+Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Joltik
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_GRUNT_AQUA_HIDEOUT_2 ===
+Name: EMILIA
+Class: Pkmn Breeder
+Pic: Pokemon Breeder F
+Gender: Female
+Music: Hiker
+Double Battle: No
+AI: Basic Trainer
+
+Bonsly
+Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Lillipup
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_GRUNT_AQUA_HIDEOUT_3 ===
+Name: SPRANG
+Class: Pkmn Breeder
+Pic: Pokemon Breeder M
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Shieldon
+Level: 6
+IVs: 0 HP / 0 Atk / 2 Def / 0 SpA / 2 SpD / 0 Spe
+
+/* TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE  */
+/* TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE  */
+/* TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE  */
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_2 ===
-Name: GRUNT
+Name: ANDERS
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -199,12 +224,16 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Throh
+Level: 8
+IVs: 0 HP / 2 Atk / 0 Def / 0 SpA / 0 SpD / 1 Spe
+
+Sawk
+Level: 8
+IVs: 0 HP / 2 Atk / 0 Def / 0 SpA / 0 SpD / 1 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_3 ===
-Name: GRUNT
+Name: MARCUS
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -212,9 +241,14 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Blitzle
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 2 Spe
+
+Venipede
+Level: 9
+IVs: 4 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
 
 === TRAINER_GABRIELLE_1 ===
 Name: GABRIELLE
@@ -225,45 +259,21 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Skitty
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Timburr
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 2 Spe
 
-Poochyena
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Machop
+Level: 8
+IVs: 0 HP / 2 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zigzagoon
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Lotad
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Seedot
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Taillow
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_PETALBURG_WOODS ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Poochyena
+Bunnelby
 Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 2 SpD / 0 Spe
+
 
 === TRAINER_MARCEL ===
-Name: MARCEL
+Name: GRANCH
 Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
@@ -272,16 +282,81 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Manectric
-Level: 29
+Litleo
+Level: 10
+IVs: 0 HP / 2 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Scraggy
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 2 SpD / 2 Spe
+
+
+=== TRAINER_GRUNT_PETALBURG_WOODS ===
+Name: LUISA
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+
+Pansage
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pansear
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Panpour
+Level: 11
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_LEROY ===
+Name: LEROY
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Potion
+Double Battle: No
+AI: Basic Trainer
+
+Mawile
+Level: 11
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drifloon
+Level: 11
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+/* MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS  */
+/* MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS  */
+/* MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS  */
+
+=== TRAINER_GRUNT_SEAFLOOR_CAVERN_4 ===
+Name: SPIRALINA
+Class: Team Aqua
+Pic: Aqua Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+
+Munchlax
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Electrike
+Level: 12
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Shiftry
-Level: 29
+Munchlax
+Level: 11
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_ALBERTO ===
-Name: ALBERTO
+Name: JUAN
 Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
@@ -289,16 +364,16 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Pelipper
-Level: 30
+Geodude
+Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Xatu
-Level: 30
+Onix
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ED ===
-Name: ED
+Name: ALVIN
 Class: Collector
 Pic: Collector
 Gender: Male
@@ -307,25 +382,16 @@ Double Battle: No
 AI: Check Bad Move
 
 Zangoose
-Level: 30
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seviper
-Level: 30
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_SEAFLOOR_CAVERN_4 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt F
-Gender: Female
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Carvanha
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+/* BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE  */
+/* BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE  */
+/* BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE  */
 
 === TRAINER_DECLAN ===
 Name: DECLAN
@@ -336,8 +402,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Gyarados
-Level: 34
+Applin
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Roselia
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_RUSTURF_TUNNEL ===
@@ -349,8 +419,12 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 11
+Girafarig
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Skitty
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
@@ -362,12 +436,12 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 27
+Nuzleaf
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Poochyena
-Level: 27
+Lombre
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_2 ===
@@ -379,13 +453,25 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 27
+Beautifly
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Carvanha
-Level: 27
+Butterfree
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Dustox
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Beedrill
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+/* LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA   */
+/* LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA   */
+/* LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA   */
 
 === TRAINER_GRUNT_WEATHER_INST_3 ===
 Name: GRUNT
@@ -396,16 +482,16 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 26
+Wooper
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zubat
-Level: 26
+Wooper
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Carvanha
-Level: 26
+Marill
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MUSEUM_1 ===
@@ -417,7 +503,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
+Furret
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -430,13 +516,21 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+Eevee
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Vaporeon
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Carvanha
-Level: 14
+Farfetch'd
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+/* TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS */
+/* TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS */
+/* TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS */
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: GRUNT
@@ -447,8 +541,12 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 32
+Ponyta
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Growlithe
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_1 ===
@@ -460,8 +558,8 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 32
+Wigglytuff
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_2 ===
@@ -473,8 +571,12 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 32
+Pawniard
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Herdier
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_3 ===
@@ -486,13 +588,24 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 30
+Croagunk
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Carvanha
-Level: 30
+Stunky
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Luxio
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+/* 
+END
+CDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJ
+CDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJ
+CDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJ
+*/
 
 === TRAINER_GRUNT_WEATHER_INST_4 ===
 Name: GRUNT
@@ -725,23 +838,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Gloom
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_ROSE_2 ===
-Name: ROSE
-Class: Aroma Lady
-Pic: Aroma Lady
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Shroomish
-Level: 26
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Roselia
-Level: 26
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_ROSE_3 ===
 Name: ROSE
@@ -1422,24 +1518,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Sharpedo
 Level: 44
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_LEROY ===
-Name: LEROY
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Items: Full Restore
-Double Battle: No
-AI: Basic Trainer
-
-Mawile
-Level: 46
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Starmie
-Level: 46
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_WILTON_1 ===

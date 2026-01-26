@@ -3,7 +3,7 @@
   "name": "CDGJ_LilGuy",
   "layout": "LAYOUT_LILGUY",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC__CDGJ_MERRIWAVE_TOWN",
+  "region_map_section": "MAPSEC__CDGJ_BERRYROOT_WOODS",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",
@@ -27,5 +27,14 @@
   "object_events": [],
   "warp_events": [],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 6,
+      "y": 5,
+      "elevation": 0,
+      "item": "ITEM_HP_UP",
+      "flag": "FLAG_CDGJ_HIDDEN_ITEM_BERRYWOODS_5"
+    }
+  ]
 }

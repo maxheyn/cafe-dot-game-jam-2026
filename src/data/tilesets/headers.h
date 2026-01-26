@@ -841,3 +841,36 @@ const struct Tileset gTileset_CafeDotGeneral =
     .metatileAttributes = gMetatileAttributes_CafeDotGeneral,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_CafeDotCave =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_CafeDotCave,
+    .palettes = gTilesetPalettes_CafeDotCave,
+    .metatiles = gMetatiles_CafeDotCave,
+    .metatileAttributes = gMetatileAttributes_CafeDotCave,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_CDGJ_Town =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_CDGJ_Town,
+    .palettes = gTilesetPalettes_CDGJ_Town,
+    .metatiles = gMetatiles_CDGJ_Town,
+    .metatileAttributes = gMetatileAttributes_CDGJ_Town,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_CDGJ_INTERIOR =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_CDGJ_INTERIOR,
+    .palettes = gTilesetPalettes_CDGJ_INTERIOR,
+    .metatiles = gMetatiles_CDGJ_INTERIOR,
+    .metatileAttributes = gMetatileAttributes_CDGJ_INTERIOR,
+    .callback = NULL,
+};

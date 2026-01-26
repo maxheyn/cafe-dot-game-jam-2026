@@ -1,0 +1,14 @@
+mapscripts CDGJ_Merriwave_Town_Festive_MapScripts {
+    MAP_SCRIPT_ON_FRAME_TABLE [
+        VAR_TEMP_0, 1: CDGJ_Merriwave_Town_Festive_ResetPlayerState
+        VAR_TEMP_1, 1: CDGJ_Merriwave_Town_Festive_ResetPlayerState
+    ]
+}
+
+script CDGJ_Merriwave_Town_Festive_ResetPlayerState {
+    lockall
+    setvar(VAR_TEMP_0, 0)
+    setvar(VAR_TEMP_1, 0)
+    releaseall
+    end
+}

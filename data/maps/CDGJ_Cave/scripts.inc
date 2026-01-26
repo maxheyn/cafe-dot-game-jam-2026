@@ -104,6 +104,81 @@ CDGJ_Cave_EventScript_RockSmashGuy_5:
 	goto CDGJ_Cave_EventScript_RockSmashGuy_4
 
 
+CDGJ_Cave_EventScript_Item1::
+# 101 "data/maps/CDGJ_Cave/scripts.pory"
+	giveitem ITEM_QUICK_CLAW, 1
+# 102 "data/maps/CDGJ_Cave/scripts.pory"
+	waitmessage
+# 103 "data/maps/CDGJ_Cave/scripts.pory"
+	closemessage
+# 105 "data/maps/CDGJ_Cave/scripts.pory"
+	setflag FLAG_CDGJ_OBTAIN_CAVE_ITEM1
+# 107 "data/maps/CDGJ_Cave/scripts.pory"
+	removeobject LOCALID_ITEM1_CAVE
+	end
+
+
+CDGJ_Cave_EventScript_Item2::
+# 113 "data/maps/CDGJ_Cave/scripts.pory"
+	giveitem ITEM_HARD_STONE, 1
+# 114 "data/maps/CDGJ_Cave/scripts.pory"
+	waitmessage
+# 115 "data/maps/CDGJ_Cave/scripts.pory"
+	closemessage
+# 117 "data/maps/CDGJ_Cave/scripts.pory"
+	setflag FLAG_CDGJ_OBTAIN_CAVE_ITEM2
+# 119 "data/maps/CDGJ_Cave/scripts.pory"
+	removeobject LOCALID_ITEM2_CAVE
+	end
+
+
+CDGJ_Cave_EventScript_NPCInfrontOfCaveExit::
+# 125 "data/maps/CDGJ_Cave/scripts.pory"
+	lockall
+# 127 "data/maps/CDGJ_Cave/scripts.pory"
+	faceplayer
+# 129 "data/maps/CDGJ_Cave/scripts.pory"
+	msgbox CDGJ_Cave_EventScript_NPCInfrontOfCaveExit_Text_0
+# 130 "data/maps/CDGJ_Cave/scripts.pory"
+	waitmessage
+# 131 "data/maps/CDGJ_Cave/scripts.pory"
+	closemessage
+# 133 "data/maps/CDGJ_Cave/scripts.pory"
+	releaseall
+	end
+
+
+CDGJ_Cave_EventScript_TriggerPlayerToGetRockItem::
+# 139 "data/maps/CDGJ_Cave/scripts.pory"
+	goto_if_set FLAG_CDGJ_HIDDEN_ITEM_CAVE_STORYITEM, CDGJ_Cave_EventScript_TriggerPlayerToGetRockItem_2
+# 143 "data/maps/CDGJ_Cave/scripts.pory"
+	lockall
+# 145 "data/maps/CDGJ_Cave/scripts.pory"
+	msgbox CDGJ_Cave_EventScript_TriggerPlayerToGetRockItem_Text_0
+# 146 "data/maps/CDGJ_Cave/scripts.pory"
+	waitmessage
+# 147 "data/maps/CDGJ_Cave/scripts.pory"
+	closemessage
+# 149 "data/maps/CDGJ_Cave/scripts.pory"
+	applymovement LOCALID_PLAYER, ReturnToRockGuy
+# 150 "data/maps/CDGJ_Cave/scripts.pory"
+	waitmovement
+# 152 "data/maps/CDGJ_Cave/scripts.pory"
+	releaseall
+	end
+
+CDGJ_Cave_EventScript_TriggerPlayerToGetRockItem_2:
+	end
+
+
+# 157 "data/maps/CDGJ_Cave/scripts.pory"
+ReturnToRockGuy:
+# 158 "data/maps/CDGJ_Cave/scripts.pory"
+	walk_up
+# 159 "data/maps/CDGJ_Cave/scripts.pory"
+	face_left
+	step_end
+
 CDGJ_Cave_EventScript_TrainerBattle1_Text_0:
 # 6 "data/maps/CDGJ_Cave/scripts.pory"
 	.string "I found some new Pokemon in this cave!$"
@@ -167,3 +242,11 @@ CDGJ_Cave_EventScript_RockSmashGuy_Text_2:
 CDGJ_Cave_EventScript_RockSmashGuy_Text_3:
 # 90 "data/maps/CDGJ_Cave/scripts.pory"
 	.string "Okay, just come back whenever!$"
+
+CDGJ_Cave_EventScript_NPCInfrontOfCaveExit_Text_0:
+# 129 "data/maps/CDGJ_Cave/scripts.pory"
+	.string "Feeling hurt? I heard there's\na nurse outside the cave here!$"
+
+CDGJ_Cave_EventScript_TriggerPlayerToGetRockItem_Text_0:
+# 145 "data/maps/CDGJ_Cave/scripts.pory"
+	.string "Hmm. I should look take a closer\nlook at that rock.$"

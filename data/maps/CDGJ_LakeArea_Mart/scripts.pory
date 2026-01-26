@@ -1,0 +1,18 @@
+mapscripts CDGJ_LakeArea_Mart_MapScripts {}
+
+
+script CDGJ_LakeArea_Mart_EventScript_1 {
+    faceplayer
+    msgbox("I love this resupply point!\nSuper convenient!")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_LakeArea_Mart_EventScript_2 {
+    faceplayer
+    msgbox("I wish they sold HM03 Surf here...")
+    waitmessage
+    closemessage
+    release
+}

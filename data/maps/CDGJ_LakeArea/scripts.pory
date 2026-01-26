@@ -1,4 +1,110 @@
-raw `
-CDGJ_LakeArea_MapScripts::
-	.byte 0
-`
+mapscripts CDGJ_LakeArea_MapScripts {}
+
+script CDGJ_LakeArea_EventScript_TrainerBattle1 {
+    trainerbattle_single(
+        TRAINER_GRUNT_WEATHER_INST_3,
+        "You're a new trainer, right? Me too!",
+        "Wow! Your Pokémon trusts you already." 
+    )
+
+    msgbox("Good luck out there! Catch'em all!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_LakeArea_EventScript_TrainerBattle2 {
+    trainerbattle_single(
+        TRAINER_GRUNT_MUSEUM_1,
+        "You're a new trainer, right? Me too!",
+        "Wow! Your Pokémon trusts you already." 
+    )
+
+    msgbox("Good luck out there! Catch'em all!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_LakeArea_EventScript_TrainerBattle3 {
+    trainerbattle_single(
+        TRAINER_GRUNT_MUSEUM_2,
+        "You're a new trainer, right? Me too!",
+        "Wow! Your Pokémon trusts you already." 
+    )
+
+    msgbox("Good luck out there! Catch'em all!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_LakeArea_EventScript_LakeWaterHintGuy {
+	applymovement(LOCALID_WATERHINTGUY, FacePlayer)
+
+	msgbox("I love lake water! I just walk up\nto the edge and drink some!\pWe are so lucky to live in a\nplace where you can just drink\pwater directly from the lakes!")
+	waitmessage
+	closemessage
+
+	releaseall
+
+	end
+}
+
+script CDGJ_LakeArea_EventScript_GetWaterSecretIngredient {
+	lockall
+
+	if (flag(FLAG_CDGJ_WATER_GET)) {
+		msgbox("You already got some water!")
+		waitmessage
+		closemessage
+		releaseall
+		end
+	}
+
+	msgbox("Fresh lakewater for the soup!\nBottle some up?", MSGBOX_YESNO)
+
+	if (var(VAR_RESULT) == YES) {
+		giveitem(ITEM_MYSTIC_TICKET, 1)
+
+		setflag(FLAG_CDGJ_WATER_GET)
+		setvar(VAR_CDGJ_LAKEWATER_PICKED_UP_ITEM_STATE, 1)
+	}
+
+	waitmessage
+	closemessage
+
+
+	releaseall
+	end
+}
+
+script CDGJ_LakeArea_EventScript_GoBackGetWater {
+	lockall
+    
+    msgbox("I should find the lakewater Pepper\nasked me to get before I continue…")
+    waitmessage
+    closemessage
+
+    applymovement(LOCALID_PLAYER, ReturnToBerryRoute)
+    waitmovement
+    
+    releaseall
+    
+    end
+}
+
+script CDGJ_LakeArea_EventScript_Item1 {
+	giveitem(ITEM_KINGS_ROCK, 1)
+	waitmessage
+	closemessage
+
+	setflag(FLAG_CDGJ_KINGS_ROCK_GET)
+
+	removeobject(LOCALID_LAKE_KINGS_ROCK)
+
+	end
+}

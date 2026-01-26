@@ -25,7 +25,7 @@
     },
     {
       "map": "MAP_ROUTE_101_EXTENDED",
-      "offset": 1,
+      "offset": 0,
       "direction": "up"
     },
     {
@@ -43,14 +43,122 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
       "x": 19,
-      "y": 37,
+      "y": 33,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "CDGJ_NorthMerriwave_EventScript_TrainerBattle1",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_WOMAN_3",
+      "x": 21,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 2,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CDGJ_NorthMerriwave_EventScript_NPCInfrontOfCave",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "x": 33,
+      "y": 23,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_range_x": 6,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "CDGJ_NorthMerriwave_EventScript_TrainerBattle2",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_SAILORBEECH",
+      "graphics_id": "OBJ_EVENT_GFX_BOY_3",
+      "x": 57,
+      "y": 22,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "CDGJ_NorthMerriwave_EventScript_TrainerBattle3",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_ITEM1",
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 39,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CDGJ_NorthMerriwave_EventScript_Item1",
+      "flag": "FLAG_CDGJ_OBTAIN_NORTHMERRIWAVE_ITEM1"
+    },
+    {
+      "local_id": "LOCALID_ITEM2",
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 15,
+      "y": 25,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CDGJ_NorthMerriwave_EventScript_Item2",
+      "flag": "FLAG_CDGJ_OBTAIN_NORTHMERRIWAVE_ITEM2"
+    },
+    {
+      "local_id": "LOCALID_TOLL_GUARD",
+      "graphics_id": "OBJ_EVENT_GFX_ARTIST",
+      "x": 3,
+      "y": 22,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_CDGJ_WATER_GET"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
+      "x": 59,
+      "y": 35,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_LEFT_DOWN_RIGHT_UP",
+      "movement_range_x": 11,
+      "movement_range_y": 2,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "CDGJ_NorthMerriwave_EventScript_TrainerBattle2",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
+      "x": 63,
+      "y": 22,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_LEFT_DOWN_RIGHT_UP",
+      "movement_range_x": 3,
+      "movement_range_y": 8,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "CDGJ_NorthMerriwave_EventScript_TrainerBattle2",
       "flag": "0"
     }
   ],
@@ -59,11 +167,65 @@
       "x": 20,
       "y": 10,
       "elevation": 0,
-      "dest_map": "MAP_CDGJ_CAVE",
+      "dest_map": "MAP_TESTWARP",
       "dest_warp_id": "1"
+    },
+    {
+      "warp_id": "WARP_ID_CAVEHOME",
+      "x": 50,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_CDGJ_NORTH_MERRIWAVE_CAVE_HOME",
+      "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 23,
+      "elevation": 0,
+      "var": "VAR_CDGJ_LAKEWATER_PICKED_UP_ITEM_STATE",
+      "var_value": "0",
+      "script": "CDGJ_NorthMerriwave_EventScript_NoCanPass"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 21,
+      "elevation": 0,
+      "var": "VAR_CDGJ_LAKEWATER_PICKED_UP_ITEM_STATE",
+      "var_value": "0",
+      "script": "CDGJ_NorthMerriwave_EventScript_NoCanPass"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 22,
+      "elevation": 0,
+      "var": "VAR_CDGJ_LAKEWATER_PICKED_UP_ITEM_STATE",
+      "var_value": "0",
+      "script": "CDGJ_NorthMerriwave_EventScript_NoCanPass"
+    },
+    {
+      "type": "trigger",
+      "x": 24,
+      "y": 39,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "CDGJ_NorthMerriwave_EventScript_WarpLogic2"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 39,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "CDGJ_NorthMerriwave_EventScript_WarpLogic1"
+    }
+  ],
   "bg_events": [
     {
       "type": "sign",
@@ -88,6 +250,22 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "CDGJ_NorthMerriwave_EventScript_HotelSign"
+    },
+    {
+      "type": "hidden_item",
+      "x": 15,
+      "y": 7,
+      "elevation": 0,
+      "item": "ITEM_REVIVE",
+      "flag": "FLAG_CDGJ_HIDDEN_ITEM_NORTHMERRIWAVE_2"
+    },
+    {
+      "type": "hidden_item",
+      "x": 28,
+      "y": 6,
+      "elevation": 0,
+      "item": "ITEM_SUPER_POTION",
+      "flag": "FLAG_CDGJ_HIDDEN_ITEM_NORTHMERRIWAVE_1"
     }
   ]
 }

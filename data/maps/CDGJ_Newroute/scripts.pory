@@ -1,4 +1,132 @@
-raw `
-CDGJ_Newroute_MapScripts::
-	.byte 0
-`
+mapscripts CDGJ_Newroute_MapScripts {}
+
+script CDGJ_Newroute_EventScript_GetBerryItem {
+	lockall
+
+	msgbox("This must be the berry that\nPepper asked me to get!\p… … … … … …\p… … … … … …\pPick the berry?", MSGBOX_YESNO)
+	waitmessage
+	closemessage
+
+	if (var(VAR_RESULT) == YES) {
+		setflag(FLAG_CDGJ_BERRY_PICKED)
+		setvar(VAR_CDGJ_BERRY_PICKED_UP_ITEM_STATE, 1)
+		
+		giveitem(ITEM_EON_TICKET, 1)
+
+		removeobject(LOCALID_SPECIAL_BERRY)
+	}
+	
+	releaseall
+	end
+}
+
+script CDGJ_Newroute_EventScript_TriggerBerryNotGottenYet {
+    lockall
+    
+    msgbox("I should find the berry Pepper asked\nme to get before I continue…")
+    waitmessage
+    closemessage
+
+    applymovement(LOCALID_PLAYER, ReturnToBerryRoute)
+    waitmovement
+    
+    releaseall
+    
+    end
+}
+
+movement ReturnToBerryRoute {
+    walk_up
+}
+
+script CDGJ_Newroute_EventScript_Item1 {
+	giveitem(ITEM_SYRUPY_APPLE, 1)
+	waitmessage
+	closemessage
+
+	setflag(FLAG_CDGJ_OBTAIN_APPLIN_ITEM1)
+
+	removeobject(LOCALID_APPLIN_ITEM1)
+
+	end
+}
+
+script CDGJ_Newroute_EventScript_Item2 {
+	giveitem(ITEM_SWEET_APPLE, 1)
+	waitmessage
+	closemessage
+
+	setflag(FLAG_CDGJ_OBTAIN_APPLIN_ITEM2)
+
+	removeobject(LOCALID_APPLIN_ITEM2)
+
+	end
+}
+
+script CDGJ_Newroute_EventScript_Item3 {
+	giveitem(ITEM_TART_APPLE, 1)
+	waitmessage
+	closemessage
+
+	setflag(FLAG_CDGJ_OBTAIN_APPLIN_ITEM3)
+
+	removeobject(LOCALID_APPLIN_ITEM3)
+
+	end
+}
+
+script CDGJ_Newroute_EventScript_TrainerBattle1 {
+    trainerbattle_single(
+        TRAINER_DECLAN,
+        "You're a new trainer, right? Me too!",
+        "Wow! Your Pokémon trusts you already." 
+    )
+
+    msgbox("Good luck out there! Catch'em all!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_Newroute_EventScript_TrainerBattle2 {
+    trainerbattle_single(
+        TRAINER_GRUNT_RUSTURF_TUNNEL,
+        "You're a new trainer, right? Me too!",
+        "Wow! Your Pokémon trusts you already." 
+    )
+
+    msgbox("Good luck out there! Catch'em all!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_Newroute_EventScript_TrainerBattle3 {
+    trainerbattle_single(
+        TRAINER_GRUNT_WEATHER_INST_1,
+        "You're a new trainer, right? Me too!",
+        "Wow! Your Pokémon trusts you already." 
+    )
+
+    msgbox("Good luck out there! Catch'em all!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_Newroute_EventScript_TrainerBattle4 {
+    trainerbattle_single(
+        TRAINER_GRUNT_WEATHER_INST_2,
+        "You're a new trainer, right? Me too!",
+        "Wow! Your Pokémon trusts you already." 
+    )
+
+    msgbox("Good luck out there! Catch'em all!")
+    waitmessage
+    closemessage
+
+    end
+}

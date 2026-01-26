@@ -2,6 +2,10 @@ mapscripts CDGJ_Merriwave_Town_MapScripts {
 	MAP_SCRIPT_ON_FRAME_TABLE [
 		VAR_CDGJ_INTRO_STATE, 1: CDGJ_Merriwave_Town_EventScript_IntroContinued
 	]
+	MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE [
+		VAR_TEMP_0, 1: CDGJ_Merriwave_Town_ResetPlayerState
+		VAR_TEMP_1, 1: CDGJ_Merriwave_Town_ResetPlayerState
+	]
 }
 
 script CDGJ_Merriwave_Town_EventScript_IntroContinued {
@@ -116,7 +120,9 @@ script CDGJ_Merriwave_Town_EventScript_IntroContinued {
 
 	msgbox("Oh, and here. These will be useful.")
 	waitmessage
-	giveitem(ITEM_POKE_BALL, 5)
+	giveitem(ITEM_POKE_BALL, 10)
+	waitmessage
+	giveitem(ITEM_POTION, 3)
 	waitmessage
 	playfanfare(MUS_OBTAIN_ITEM)
 	msgbox(LittlerootTown_Text_SwitchShoesWithRunningShoes)
@@ -125,9 +131,18 @@ script CDGJ_Merriwave_Town_EventScript_IntroContinued {
 	setflag(FLAG_SYS_B_DASH)
 	closemessage
 
-	applymovement(LOCALID_PLAYER, FaceDown)
+	msgbox("Good luck, I'm counting on you!")
+	waitmessage
+	closemessage
+
+	applymovement(LOCALID_RIVAL_MERRIWAVE, RivalLeavesBeachFront)
 	waitmovement
 
+	applymovement(LOCALID_PLAYER, FaceLeft)
+	waitmovement
+
+	removeobject(LOCALID_RIVAL_MERRIWAVE)
+	
 	setvar(VAR_CDGJ_INTRO_STATE, 2)
 
 	releaseall		
@@ -149,6 +164,12 @@ movement RivalWalksToBeachFront {
 	face_down
 }
 
+movement RivalLeavesBeachFront {
+	walk_up * 2
+	walk_left * 7
+	walk_up * 4
+}
+
 movement PlayerWalksToBeachFront {
 	walk_down * 2
 	walk_right * 2
@@ -163,4 +184,115 @@ script CDGJ_Merriwave_Town_EventScript_CafeSign {
 	msgbox("Welcome to Café Dot!")
 	waitmessage
 	closemessage
+}
+
+script CDGJ_Merriwave_Town_EventScript_Barista_Outside {
+	applymovement(LOCALID_BARISTA_OUTSIDE, FacePlayer)
+    msgbox("I'm taking a quick break… … …\nI can only deal with the twins\pas much as any sane person.")
+    waitmessage
+    closemessage
+	release
+}
+
+script CDGJ_Merriwave_Town_EventScript_Sailor1 {
+	applymovement(LOCALID_SAILOR_1, FacePlayer)
+    msgbox("Been a while since I got my\nland legs some exercise!")
+    waitmessage
+    closemessage
+	release
+}
+
+script CDGJ_Merriwave_Town_EventScript_Sailor2 {
+	applymovement(LOCALID_SAILOR_2, FacePlayer)
+    msgbox("I'll catch him one day!")
+    waitmessage
+    closemessage
+	release
+}
+
+script CDGJ_Merriwave_Town_EventScript_Sailor3 {
+	applymovement(LOCALID_SAILOR_3, FacePlayer)
+    msgbox("He'll never catch me!")
+    waitmessage
+    closemessage
+	release
+}
+
+script CDGJ_Merriwave_Town_EventScript_FountainKid {
+	applymovement(LOCALID_LIL_BOY, FacePlayer)
+    msgbox("Mom said I have to play outside\nor else I'll get in trouble.\pJoke's on her, I love playing\noutside! Skibidi rizzler!")
+    waitmessage
+    closemessage
+	release
+}
+
+script CDGJ_Merriwave_Town_EventScript_DateL {
+	applymovement(LOCALID_DATEL, FacePlayer)
+    msgbox("On a date… … …\nkinda nervous… …")
+    waitmessage
+    closemessage
+	release
+}
+
+script CDGJ_Merriwave_Town_EventScript_DateR {
+	applymovement(LOCALID_DATER, FacePlayer)
+    msgbox("On a date… … …\nexerting confidence… …")
+    waitmessage
+    closemessage
+	release
+}
+
+script CDGJ_Merriwave_Town_EventScript_SailorOnBeachChair {
+	applymovement(LOCALID_SAILOR_4, FacePlayer)
+    msgbox("   o , the Pe     lican   .\n                so\psmoothly     d o  th\p          he      cr est.\p   a  wi    nd\ngo d       !")
+    waitmessage
+    closemessage
+	release
+}
+
+script CDGJ_Merriwave_Town_EventScript_LOCALID_LAZY {
+    applymovement(LOCALID_LAZY, FacePlayer)
+    msgbox("Just taking a break from the\nfestival setup.\pI've been up since 5 AM!")
+    waitmessage
+    closemessage
+	release
+}
+
+script CDGJ_Merriwave_Town_EventScript_LOCALID_SCIENCE {
+    applymovement(LOCALID_SCIENCE, FacePlayer)
+    msgbox("The festival will be a nice break\nfrom studying the local fauna!")
+    waitmessage
+    closemessage
+	release
+}
+
+script CDGJ_Merriwave_Town_EventScript_LOCALID_RIVAL_MERRIWAVE_2 {
+    applymovement(LOCALID_RIVAL_MERRIWAVE_2, FacePlayer)
+    msgbox("Good luck CLOVE! I'm counting\non you!\pRemember, I need 3 ingredients.\p1. A seasoned rock from the cave.\p2. Delicious berries from the hills.\p3. Fresh water from the lake.")
+    waitmessage
+    closemessage
+	release
+}
+
+script CDGJ_Merriwave_Town_EventScript_LOCALID_DOORMAN {
+    applymovement(LOCALID_DOORMAN, FacePlayer)
+    msgbox("Up through here is North Merriwave.\nBe careful out there, there's\pwild pokemon and trainers eager\nto battle! Stay safe!")
+    waitmessage
+    closemessage
+	release
+}
+
+script CDGJ_Merriwave_Town_EventScript_LOCALID_BIKEBOY {
+    applymovement(LOCALID_BIKEBOY, FacePlayer)
+    msgbox("Nyooooooooom.")
+    waitmessage
+    closemessage
+	release
+}
+
+script CDGJ_Merriwave_Town_ResetPlayerState {
+    setvar(VAR_TEMP_0, 0)
+    setvar(VAR_TEMP_1, 0)
+    releaseall
+    end
 }

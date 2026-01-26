@@ -1,0 +1,39 @@
+mapscripts CDGJ_NorthMerriwave_CaveHome_MapScripts {
+    	MAP_SCRIPT_ON_FRAME_TABLE  [
+		VAR_SHOAL_GET, 0: CDGJ_NorthMerriwave_CaveHome_EventScript_SHELL_LADY
+	]
+}
+
+script CDGJ_NorthMerriwave_CaveHome_EventScript_SHELL_LADY {
+    if (flag(FLAG_CDGJ_SHELL_GET)) {
+        msgbox("THANK YOU FOR ACCEPTING MY GIFT.")
+        waitmessage
+        closemessage
+        end
+    }
+
+    applymovement(LOCALID_SHELLLADY, SHELLLADYTOPLAYER)
+    waitmovement
+
+    msgbox("IT'S DANGEROUS TO GO\nALONE! TAKE THIS.")
+
+    giveitem(ITEM_SHELL_BELL)
+    waitmessage
+    closemessage
+
+    applymovement(LOCALID_SHELLLADY, SHELLLADYGOESBACKUP)
+    waitmovement
+    setflag(FLAG_CDGJ_SHELL_GET)
+    setvar(VAR_SHOAL_GET, 1)
+
+    release
+}
+
+movement SHELLLADYTOPLAYER{
+    walk_down * 2
+}
+
+movement SHELLLADYGOESBACKUP {
+    lock_facing_direction
+    walk_up * 2
+}

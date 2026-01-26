@@ -117,6 +117,9 @@
 #define METATILE_Building_TV_Off  0x002
 #define METATILE_Building_TV_On   0x003
 
+// gTileset_CafeDotCave
+#define METATILE_CafeDotCave_CaveEntrance_Bottom  0x20E
+
 // gTileset_CafeDotGeneral
 #define METATILE_CafeDotGeneral_CaveEntrance_Bottom  0x01F
 #define METATILE_CafeDotGeneral_Grass_TreeLeft       0x018

@@ -52,7 +52,15 @@
     "CDGJ_Route_SeaRoute",
     "CDGJ_NorthMerriwave",
     "CDGJ_Sea_Right",
-    "CDGJ_Cave"
+    "CDGJ_Cave",
+    "CDGJ_MerriwaveTown_House_2",
+    "CDGJ_MerriwaveTown_House_3",
+    "CDGJ_MerriwaveTown_House_4",
+    "CDGJ_NorthMerriwave_CaveHome",
+    "CDGJ_Berryroot_Woods_House",
+    "CDGJ_LakeArea_Mart",
+    "CDGJ_Merriwave_Town_Festive",
+    "testwarp"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

@@ -1,4 +1,105 @@
-raw `
-CDGJ_CaveExit_MapScripts::
-	.byte 0
-`
+mapscripts CDGJ_CaveExit_MapScripts {}
+
+script CDGJ_CaveExit_EventScript_Nurse {
+    faceplayer
+
+    msgbox("Do your Pokemon need healing?", MSGBOX_YESNO)
+
+    if (var(VAR_RESULT) == YES) {
+		call(Common_EventScript_OutOfCenterPartyHeal)
+		
+        msgbox("All healed up!")
+    }
+
+	waitmessage
+	closemessage
+
+    release
+    end
+}
+
+script CDGJ_CaveExit_EventScript_TrainerBattle1 {
+    trainerbattle_single(
+        TRAINER_GRUNT_SEAFLOOR_CAVERN_2,
+        "This place is perfect for getting in\nsome exercise!",
+        "I've gotta train some more!" 
+    )
+
+    msgbox("30 miles a day is the goal!")
+    waitmessage
+    closemessage
+
+    release
+
+    end
+}
+
+script CDGJ_CaveExit_EventScript_TrainerBattle2 {
+    trainerbattle_single(
+        TRAINER_GRUNT_SEAFLOOR_CAVERN_3,
+        "You're a new trainer, right? Me too!",
+        "Wow! Your Pokémon trusts you already." 
+    )
+
+    msgbox("Good luck out there! Catch'em all!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_CaveExit_EventScript_TrainerBattle3 {
+    trainerbattle_single(
+        TRAINER_GABRIELLE_1,
+        "You're a new trainer, right? Me too!",
+        "Wow! Your Pokémon trusts you already." 
+    )
+
+    msgbox("Good luck out there! Catch'em all!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_CaveExit_EventScript_TrainerBattle4 {
+    trainerbattle_single(
+        TRAINER_MARCEL,
+        "You're a new trainer, right? Me too!",
+        "Wow! Your Pokémon trusts you already." 
+    )
+
+    msgbox("Good luck out there! Catch'em all!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_CaveExit_EventScript_TrainerBattle5 {
+    trainerbattle_single(
+        TRAINER_GRUNT_PETALBURG_WOODS,
+        "You're a new trainer, right? Me too!",
+        "Wow! Your Pokémon trusts you already." 
+    )
+
+    msgbox("Good luck out there! Catch'em all!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_CaveExit_EventScript_TrainerBattle6 {
+    trainerbattle_single(
+        TRAINER_LEROY,
+        "You're a new trainer, right? Me too!",
+        "Wow! Your Pokémon trusts you already." 
+    )
+
+    msgbox("Good luck out there! Catch'em all!")
+    waitmessage
+    closemessage
+
+    end
+}

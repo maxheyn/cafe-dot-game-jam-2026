@@ -16,297 +16,297 @@ CDGJ_CafeDot_EventScript_NewGameIntro::
 	delay 60
 # 12 "data/maps/CDGJ_CafeDot/scripts.pory"
 	setvar VAR_CDGJ_INTRO_STATE, 1
-# 14 "data/maps/CDGJ_CafeDot/scripts.pory"
-	applymovement LOCALID_PLAYER, PlayerLoadsInWalksUp
+# 13 "data/maps/CDGJ_CafeDot/scripts.pory"
+	setflag FLAG_CDGJ_EXP_SHARE
 # 15 "data/maps/CDGJ_CafeDot/scripts.pory"
+	applymovement LOCALID_PLAYER, PlayerLoadsInWalksUp
+# 16 "data/maps/CDGJ_CafeDot/scripts.pory"
 	waitmovement 0
-# 18 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 19 "data/maps/CDGJ_CafeDot/scripts.pory"
 	applymovement 7, RivalIsShocked
-# 20 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 21 "data/maps/CDGJ_CafeDot/scripts.pory"
 	delay 60
-# 23 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_0
 # 24 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
+	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_0
 # 25 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 26 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-# 28 "data/maps/CDGJ_CafeDot/scripts.pory"
-	applymovement 7, RivalGreetsPlayer
 # 29 "data/maps/CDGJ_CafeDot/scripts.pory"
+	applymovement 7, RivalGreetsPlayer
+# 30 "data/maps/CDGJ_CafeDot/scripts.pory"
 	waitmovement 0
-# 31 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_1
 # 32 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
+	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_1
 # 33 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 34 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-# 36 "data/maps/CDGJ_CafeDot/scripts.pory"
-	applymovement LOCALID_PLAYER, PlayerWalksToSeatNextToRival
 # 37 "data/maps/CDGJ_CafeDot/scripts.pory"
-	applymovement 7, RivalWalksBackToSeat
+	applymovement LOCALID_PLAYER, PlayerWalksToSeatNextToRival
 # 38 "data/maps/CDGJ_CafeDot/scripts.pory"
+	applymovement 7, RivalWalksBackToSeat
+# 39 "data/maps/CDGJ_CafeDot/scripts.pory"
 	waitmovement LOCALID_PLAYER
-# 40 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_2
 # 41 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
+	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_2
 # 42 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 43 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-# 44 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_3
 # 45 "data/maps/CDGJ_CafeDot/scripts.pory"
+	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_3
+# 46 "data/maps/CDGJ_CafeDot/scripts.pory"
 	waitmessage
-# 47 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_4
 # 48 "data/maps/CDGJ_CafeDot/scripts.pory"
+	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_4
+# 49 "data/maps/CDGJ_CafeDot/scripts.pory"
 	waitmessage
-# 50 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_5
 # 51 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
+	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_5
 # 52 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 53 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-# 54 "data/maps/CDGJ_CafeDot/scripts.pory"
-	applymovement 7, RivalTakesABreather
 # 55 "data/maps/CDGJ_CafeDot/scripts.pory"
+	applymovement 7, RivalTakesABreather
+# 56 "data/maps/CDGJ_CafeDot/scripts.pory"
 	waitmovement 0
-# 57 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_6
 # 58 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
+	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_6
 # 59 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 60 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-# 61 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_7
 # 62 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
+	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_7
 # 63 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 64 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-# 65 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_8
 # 66 "data/maps/CDGJ_CafeDot/scripts.pory"
+	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_8
+# 67 "data/maps/CDGJ_CafeDot/scripts.pory"
 	waitmessage
-# 69 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_9
 # 70 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
+	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_9
 # 71 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 72 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-# 73 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_10
 # 74 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
+	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_10
 # 75 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 76 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-# 77 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_11
 # 78 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
+	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_11
 # 79 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 80 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-# 82 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 83 "data/maps/CDGJ_CafeDot/scripts.pory"
 	call CDGJ_CafeDot_EventScript_ChooseStarter
-# 84 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_12
 # 85 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
+	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_12
 # 86 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 87 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-# 88 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 89 "data/maps/CDGJ_CafeDot/scripts.pory"
 	delay 60
-# 90 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_13
 # 91 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
+	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_13
 # 92 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 93 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-# 94 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_14
 # 95 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
+	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_14
 # 96 "data/maps/CDGJ_CafeDot/scripts.pory"
-	closemessage
-# 99 "data/maps/CDGJ_CafeDot/scripts.pory"
-	applymovement 7, RivalLooksAtDoor
-# 100 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmovement 0
-# 102 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_15
-# 103 "data/maps/CDGJ_CafeDot/scripts.pory"
 	waitmessage
-# 104 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 97 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-# 106 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 100 "data/maps/CDGJ_CafeDot/scripts.pory"
+	applymovement 7, RivalLooksAtDoor
+# 101 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmovement 0
+# 103 "data/maps/CDGJ_CafeDot/scripts.pory"
+	msgbox CDGJ_CafeDot_EventScript_NewGameIntro_Text_15
+# 104 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 105 "data/maps/CDGJ_CafeDot/scripts.pory"
+	closemessage
+# 107 "data/maps/CDGJ_CafeDot/scripts.pory"
 	delay 60
-# 108 "data/maps/CDGJ_CafeDot/scripts.pory"
-	applymovement 7, RivalLeavesBuilding
 # 109 "data/maps/CDGJ_CafeDot/scripts.pory"
+	applymovement 7, RivalLeavesBuilding
+# 110 "data/maps/CDGJ_CafeDot/scripts.pory"
 	waitmovement
-# 111 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 112 "data/maps/CDGJ_CafeDot/scripts.pory"
 	removeobject 7
-# 113 "data/maps/CDGJ_CafeDot/scripts.pory"
-	setflag FLAG_CDGJ_INTRO_COMPLETED
 # 114 "data/maps/CDGJ_CafeDot/scripts.pory"
+	setflag FLAG_CDGJ_INTRO_COMPLETED
+# 115 "data/maps/CDGJ_CafeDot/scripts.pory"
 	releaseall
 	end
 
 
 CDGJ_CafeDot_EventScript_ChooseStarter::
-# 120 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_ChooseStarter_Text_0
 # 121 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
+	msgbox CDGJ_CafeDot_EventScript_ChooseStarter_Text_0
 # 122 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
+# 123 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
-# 125 "data/maps/CDGJ_CafeDot/scripts.pory"
-	showmonpic SPECIES_PICHU, 10, 3
 # 126 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_ChooseStarter_Text_1, MSGBOX_YESNO
+	showmonpic SPECIES_APPLIN, 10, 3
 # 127 "data/maps/CDGJ_CafeDot/scripts.pory"
+	msgbox CDGJ_CafeDot_EventScript_ChooseStarter_Text_1, MSGBOX_YESNO
+# 128 "data/maps/CDGJ_CafeDot/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq CDGJ_CafeDot_EventScript_ChooseStarter_2
-# 145 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 146 "data/maps/CDGJ_CafeDot/scripts.pory"
 	hidemonpic
-# 148 "data/maps/CDGJ_CafeDot/scripts.pory"
-	showmonpic SPECIES_MIME_JR, 10, 3
 # 149 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_ChooseStarter_Text_2, MSGBOX_YESNO
+	showmonpic SPECIES_RIOLU, 10, 3
 # 150 "data/maps/CDGJ_CafeDot/scripts.pory"
+	msgbox CDGJ_CafeDot_EventScript_ChooseStarter_Text_2, MSGBOX_YESNO
+# 151 "data/maps/CDGJ_CafeDot/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq CDGJ_CafeDot_EventScript_ChooseStarter_5
-# 168 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 169 "data/maps/CDGJ_CafeDot/scripts.pory"
 	hidemonpic
-# 171 "data/maps/CDGJ_CafeDot/scripts.pory"
-	showmonpic SPECIES_TOGEPI, 10, 3
 # 172 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_ChooseStarter_Text_3, MSGBOX_YESNO
+	showmonpic SPECIES_TOGEPI, 10, 3
 # 173 "data/maps/CDGJ_CafeDot/scripts.pory"
+	msgbox CDGJ_CafeDot_EventScript_ChooseStarter_Text_3, MSGBOX_YESNO
+# 174 "data/maps/CDGJ_CafeDot/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq CDGJ_CafeDot_EventScript_ChooseStarter_8
-# 192 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 193 "data/maps/CDGJ_CafeDot/scripts.pory"
 	hidemonpic
-# 195 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_ChooseStarter_Text_4
 # 196 "data/maps/CDGJ_CafeDot/scripts.pory"
+	msgbox CDGJ_CafeDot_EventScript_ChooseStarter_Text_4
+# 197 "data/maps/CDGJ_CafeDot/scripts.pory"
 	call CDGJ_CafeDot_EventScript_ChooseStarter
 	return
 
 CDGJ_CafeDot_EventScript_ChooseStarter_2:
-# 128 "data/maps/CDGJ_CafeDot/scripts.pory"
-	givemon SPECIES_PICHU, 55, ITEM_POKE_BALL
-# 130 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 129 "data/maps/CDGJ_CafeDot/scripts.pory"
+	givemon SPECIES_APPLIN, 5, ITEM_ORAN_BERRY
+# 131 "data/maps/CDGJ_CafeDot/scripts.pory"
 	playfanfare MUS_OBTAIN_ITEM
-# 132 "data/maps/CDGJ_CafeDot/scripts.pory"
-	setmonmove 0, 0, MOVE_THUNDER_SHOCK
 # 133 "data/maps/CDGJ_CafeDot/scripts.pory"
-	setmonmove 0, 1, MOVE_CHARM
+	setmonmove 0, 0, MOVE_BULLET_SEED
 # 134 "data/maps/CDGJ_CafeDot/scripts.pory"
-	setmonmove 0, 2, MOVE_QUICK_ATTACK
+	setmonmove 0, 1, MOVE_WITHDRAW
 # 135 "data/maps/CDGJ_CafeDot/scripts.pory"
-	setmonmove 0, 3, MOVE_THUNDER_WAVE
-# 137 "data/maps/CDGJ_CafeDot/scripts.pory"
+	setmonmove 0, 2, MOVE_POUNCE
+# 136 "data/maps/CDGJ_CafeDot/scripts.pory"
+	setmonmove 0, 3, MOVE_DRAGON_CHEER
+# 138 "data/maps/CDGJ_CafeDot/scripts.pory"
 	hidemonpic
-# 139 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 140 "data/maps/CDGJ_CafeDot/scripts.pory"
 	setflag FLAG_SYS_POKEMON_GET
-# 141 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 142 "data/maps/CDGJ_CafeDot/scripts.pory"
 	call NicknamePartyMon
 	return
 
 CDGJ_CafeDot_EventScript_ChooseStarter_5:
-# 151 "data/maps/CDGJ_CafeDot/scripts.pory"
-	givemon SPECIES_MIME_JR, 55, ITEM_POKE_BALL
-# 153 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 152 "data/maps/CDGJ_CafeDot/scripts.pory"
+	givemon SPECIES_RIOLU, 5, ITEM_ORAN_BERRY
+# 154 "data/maps/CDGJ_CafeDot/scripts.pory"
 	playfanfare MUS_OBTAIN_ITEM
-# 155 "data/maps/CDGJ_CafeDot/scripts.pory"
-	setmonmove 0, 0, MOVE_CONFUSION
 # 156 "data/maps/CDGJ_CafeDot/scripts.pory"
-	setmonmove 0, 1, MOVE_COPYCAT
+	setmonmove 0, 0, MOVE_BULLET_PUNCH
 # 157 "data/maps/CDGJ_CafeDot/scripts.pory"
-	setmonmove 0, 2, MOVE_ENCORE
+	setmonmove 0, 1, MOVE_BULK_UP
 # 158 "data/maps/CDGJ_CafeDot/scripts.pory"
-	setmonmove 0, 3, MOVE_LIGHT_SCREEN
-# 160 "data/maps/CDGJ_CafeDot/scripts.pory"
+	setmonmove 0, 2, MOVE_QUICK_ATTACK
+# 159 "data/maps/CDGJ_CafeDot/scripts.pory"
+	setmonmove 0, 3, MOVE_POISON_JAB
+# 161 "data/maps/CDGJ_CafeDot/scripts.pory"
 	hidemonpic
-# 162 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 163 "data/maps/CDGJ_CafeDot/scripts.pory"
 	setflag FLAG_SYS_POKEMON_GET
-# 164 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 165 "data/maps/CDGJ_CafeDot/scripts.pory"
 	call NicknamePartyMon
 	return
 
 CDGJ_CafeDot_EventScript_ChooseStarter_8:
-# 174 "data/maps/CDGJ_CafeDot/scripts.pory"
-	givemon SPECIES_TOGEPI, 55, ITEM_POKE_BALL
-# 176 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 175 "data/maps/CDGJ_CafeDot/scripts.pory"
+	givemon SPECIES_TOGEPI, 5, ITEM_ORAN_BERRY
+# 177 "data/maps/CDGJ_CafeDot/scripts.pory"
 	playfanfare MUS_OBTAIN_ITEM
-# 178 "data/maps/CDGJ_CafeDot/scripts.pory"
-	setmonmove 0, 0, MOVE_FAIRY_WIND
 # 179 "data/maps/CDGJ_CafeDot/scripts.pory"
-	setmonmove 0, 1, MOVE_METRONOME
+	setmonmove 0, 0, MOVE_FAIRY_WIND
 # 180 "data/maps/CDGJ_CafeDot/scripts.pory"
-	setmonmove 0, 2, MOVE_SWEET_KISS
+	setmonmove 0, 1, MOVE_METRONOME
 # 181 "data/maps/CDGJ_CafeDot/scripts.pory"
-	setmonmove 0, 3, MOVE_ANCIENT_POWER
-# 183 "data/maps/CDGJ_CafeDot/scripts.pory"
+	setmonmove 0, 2, MOVE_METRONOME
+# 182 "data/maps/CDGJ_CafeDot/scripts.pory"
+	setmonmove 0, 3, MOVE_METRONOME
+# 184 "data/maps/CDGJ_CafeDot/scripts.pory"
 	hidemonpic
-# 185 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 186 "data/maps/CDGJ_CafeDot/scripts.pory"
 	setflag FLAG_SYS_POKEMON_GET
-# 187 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 188 "data/maps/CDGJ_CafeDot/scripts.pory"
 	call NicknamePartyMon
 	return
 
 
 NicknamePartyMon::
-# 202 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox NicknamePartyMon_Text_0, MSGBOX_YESNO
 # 203 "data/maps/CDGJ_CafeDot/scripts.pory"
+	msgbox NicknamePartyMon_Text_0, MSGBOX_YESNO
+# 204 "data/maps/CDGJ_CafeDot/scripts.pory"
 	hidemonpic
-# 205 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 206 "data/maps/CDGJ_CafeDot/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq NicknamePartyMon_1
 	return
 
 NicknamePartyMon_1:
-# 206 "data/maps/CDGJ_CafeDot/scripts.pory"
-	call Common_EventScript_GetGiftMonPartySlot
 # 207 "data/maps/CDGJ_CafeDot/scripts.pory"
+	call Common_EventScript_GetGiftMonPartySlot
+# 208 "data/maps/CDGJ_CafeDot/scripts.pory"
 	call Common_EventScript_NameReceivedPartyMon
 	return
 
 
-# 211 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 212 "data/maps/CDGJ_CafeDot/scripts.pory"
 PlayerLoadsInWalksUp:
-# 212 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 213 "data/maps/CDGJ_CafeDot/scripts.pory"
 	walk_up
-# 212 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 213 "data/maps/CDGJ_CafeDot/scripts.pory"
 	walk_up
 	step_end
 
-# 215 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 216 "data/maps/CDGJ_CafeDot/scripts.pory"
 RivalGreetsPlayer:
-# 216 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_down
-# 216 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 217 "data/maps/CDGJ_CafeDot/scripts.pory"
 	walk_down
 # 217 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_left
-# 217 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_left
-# 217 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_left
-# 217 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_left
-# 217 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_left
-# 217 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_down
+# 218 "data/maps/CDGJ_CafeDot/scripts.pory"
 	walk_left
 # 218 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_left
+# 218 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_left
+# 218 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_left
+# 218 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_left
+# 218 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_left
+# 219 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_down
 	step_end
 
-# 221 "data/maps/CDGJ_CafeDot/scripts.pory"
-RivalWalksBackToSeat:
 # 222 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_up
+RivalWalksBackToSeat:
 # 223 "data/maps/CDGJ_CafeDot/scripts.pory"
 	walk_right
 # 223 "data/maps/CDGJ_CafeDot/scripts.pory"
@@ -321,6 +321,8 @@ RivalWalksBackToSeat:
 	walk_right
 # 224 "data/maps/CDGJ_CafeDot/scripts.pory"
 	walk_up
+# 224 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_up
 # 225 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_right
 	step_end
@@ -328,35 +330,37 @@ RivalWalksBackToSeat:
 # 228 "data/maps/CDGJ_CafeDot/scripts.pory"
 PlayerWalksToSeatNextToRival:
 # 229 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_right
+# 229 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_right
+# 229 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_right
+# 229 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_right
+# 229 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_right
+# 229 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_right
+# 229 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_right
+# 229 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_right
+# 230 "data/maps/CDGJ_CafeDot/scripts.pory"
 	walk_up
 # 230 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_right
+	walk_up
 # 230 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_right
-# 230 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_right
-# 230 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_right
-# 230 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_right
-# 230 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_right
-# 230 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_right
-# 230 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_right
+	walk_up
 # 231 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_up
-# 231 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_up
-# 232 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_left
 	step_end
 
-# 235 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 234 "data/maps/CDGJ_CafeDot/scripts.pory"
 RivalTakesABreather:
-# 236 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 235 "data/maps/CDGJ_CafeDot/scripts.pory"
 	walk_down
+# 236 "data/maps/CDGJ_CafeDot/scripts.pory"
+	delay_16
 # 237 "data/maps/CDGJ_CafeDot/scripts.pory"
 	delay_16
 # 238 "data/maps/CDGJ_CafeDot/scripts.pory"
@@ -364,99 +368,106 @@ RivalTakesABreather:
 # 239 "data/maps/CDGJ_CafeDot/scripts.pory"
 	delay_16
 # 240 "data/maps/CDGJ_CafeDot/scripts.pory"
-	delay_16
-# 241 "data/maps/CDGJ_CafeDot/scripts.pory"
 	walk_up
-# 242 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 241 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_right
 	step_end
 
-# 245 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 244 "data/maps/CDGJ_CafeDot/scripts.pory"
 RivalIsShocked:
-# 246 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 245 "data/maps/CDGJ_CafeDot/scripts.pory"
 	emote_exclamation_mark
+# 246 "data/maps/CDGJ_CafeDot/scripts.pory"
+	delay_16
 # 247 "data/maps/CDGJ_CafeDot/scripts.pory"
-	delay_16
-# 248 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_left
+# 248 "data/maps/CDGJ_CafeDot/scripts.pory"
+	delay_16
 # 249 "data/maps/CDGJ_CafeDot/scripts.pory"
-	delay_16
-# 250 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_right
-# 251 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 250 "data/maps/CDGJ_CafeDot/scripts.pory"
 	delay_16
-# 252 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 251 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_down
 	step_end
 
-# 255 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 254 "data/maps/CDGJ_CafeDot/scripts.pory"
 RivalLooksAtPokemon:
-# 256 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 255 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_up
 	step_end
 
-# 259 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 258 "data/maps/CDGJ_CafeDot/scripts.pory"
 RivalLooksAtDoor:
-# 260 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 259 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_down
 	step_end
 
-# 263 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 262 "data/maps/CDGJ_CafeDot/scripts.pory"
 RivalLeavesBuilding:
-# 264 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 263 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_down
+# 263 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_down
+# 263 "data/maps/CDGJ_CafeDot/scripts.pory"
 	walk_down
 # 264 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_down
+	walk_left
 # 264 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_left
+# 264 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_left
+# 264 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_left
+# 264 "data/maps/CDGJ_CafeDot/scripts.pory"
+	walk_left
+# 265 "data/maps/CDGJ_CafeDot/scripts.pory"
 	walk_down
 # 265 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_left
-# 265 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_left
-# 265 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_left
-# 265 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_left
-# 265 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_left
-# 266 "data/maps/CDGJ_CafeDot/scripts.pory"
 	walk_down
-# 266 "data/maps/CDGJ_CafeDot/scripts.pory"
-	walk_down
-# 266 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 265 "data/maps/CDGJ_CafeDot/scripts.pory"
 	walk_down
 	step_end
 
-CDGJ_CafeDot_EventScript_Patron_Pikachu_Dialogue::
-# 273 "data/maps/CDGJ_CafeDot/scripts.pory"
-	applymovement 5, EmoteExclamationMark
+CDGJ_CafeDot_EventScript_Patron_STORYMODE_Dialogue::
+# 272 "data/maps/CDGJ_CafeDot/scripts.pory"
+	lockall
 # 274 "data/maps/CDGJ_CafeDot/scripts.pory"
+	applymovement LOCALID_CAFE_PATRON_3, FacePlayer
+# 275 "data/maps/CDGJ_CafeDot/scripts.pory"
 	waitmovement
-# 276 "data/maps/CDGJ_CafeDot/scripts.pory"
-	delay 30
+# 277 "data/maps/CDGJ_CafeDot/scripts.pory"
+	msgbox CDGJ_CafeDot_EventScript_Patron_STORYMODE_Dialogue_Text_0, MSGBOX_YESNO
 # 278 "data/maps/CDGJ_CafeDot/scripts.pory"
-	playmoncry SPECIES_PIKACHU, CRY_MODE_NORMAL
-# 280 "data/maps/CDGJ_CafeDot/scripts.pory"
-	applymovement 5, FacePlayer
+	waitmessage
+# 279 "data/maps/CDGJ_CafeDot/scripts.pory"
+	closemessage
 # 281 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmovement
-# 283 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_Patron_Pikachu_Dialogue_Text_0
-# 284 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
-# 285 "data/maps/CDGJ_CafeDot/scripts.pory"
-	closemessage
-# 287 "data/maps/CDGJ_CafeDot/scripts.pory"
-	delay 30
+	compare VAR_RESULT, YES
+	goto_if_eq CDGJ_CafeDot_EventScript_Patron_STORYMODE_Dialogue_2
+# 288 "data/maps/CDGJ_CafeDot/scripts.pory"
+	msgbox CDGJ_CafeDot_EventScript_Patron_STORYMODE_Dialogue_Text_1
 # 289 "data/maps/CDGJ_CafeDot/scripts.pory"
-	msgbox CDGJ_CafeDot_EventScript_Patron_Pikachu_Dialogue_Text_1
-# 290 "data/maps/CDGJ_CafeDot/scripts.pory"
 	waitmessage
-# 291 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 290 "data/maps/CDGJ_CafeDot/scripts.pory"
 	closemessage
+CDGJ_CafeDot_EventScript_Patron_STORYMODE_Dialogue_1:
 # 293 "data/maps/CDGJ_CafeDot/scripts.pory"
 	releaseall
 	end
+
+CDGJ_CafeDot_EventScript_Patron_STORYMODE_Dialogue_2:
+# 282 "data/maps/CDGJ_CafeDot/scripts.pory"
+	giveitem ITEM_RARE_CANDY, 999
+# 283 "data/maps/CDGJ_CafeDot/scripts.pory"
+	giveitem ITEM_ULTRA_BALL, 999
+# 284 "data/maps/CDGJ_CafeDot/scripts.pory"
+	giveitem ITEM_FULL_RESTORE, 999
+# 285 "data/maps/CDGJ_CafeDot/scripts.pory"
+	giveitem ITEM_MAX_REVIVE, 999
+# 286 "data/maps/CDGJ_CafeDot/scripts.pory"
+	giveitem ITEM_MAX_REPEL, 999
+	goto CDGJ_CafeDot_EventScript_Patron_STORYMODE_Dialogue_1
 
 
 CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue::
@@ -607,128 +618,134 @@ FaceUp:
 	step_end
 
 # 403 "data/maps/CDGJ_CafeDot/scripts.pory"
-JumpInPlace:
+FaceOriginalDirection:
 # 404 "data/maps/CDGJ_CafeDot/scripts.pory"
-	face_player
-# 405 "data/maps/CDGJ_CafeDot/scripts.pory"
-	jump_in_place_down
-# 406 "data/maps/CDGJ_CafeDot/scripts.pory"
-	jump_in_place_down
+	face_original_direction
+	step_end
+
 # 407 "data/maps/CDGJ_CafeDot/scripts.pory"
-	jump_in_place_down
+JumpInPlace:
 # 408 "data/maps/CDGJ_CafeDot/scripts.pory"
+	face_player
+# 409 "data/maps/CDGJ_CafeDot/scripts.pory"
+	jump_in_place_down
+# 410 "data/maps/CDGJ_CafeDot/scripts.pory"
+	jump_in_place_down
+# 411 "data/maps/CDGJ_CafeDot/scripts.pory"
+	jump_in_place_down
+# 412 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_player
 	step_end
 
 CDGJ_CafeDot_EventScript_Item_OnTable::
-# 415 "data/maps/CDGJ_CafeDot/scripts.pory"
-	giveitem ITEM_MOOMOO_MILK, 1
-# 416 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
-# 417 "data/maps/CDGJ_CafeDot/scripts.pory"
-	closemessage
 # 419 "data/maps/CDGJ_CafeDot/scripts.pory"
-	setflag FLAG_CDGJ_OBTAIN_CAFE_DOT_MOOMOO_MILK
+	giveitem ITEM_MOOMOO_MILK, 1
+# 420 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
 # 421 "data/maps/CDGJ_CafeDot/scripts.pory"
+	closemessage
+# 423 "data/maps/CDGJ_CafeDot/scripts.pory"
+	setflag FLAG_CDGJ_OBTAIN_CAFE_DOT_MOOMOO_MILK
+# 425 "data/maps/CDGJ_CafeDot/scripts.pory"
 	removeobject 6
 	end
 
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_0:
-# 23 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 24 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "...\pHey!$"
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_1:
-# 31 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 32 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "{PLAYER}!\pYou made it!\p...\pI was hoping we could meet\nsomewhere quiet.$"
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_2:
-# 40 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 41 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "Have you heard the news yet?$"
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_3:
-# 44 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 45 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "I guess I should say it\nout loud...\p...\p...$"
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_4:
-# 47 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 48 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "I'm retiring.\nFrom the Gym.$"
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_5:
-# 50 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 51 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "Today's my last day as Merriwave\ngym leader.\pThe festival of thanks is tonight.\pEveryone's been really kind\nabout retirement. Truly.$"
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_6:
-# 57 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 58 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "Honestly, I think being Champion\nwas easier.$"
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_7:
-# 61 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 62 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "Y'know, before I decided to be\na gym leader instead.$"
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_8:
-# 65 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 66 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "I didn't have as many\nresponsibilities to the town\llike I do now...\pBattles are easy. They have rules.\pPeople don't.$"
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_9:
-# 69 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 70 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "Anyway.$"
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_10:
-# 73 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 74 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "I didn't just ask you here to\nunload all that!$"
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_11:
-# 77 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 78 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "I wanted to give you something!$"
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_12:
-# 84 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 85 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "Good choice.$"
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_13:
-# 90 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 91 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "You know...$"
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_14:
-# 94 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 95 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "It's never too late to start\nbeing a trainer.$"
 
 CDGJ_CafeDot_EventScript_NewGameIntro_Text_15:
-# 102 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 103 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "Let's step outside for a minute.$"
 
 CDGJ_CafeDot_EventScript_ChooseStarter_Text_0:
-# 120 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 121 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "Take your time.\pThey're all good Pokémon.$"
 
 CDGJ_CafeDot_EventScript_ChooseStarter_Text_1:
-# 126 "data/maps/CDGJ_CafeDot/scripts.pory"
-	.string "Pichu, the Tiny Mouse Pokémon.\pDo you want this Pokémon?$"
+# 127 "data/maps/CDGJ_CafeDot/scripts.pory"
+	.string "Applin, the Apple Core Pokémon.\pDo you want this Pokémon?$"
 
 CDGJ_CafeDot_EventScript_ChooseStarter_Text_2:
-# 149 "data/maps/CDGJ_CafeDot/scripts.pory"
-	.string "Mime Jr., the Mime Pokémon.\pDo you want this Pokémon?$"
+# 150 "data/maps/CDGJ_CafeDot/scripts.pory"
+	.string "Riolu, the Emanation Pokémon.\pDo you want this Pokémon?$"
 
 CDGJ_CafeDot_EventScript_ChooseStarter_Text_3:
-# 172 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 173 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "Togepi, the Spike Ball Pokémon.\pDo you want this Pokémon?$"
 
 CDGJ_CafeDot_EventScript_ChooseStarter_Text_4:
-# 195 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 196 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "Take another look!$"
 
 NicknamePartyMon_Text_0:
-# 202 "data/maps/CDGJ_CafeDot/scripts.pory"
+# 203 "data/maps/CDGJ_CafeDot/scripts.pory"
 	.string "Nickname your new Pokémon?$"
 
-CDGJ_CafeDot_EventScript_Patron_Pikachu_Dialogue_Text_0:
-# 283 "data/maps/CDGJ_CafeDot/scripts.pory"
-	.string "Piiiikaaa!$"
+CDGJ_CafeDot_EventScript_Patron_STORYMODE_Dialogue_Text_0:
+# 277 "data/maps/CDGJ_CafeDot/scripts.pory"
+	.string "(Story Mode) Do you want to play\non story mode?\pThis will give you some optional\nitems to make your time easier in\pthis ROM Hack.\nNot recommended for best experience.$"
 
-CDGJ_CafeDot_EventScript_Patron_Pikachu_Dialogue_Text_1:
-# 289 "data/maps/CDGJ_CafeDot/scripts.pory"
-	.string "Wow... who painted this Pikachu?$"
+CDGJ_CafeDot_EventScript_Patron_STORYMODE_Dialogue_Text_1:
+# 288 "data/maps/CDGJ_CafeDot/scripts.pory"
+	.string "Enjoy playing!$"
 
 CDGJ_CafeDot_EventScript_Patron_Poochy_Dialogue_Text_0:
 # 304 "data/maps/CDGJ_CafeDot/scripts.pory"

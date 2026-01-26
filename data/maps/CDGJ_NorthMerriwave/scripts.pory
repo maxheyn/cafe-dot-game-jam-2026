@@ -1,21 +1,71 @@
 mapscripts CDGJ_NorthMerriwave_MapScripts {}
 
 script CDGJ_NorthMerriwave_EventScript_CaveSign {
+    lockall
+
 	msgbox("Flowstone Cave ahead")
 	waitmessage
 	closemessage
+
+    releaseall
+
+    end
 }
 
 script CDGJ_NorthMerriwave_EventScript_AlcoveSign {
+    lockall
+
 	msgbox("Please keep out of my garden!\p… … … … … … …\p… … … … … … …\p… … … … … … …\p… … … … … … …\p… … whose garden?")
 	waitmessage
 	closemessage
+
+    releaseall
+
+    end
 }
 
 script CDGJ_NorthMerriwave_EventScript_HotelSign {
+    lockall
+
 	msgbox("North Merriwave Hotel\n… … Closed for renovations!")
 	waitmessage
 	closemessage
+
+    releaseall
+
+    end
+}
+
+script CDGJ_NorthMerriwave_EventScript_RouteGreeter {
+    lockall
+
+	msgbox("Headed out of town? Careful\nup ahead! The paths get rocky!")
+	waitmessage
+    closemessage
+    
+    delay(30)
+
+    msgbox("Ah, you're helping with the\nfestival's soup?\pThe Pokémon will be thrilled!")
+	waitmessage
+	closemessage
+
+    releaseall
+
+    end
+}
+
+script CDGJ_NorthMerriwave_EventScript_NPCInfrontOfCave {
+    lockall
+
+    faceplayer
+
+	msgbox("Cave leads up through the mountain!\nSafe travels!")
+	waitmessage
+    closemessage
+
+    releaseall
+
+    end
 }
 
 script CDGJ_NorthMerriwave_EventScript_TrainerBattle1 {
@@ -29,5 +79,120 @@ script CDGJ_NorthMerriwave_EventScript_TrainerBattle1 {
     waitmessage
     closemessage
 
+    end
+}
+
+script CDGJ_NorthMerriwave_EventScript_TrainerBattle2 {
+    trainerbattle_single(
+        TRAINER_GRUNT_SEAFLOOR_CAVERN_1,
+        "I heard some lady is giving out\nshells by the seashore!",
+        "Awww man, I just caught these!" 
+    )
+
+    msgbox("Walk walk walk walk walk walk...!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_NorthMerriwave_EventScript_TrainerBattle3 {
+    trainerbattle_single(
+        TRAINER_ROSE_2,
+        "Ah, the great outdoors!" ,
+        "Nothin' like a little bit of fishing!"
+    )
+
+    msgbox("One day, these Magikarp will grow\nbig and strong!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+
+script CDGJ_NorthMerriwave_EventScript_Item1 {
+	giveitem(ITEM_POKE_BALL, 10)
+	waitmessage
+	closemessage
+
+	setflag(FLAG_CDGJ_OBTAIN_NORTHMERRIWAVE_ITEM1)
+
+	removeobject(LOCALID_ITEM1)
+
+	end
+}
+
+script CDGJ_NorthMerriwave_EventScript_Item2 {
+	giveitem(ITEM_EVIOLITE, 1)
+	waitmessage
+	closemessage
+
+	setflag(FLAG_CDGJ_OBTAIN_NORTHMERRIWAVE_ITEM2)
+
+	removeobject(LOCALID_ITEM2)
+
+	end
+}
+
+script CDGJ_NorthMerriwave_EventScript_NoCanPass {
+    lockall
+
+    applymovement(LOCALID_TOLL_GUARD, GuardApproachesPlayer)
+    waitmovement
+    
+    delay(30)
+
+    msgbox("Can't pass here right now.\nDoing road checks to make sure\pthat everything is safe for the\nfestival! Stay safe out there!")
+    waitmessage
+    closemessage
+
+    delay(30)
+
+    applymovement(LOCALID_TOLL_GUARD, GuardGoesBack)
+    applymovement(LOCALID_PLAYER, PlayerBacksUp)
+
+    waitmovement(LOCALID_TOLL_GUARD)
+
+    releaseall
+}
+
+movement GuardApproachesPlayer {
+    emote_exclamation_mark
+    delay_16
+    delay_16
+    walk_right
+}
+
+movement PlayerBacksUp {
+    lock_facing_direction
+    walk_fast_right
+    unlock_facing_direction
+}
+
+movement GuardGoesBack {
+    walk_left
+    face_right
+}
+
+script CDGJ_NorthMerriwave_EventScript_WarpLogic1 {
+    setvar(VAR_TEMP_1, 1)
+    if (flag(FLAG_CDGJ_WATER_GET)) {
+        warp(MAP_TESTWARP, 1)
+    } else {
+        warp(MAP_MERRIWAVE_TOWN, 1)
+    }
+    waitstate
+    end
+}
+
+script CDGJ_NorthMerriwave_EventScript_WarpLogic2 {
+    setvar(VAR_TEMP_1, 1)
+    if (flag(FLAG_CDGJ_WATER_GET)) {
+        warp(MAP_MERRIWAVE_TOWN, 1)
+    } else {
+        warp(MAP_TESTWARP, 1)
+    }
+    waitstate
     end
 }

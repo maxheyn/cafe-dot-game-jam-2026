@@ -210,3 +210,12 @@ const u16 gMetatileAttributes_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/
 
 const u16 gMetatiles_CafeDotGeneral[] = INCBIN_U16("data/tilesets/primary/cafe_dot_general/metatiles.bin");
 const u16 gMetatileAttributes_CafeDotGeneral[] = INCBIN_U16("data/tilesets/primary/cafe_dot_general/metatile_attributes.bin");
+
+const u16 gMetatiles_CafeDotCave[] = INCBIN_U16("data/tilesets/secondary/cafe_dot_cave/metatiles.bin");
+const u16 gMetatileAttributes_CafeDotCave[] = INCBIN_U16("data/tilesets/secondary/cafe_dot_cave/metatile_attributes.bin");
+
+const u16 gMetatiles_CDGJ_Town[] = INCBIN_U16("data/tilesets/secondary/cdgj_town/metatiles.bin");
+const u16 gMetatileAttributes_CDGJ_Town[] = INCBIN_U16("data/tilesets/secondary/cdgj_town/metatile_attributes.bin");
+
+const u16 gMetatiles_CDGJ_INTERIOR[] = INCBIN_U16("data/tilesets/secondary/cdgj_interior/metatiles.bin");
+const u16 gMetatileAttributes_CDGJ_INTERIOR[] = INCBIN_U16("data/tilesets/secondary/cdgj_interior/metatile_attributes.bin");

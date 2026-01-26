@@ -1,4 +1,117 @@
-raw `
-CDGJ_Route_101_Extended_MapScripts::
-	.byte 0
-`
+mapscripts CDGJ_Route_101_Extended_MapScripts {}
+
+script CDGJ_Route_101_Extended_EventScript_TrainerBattle1 {
+    trainerbattle_single(
+        TRAINER_GRUNT_SEAFLOOR_CAVERN_4,
+        "You're a new trainer, right? Me too!",
+        "Wow! Your Pokémon trusts you already." 
+    )
+
+    msgbox("Good luck out there! Catch'em all!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_Route_101_Extended_EventScript_TrainerBattle2 {
+    trainerbattle_single(
+        TRAINER_ALBERTO,
+        "You're a new trainer, right? Me too!",
+        "Wow! Your Pokémon trusts you already." 
+    )
+
+    msgbox("Good luck out there! Catch'em all!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_Route_101_Extended_EventScript_TrainerBattle3 {
+    trainerbattle_single(
+        TRAINER_ED,
+        "You're a new trainer, right? Me too!",
+        "Wow! Your Pokémon trusts you already." 
+    )
+
+    msgbox("Good luck out there! Catch'em all!")
+    waitmessage
+    closemessage
+
+    end
+}
+
+script CDGJ_Route_101_Extended_EventScript_BikePerson_Dialogue {
+	applymovement(LOCALID_MP_BIKEPERSON, FacePlayer)
+
+    if (flag(FLAG_CDGJ_MACH_BIKE_GET)) {
+        msgbox("I didn't even want a bike.\nI wanted a car!")
+    } else {
+        msgbox("Bikers get injured on this trail all\nthe time. I'm too scared to ride\pmy own bike here. Here, you take it.")
+
+
+        giveitem(ITEM_MACH_BIKE)
+        setflag(FLAG_CDGJ_MACH_BIKE_GET)
+    }
+
+    waitmessage
+    closemessage
+	
+	releaseall
+
+	end
+}
+
+script CDGJ_Route_101_Extended_EventScript_LedgePerson_Dialogue {
+	applymovement(LOCALID_HELP_GO_DOWN, FacePlayer)
+
+    msgbox("Jumping down this ledge will get you\nback to Merriwave Town.\pBut be careful because it's not\nso straightfoward back up!")
+
+    waitmessage
+    closemessage
+
+    applymovement(LOCALID_HELP_GO_DOWN, FaceDown)
+	
+	releaseall
+
+	end
+}
+
+script CDGJ_Route_101_Extended_EventScript_Item1 {
+	giveitem(ITEM_LIFE_ORB, 1)
+	waitmessage
+	closemessage
+
+	setflag(FLAG_CDGJ_OBTAIN_MOUNTAINPASS_ITEM1)
+
+	removeobject(LOCALID_MP_ITEM1)
+
+	end
+}
+
+
+script CDGJ_Route_101_Extended_EventScript_Item2 {
+	giveitem(ITEM_KINGS_ROCK, 1)
+	waitmessage
+	closemessage
+
+	setflag(FLAG_CDGJ_OBTAIN_MOUNTAINPASS_ITEM2)
+
+	removeobject(LOCALID_MP_ITEM2)
+
+	end
+}
+
+
+script CDGJ_Route_101_Extended_EventScript_Item3 {
+	giveitem(ITEM_LEFTOVERS, 1)
+	waitmessage
+	closemessage
+
+	setflag(FLAG_CDGJ_OBTAIN_MOUNTAINPASS_ITEM3)
+
+	removeobject(LOCALID_MP_ITEM3)
+
+	end
+}

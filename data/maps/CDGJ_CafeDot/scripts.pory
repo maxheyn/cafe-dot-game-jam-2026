@@ -10,6 +10,7 @@ script CDGJ_CafeDot_EventScript_NewGameIntro {
 	delay(60)
 	
 	setvar(VAR_CDGJ_INTRO_STATE, 1)
+	setflag(FLAG_CDGJ_EXP_SHARE)
 
 	applymovement(LOCALID_PLAYER, PlayerLoadsInWalksUp)
 	waitmovement(0)
@@ -122,17 +123,17 @@ script CDGJ_CafeDot_EventScript_ChooseStarter {
 	closemessage
 
 	// Show Pichu
-	showmonpic(SPECIES_PICHU, 10, 3)
-	msgbox("Pichu, the Tiny Mouse Pokémon.\pDo you want this Pokémon?", MSGBOX_YESNO)
+	showmonpic(SPECIES_APPLIN, 10, 3)
+	msgbox("Applin, the Apple Core Pokémon.\pDo you want this Pokémon?", MSGBOX_YESNO)
 	if (var(VAR_RESULT) == YES) {
-		givemon(SPECIES_PICHU, 55, ITEM_POKE_BALL)
+		givemon(SPECIES_APPLIN, 5, ITEM_ORAN_BERRY)
 
 		playfanfare(MUS_OBTAIN_ITEM)
 
-		setmonmove(0, 0, MOVE_THUNDER_SHOCK)
-		setmonmove(0, 1, MOVE_CHARM)
-		setmonmove(0, 2, MOVE_QUICK_ATTACK)
-		setmonmove(0, 3, MOVE_THUNDER_WAVE)
+		setmonmove(0, 0, MOVE_BULLET_SEED)
+		setmonmove(0, 1, MOVE_WITHDRAW)
+		setmonmove(0, 2, MOVE_POUNCE)
+		setmonmove(0, 3, MOVE_DRAGON_CHEER)
 
 		hidemonpic
 
@@ -145,17 +146,17 @@ script CDGJ_CafeDot_EventScript_ChooseStarter {
 	hidemonpic
 	
 	// Show Mime Jr.
-	showmonpic(SPECIES_MIME_JR, 10, 3)
-	msgbox("Mime Jr., the Mime Pokémon.\pDo you want this Pokémon?", MSGBOX_YESNO)
+	showmonpic(SPECIES_RIOLU, 10, 3)
+	msgbox("Riolu, the Emanation Pokémon.\pDo you want this Pokémon?", MSGBOX_YESNO)
 	if (var(VAR_RESULT) == YES) {
-		givemon(SPECIES_MIME_JR, 55, ITEM_POKE_BALL)
+		givemon(SPECIES_RIOLU, 5, ITEM_ORAN_BERRY)
 
 		playfanfare(MUS_OBTAIN_ITEM)
 
-		setmonmove(0, 0, MOVE_CONFUSION)
-		setmonmove(0, 1, MOVE_COPYCAT)
-		setmonmove(0, 2, MOVE_ENCORE)
-		setmonmove(0, 3, MOVE_LIGHT_SCREEN)
+		setmonmove(0, 0, MOVE_BULLET_PUNCH)
+		setmonmove(0, 1, MOVE_BULK_UP)
+		setmonmove(0, 2, MOVE_QUICK_ATTACK)
+		setmonmove(0, 3, MOVE_POISON_JAB)
 		
 		hidemonpic
 		
@@ -171,14 +172,14 @@ script CDGJ_CafeDot_EventScript_ChooseStarter {
 	showmonpic(SPECIES_TOGEPI, 10, 3)
 	msgbox("Togepi, the Spike Ball Pokémon.\pDo you want this Pokémon?", MSGBOX_YESNO)
 	if (var(VAR_RESULT) == YES) {
-		givemon(SPECIES_TOGEPI, 55, ITEM_POKE_BALL)
+		givemon(SPECIES_TOGEPI, 5, ITEM_ORAN_BERRY)
 		
 		playfanfare(MUS_OBTAIN_ITEM)
 		
 		setmonmove(0, 0, MOVE_FAIRY_WIND)
 		setmonmove(0, 1, MOVE_METRONOME)
-		setmonmove(0, 2, MOVE_SWEET_KISS)
-		setmonmove(0, 3, MOVE_ANCIENT_POWER)
+		setmonmove(0, 2, MOVE_METRONOME)
+		setmonmove(0, 3, MOVE_METRONOME)
 		
 		hidemonpic
 		
@@ -219,16 +220,14 @@ movement RivalGreetsPlayer {
 }
 
 movement RivalWalksBackToSeat {
-	walk_up * 1
 	walk_right * 6
-	walk_up
+	walk_up * 2
 	face_right
 }
 
 movement PlayerWalksToSeatNextToRival {
-	walk_up * 1
 	walk_right * 8
-	walk_up * 2
+	walk_up * 3
 	face_left
 }
 
@@ -269,26 +268,27 @@ movement RivalLeavesBuilding {
 // ============================================================
 // PATRON DIALOGUE STUFF
 // ============================================================
-script CDGJ_CafeDot_EventScript_Patron_Pikachu_Dialogue {
-	applymovement(5, EmoteExclamationMark)
-	waitmovement
+script CDGJ_CafeDot_EventScript_Patron_STORYMODE_Dialogue {
+	lockall
 
-	delay(30)
-
-	playmoncry(SPECIES_PIKACHU, CRY_MODE_NORMAL)
-
-	applymovement(5, FacePlayer)
+	applymovement(LOCALID_CAFE_PATRON_3, FacePlayer)
 	waitmovement
 	
-	msgbox("Piiiikaaa!")	
+	msgbox("(Story Mode) Do you want to play\non story mode?\pThis will give you some optional\nitems to make your time easier in\pthis ROM Hack.\nNot recommended for best experience.", MSGBOX_YESNO)	
 	waitmessage
 	closemessage
 
-	delay(30)
-
-	msgbox("Wow... who painted this Pikachu?")
-	waitmessage
-	closemessage
+	if (var(VAR_RESULT) == YES) {
+		giveitem(ITEM_RARE_CANDY, 999)
+		giveitem(ITEM_ULTRA_BALL, 999)
+		giveitem(ITEM_FULL_RESTORE, 999)
+		giveitem(ITEM_MAX_REVIVE, 999)
+		giveitem(ITEM_MAX_REPEL, 999)
+	} else {
+		msgbox("Enjoy playing!")
+		waitmessage
+		closemessage
+	}
 
 	releaseall
 	
@@ -398,6 +398,10 @@ movement FaceDown {
 
 movement FaceUp {
 	face_up
+}
+
+movement FaceOriginalDirection {
+	face_original_direction
 }
 
 movement JumpInPlace {

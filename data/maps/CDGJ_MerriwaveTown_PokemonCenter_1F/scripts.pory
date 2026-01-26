@@ -1,4 +1,8 @@
-raw `
-CDGJ_MerriwaveTown_PokemonCenter_1F_MapScripts::
-	.byte 0
-`
+mapscripts CDGJ_MerriwaveTown_PokemonCenter_1F_MapScripts {}
+
+
+script CDGJ_MerriwaveTown_PokemonCenter_1F_Nurse {
+    setvar(VAR_0x800B, 0)
+    call(Common_EventScript_PkmnCenterNurse)
+    end
+}

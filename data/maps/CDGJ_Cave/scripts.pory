@@ -96,3 +96,65 @@ script CDGJ_Cave_EventScript_RockSmashGuy {
     release
     end
 }
+
+script CDGJ_Cave_EventScript_Item1 {
+	giveitem(ITEM_QUICK_CLAW, 1)
+	waitmessage
+	closemessage
+
+	setflag(FLAG_CDGJ_OBTAIN_CAVE_ITEM1)
+
+	removeobject(LOCALID_ITEM1_CAVE)
+
+	end
+}
+
+script CDGJ_Cave_EventScript_Item2 {
+	giveitem(ITEM_HARD_STONE, 1)
+	waitmessage
+	closemessage
+
+	setflag(FLAG_CDGJ_OBTAIN_CAVE_ITEM2)
+
+	removeobject(LOCALID_ITEM2_CAVE)
+
+	end
+}
+
+script CDGJ_Cave_EventScript_NPCInfrontOfCaveExit {
+    lockall
+
+    faceplayer
+
+	msgbox("Feeling hurt? I heard there's\na nurse outside the cave here!")
+	waitmessage
+    closemessage
+
+    releaseall
+
+    end
+}
+
+script CDGJ_Cave_EventScript_TriggerPlayerToGetRockItem {
+    if (flag(FLAG_CDGJ_HIDDEN_ITEM_CAVE_STORYITEM)) {
+        end
+    }
+
+    lockall
+    
+    msgbox("Hmm. I should look take a closer\nlook at that rock.")
+    waitmessage
+    closemessage
+
+    applymovement(LOCALID_PLAYER, ReturnToRockGuy)
+    waitmovement
+    
+    releaseall
+    
+    end
+}
+
+movement ReturnToRockGuy {
+    walk_up
+    face_left
+}

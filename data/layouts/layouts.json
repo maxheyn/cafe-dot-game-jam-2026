@@ -764,10 +764,10 @@
     {
       "id": "LAYOUT_PACIFIDLOG_TOWN_HOUSE1",
       "name": "PacifidlogTown_House1_Layout",
-      "width": 9,
-      "height": 10,
+      "width": 40,
+      "height": 80,
       "primary_tileset": "gTileset_CafeDotGeneral",
-      "secondary_tileset": "gTileset_Lavaridge",
+      "secondary_tileset": "gTileset_MauvilleGameCorner",
       "border_filepath": "data/layouts/PacifidlogTown_House1/border.bin",
       "blockdata_filepath": "data/layouts/PacifidlogTown_House1/map.bin"
     },
@@ -4417,7 +4417,7 @@
       "width": 60,
       "height": 40,
       "primary_tileset": "gTileset_CafeDotGeneral",
-      "secondary_tileset": "gTileset_Slateport",
+      "secondary_tileset": "gTileset_CDGJ_Town",
       "border_filepath": "data/layouts/CDGJ_Merriwave_Town/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_Merriwave_Town/map.bin"
     },
@@ -4427,7 +4427,7 @@
       "width": 20,
       "height": 13,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "secondary_tileset": "gTileset_CDGJ_INTERIOR",
       "border_filepath": "data/layouts/CDGJ_CafeDot/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_CafeDot/map.bin"
     },
@@ -4457,7 +4457,7 @@
       "width": 11,
       "height": 8,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "secondary_tileset": "gTileset_CDGJ_INTERIOR",
       "border_filepath": "data/layouts/CDGJ_MerriwaveTown_House/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_MerriwaveTown_House/map.bin"
     },
@@ -4494,10 +4494,10 @@
     {
       "id": "LAYOUT_NORTH_MERRIWAVE",
       "name": "North_Merriwave_Layout",
-      "width": 60,
+      "width": 64,
       "height": 40,
       "primary_tileset": "gTileset_CafeDotGeneral",
-      "secondary_tileset": "gTileset_Slateport",
+      "secondary_tileset": "gTileset_CDGJ_Town",
       "border_filepath": "data/layouts/CDGJ_NorthMerriwave/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_NorthMerriwave/map.bin"
     },
@@ -4517,7 +4517,7 @@
       "width": 50,
       "height": 50,
       "primary_tileset": "gTileset_CafeDotGeneral",
-      "secondary_tileset": "gTileset_Fortree",
+      "secondary_tileset": "gTileset_CDGJ_Town",
       "border_filepath": "data/layouts/CDGJ_CaveExit/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_CaveExit/map.bin"
     },
@@ -4547,7 +4547,7 @@
       "width": 50,
       "height": 50,
       "primary_tileset": "gTileset_CafeDotGeneral",
-      "secondary_tileset": "gTileset_Rustboro",
+      "secondary_tileset": "gTileset_CDGJ_Town",
       "border_filepath": "data/layouts/CDGJ_LakeArea/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_LakeArea/map.bin"
     },
@@ -4557,7 +4557,7 @@
       "width": 80,
       "height": 40,
       "primary_tileset": "gTileset_CafeDotGeneral",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_CDGJ_Town",
       "border_filepath": "data/layouts/CDGJ_ConnectingRoute/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_ConnectingRoute/map.bin"
     },
@@ -4566,10 +4566,90 @@
       "name": "CDGJ_Cave_Layout",
       "width": 40,
       "height": 40,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "primary_tileset": "gTileset_CafeDotGeneral",
+      "secondary_tileset": "gTileset_CafeDotCave",
       "border_filepath": "data/layouts/CDGJ_Cave/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_Cave/map.bin"
+    },
+    {
+      "id": "LAYOUT_CDGJ_MERRIWAVE_TOWN_HOUSE_4",
+      "name": "CDGJ_MerriwaveTown_House_4_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_CDGJ_INTERIOR",
+      "border_filepath": "data/layouts/CDGJ_MerriwaveTown_House_4/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_MerriwaveTown_House_4/map.bin"
+    },
+    {
+      "id": "LAYOUT_CDGJ_MERRIWAVE_TOWN_HOUSE_3",
+      "name": "CDGJ_MerriwaveTown_House_3_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_CDGJ_INTERIOR",
+      "border_filepath": "data/layouts/CDGJ_MerriwaveTown_House_3/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_MerriwaveTown_House_3/map.bin"
+    },
+    {
+      "id": "LAYOUT_CDGJ_MERRIWAVE_TOWN_HOUSE_2",
+      "name": "CDGJ_MerriwaveTown_House_2_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_CDGJ_INTERIOR",
+      "border_filepath": "data/layouts/CDGJ_MerriwaveTown_House_2/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_MerriwaveTown_House_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_CDGJ_NORTH_MERRIWAVE_CAVE_HOME",
+      "name": "CDGJ_NorthMerriwave_CaveHome_Layout",
+      "width": 9,
+      "height": 9,
+      "primary_tileset": "gTileset_CafeDotGeneral",
+      "secondary_tileset": "gTileset_CafeDotCave",
+      "border_filepath": "data/layouts/CDGJ_NorthMerriwave_CaveHome/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_NorthMerriwave_CaveHome/map.bin"
+    },
+    {
+      "id": "LAYOUT_CDGJ_BERRYROOT_WOODS_HOUSE",
+      "name": "CDGJ_Berryroot_Woods_House_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_CDGJ_INTERIOR",
+      "border_filepath": "data/layouts/CDGJ_Berryroot_Woods_House/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_Berryroot_Woods_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_CDGJ_LAKE_AREA_MART",
+      "name": "CDGJ_LakeArea_Mart_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/CDGJ_LakeArea_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_LakeArea_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_CDGJ_MERRIWAVE_TOWN_FESTIVE",
+      "name": "CDGJ_Merriwave_Town_Festive_Layout",
+      "width": 60,
+      "height": 40,
+      "primary_tileset": "gTileset_CafeDotGeneral",
+      "secondary_tileset": "gTileset_CDGJ_Town",
+      "border_filepath": "data/layouts/CDGJ_Merriwave_Town_Festive/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_Merriwave_Town_Festive/map.bin"
+    },
+    {
+      "id": "LAYOUT_TESTWARP",
+      "name": "testwarp_Layout",
+      "width": 60,
+      "height": 40,
+      "primary_tileset": "gTileset_CafeDotGeneral",
+      "secondary_tileset": "gTileset_CDGJ_Town",
+      "border_filepath": "data/layouts/testwarp/border.bin",
+      "blockdata_filepath": "data/layouts/testwarp/map.bin"
     }
   ]
 }

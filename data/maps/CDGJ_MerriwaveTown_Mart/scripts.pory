@@ -1,4 +1,41 @@
-raw `
-CDGJ_MerriwaveTown_Mart_MapScripts::
-	.byte 0
-`
+mapscripts CDGJ_MerriwaveTown_Mart_MapScripts {}
+
+mart CDGJ_MerriwaveTown_Mart_Items {
+    ITEM_POKE_BALL
+    ITEM_GREAT_BALL
+    ITEM_POTION
+    ITEM_SUPER_POTION
+    ITEM_ANTIDOTE
+    ITEM_PARALYZE_HEAL
+    ITEM_AWAKENING
+    ITEM_REPEL
+	ITEM_SUPER_REPEL
+}
+
+script CDGJ_MerriwaveTown_Mart_Clerk {
+	lock
+	faceplayer
+
+	pokemart(CDGJ_MerriwaveTown_Mart_Items)
+
+	msgbox("Come again!")
+
+	release
+	end
+}
+
+script CDGJ_MerriwaveTown_Mart_EventScript_1 {
+    faceplayer
+    msgbox("Need to get some snacks for\nthe festival!")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_MerriwaveTown_Mart_EventScript_2 {
+    faceplayer
+    msgbox("I can't stand the festival.\nI hate fun.\pWhich aisle has the earplugs?")
+    waitmessage
+    closemessage
+    release
+}
