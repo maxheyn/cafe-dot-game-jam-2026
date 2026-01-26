@@ -1274,6 +1274,10 @@
     {
       "id": "MAPSEC__CDGJ_MERRIWAVE_TOWN_FESTIVE",
       "name": " CDGJ MERRIWAVE TOWN FESTIVE"
+    },
+    {
+      "id": "MAPSEC__CDGJ_FESTIVAL",
+      "name": "Merriwave Town"
     }
   ]
 }

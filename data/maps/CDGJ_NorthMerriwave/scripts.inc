@@ -218,18 +218,26 @@ CDGJ_NorthMerriwave_EventScript_WarpLogic1_1:
 
 CDGJ_NorthMerriwave_EventScript_WarpLogic1_2:
 # 181 "data/maps/CDGJ_NorthMerriwave/scripts.pory"
-	warp MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE, 1
+	warp MAP_TESTWARP, 1
 	goto CDGJ_NorthMerriwave_EventScript_WarpLogic1_1
 
 
 CDGJ_NorthMerriwave_EventScript_WarpLogic2::
 # 190 "data/maps/CDGJ_NorthMerriwave/scripts.pory"
-	setvar VAR_TEMP_0, 1
+	setvar VAR_TEMP_1, 1
 # 191 "data/maps/CDGJ_NorthMerriwave/scripts.pory"
-	warp MAP_TESTWARP, 255, 21, 7
-# 192 "data/maps/CDGJ_NorthMerriwave/scripts.pory"
+	goto_if_set FLAG_CDGJ_WATER_GET, CDGJ_NorthMerriwave_EventScript_WarpLogic2_2
+# 194 "data/maps/CDGJ_NorthMerriwave/scripts.pory"
+	warp MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE, 1
+CDGJ_NorthMerriwave_EventScript_WarpLogic2_1:
+# 196 "data/maps/CDGJ_NorthMerriwave/scripts.pory"
 	waitstate
 	end
+
+CDGJ_NorthMerriwave_EventScript_WarpLogic2_2:
+# 192 "data/maps/CDGJ_NorthMerriwave/scripts.pory"
+	warp MAP_MERRIWAVE_TOWN, 1
+	goto CDGJ_NorthMerriwave_EventScript_WarpLogic2_1
 
 
 CDGJ_NorthMerriwave_EventScript_CaveSign_Text_0:

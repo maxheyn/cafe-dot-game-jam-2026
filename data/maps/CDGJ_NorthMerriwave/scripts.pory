@@ -191,7 +191,7 @@ script CDGJ_NorthMerriwave_EventScript_WarpLogic2 {
     if (flag(FLAG_CDGJ_WATER_GET)) {
         warp(MAP_MERRIWAVE_TOWN, 1)
     } else {
-        warp(MAP_TESTWARP, 1)
+        warp(MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE, 1)
     }
     waitstate
     end
