@@ -218,7 +218,7 @@ CDGJ_NorthMerriwave_EventScript_WarpLogic1_1:
 
 CDGJ_NorthMerriwave_EventScript_WarpLogic1_2:
 # 181 "data/maps/CDGJ_NorthMerriwave/scripts.pory"
-	warp MAP_TESTWARP, 1
+	warp MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE, 1
 	goto CDGJ_NorthMerriwave_EventScript_WarpLogic1_1
 
 
@@ -228,7 +228,7 @@ CDGJ_NorthMerriwave_EventScript_WarpLogic2::
 # 191 "data/maps/CDGJ_NorthMerriwave/scripts.pory"
 	goto_if_set FLAG_CDGJ_WATER_GET, CDGJ_NorthMerriwave_EventScript_WarpLogic2_2
 # 194 "data/maps/CDGJ_NorthMerriwave/scripts.pory"
-	warp MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE, 1
+	warp MAP_MERRIWAVE_TOWN, 2
 CDGJ_NorthMerriwave_EventScript_WarpLogic2_1:
 # 196 "data/maps/CDGJ_NorthMerriwave/scripts.pory"
 	waitstate
@@ -236,7 +236,7 @@ CDGJ_NorthMerriwave_EventScript_WarpLogic2_1:
 
 CDGJ_NorthMerriwave_EventScript_WarpLogic2_2:
 # 192 "data/maps/CDGJ_NorthMerriwave/scripts.pory"
-	warp MAP_MERRIWAVE_TOWN, 1
+	warp MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE, 2
 	goto CDGJ_NorthMerriwave_EventScript_WarpLogic2_1
 
 

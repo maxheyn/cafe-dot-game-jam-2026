@@ -259,6 +259,7 @@ enum BattleScriptOpcode
     B_SCR_OP_SETNONVOLATILESTATUS,
     B_SCR_OP_TRYOVERWRITEABILITY,
     B_SCR_OP_CALLNATIVE,
+    B_SCR_OP_CDGJ_REVIVE,
 };
 
 // The following correspond to the struct members of BattleScripting by adding their offset

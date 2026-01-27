@@ -26,6 +26,7 @@ gBattlescriptsForUsingItem::
 	.4byte BattleScript_ItemRestorePP                @ EFFECT_ITEM_RESTORE_PP
 	.4byte BattleScript_ItemIncreaseAllStats         @ EFFECT_ITEM_INCREASE_ALL_STATS
 	.4byte BattleScript_UsePokeFlute                 @ EFFECT_ITEM_USE_POKE_FLUTE
+	.4byte BattleScript_ItemReviveAll            	 @ EFFECT_ITEM_CDGJ_REVIVE_ALL
 
 	.align 2
 gBattlescriptsForSafariActions::
@@ -135,6 +136,13 @@ BattleScript_PokeFluteWakeUp::
 	waitstate
 BattleScript_PokeFluteEnd::
 	finishaction
+
+BattleScript_ItemReviveAll::
+        call BattleScript_UseItemMessage
+        itemreviveall
+        printstring STRINGID_SOUPYUMMY
+        waitmessage B_WAIT_TIME_LONG
+        end
 
 BattleScript_ItemSetMist::
 	call BattleScript_UseItemMessage

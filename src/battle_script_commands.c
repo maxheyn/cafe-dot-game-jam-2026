@@ -595,6 +595,7 @@ static void Cmd_jumpifcaptivateaffected(void);
 static void Cmd_setnonvolatilestatus(void);
 static void Cmd_tryoverwriteability(void);
 static void Cmd_callnative(void);
+static void Cmd_cdgj_reviveall(void);
 
 void (*const gBattleScriptingCommandsTable[])(void) =
 {
@@ -854,6 +855,7 @@ void (*const gBattleScriptingCommandsTable[])(void) =
     [B_SCR_OP_SETNONVOLATILESTATUS] = Cmd_setnonvolatilestatus,
     [B_SCR_OP_TRYOVERWRITEABILITY] = Cmd_tryoverwriteability,
     [B_SCR_OP_CALLNATIVE] = Cmd_callnative,
+    [B_SCR_OP_CDGJ_REVIVE] = Cmd_cdgj_reviveall,
 };
 
 const struct StatFractions gAccuracyStageRatios[] =
@@ -14423,6 +14425,10 @@ static void Cmd_tryoverwriteability(void)
     }
 }
 
+static void Cmd_cdgj_reviveall(void) {
+    return;
+}
+
 static void Cmd_callnative(void)
 {
     CMD_ARGS(void (*func)(void));
@@ -14932,6 +14938,37 @@ void BS_ItemRestoreHP(void)
             gBattlescriptCurrInstr = cmd->nextInstr;
         }
     }
+}
+
+void BS_ItemReviveAll(void)
+{
+    NATIVE_ARGS();
+    struct Pokemon *party = GetBattlerParty(gBattlerAttacker);
+    u32 i;
+
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        u16 species = GetMonData(&party[i], MON_DATA_SPECIES);
+        
+        if (species != SPECIES_NONE)
+        {
+            u16 hp = GetMonData(&party[i], MON_DATA_HP);
+            u16 maxHP = GetMonData(&party[i], MON_DATA_MAX_HP);
+            
+            // Track revives if fainted
+            if (hp == 0 && IsOnPlayerSide(gBattlerAttacker) && gBattleResults.numRevivesUsed < 255)
+                gBattleResults.numRevivesUsed++;
+            
+            // Fully heal HP
+            SetMonData(&party[i], MON_DATA_HP, &maxHP);
+            
+            // Clear status
+            u32 status = 0;
+            SetMonData(&party[i], MON_DATA_STATUS, &status);
+        }
+    }
+    
+    gBattlescriptCurrInstr = cmd->nextInstr;
 }
 
 void BS_ItemCureStatus(void)

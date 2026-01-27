@@ -167,7 +167,7 @@
       "x": 20,
       "y": 10,
       "elevation": 0,
-      "dest_map": "MAP_TESTWARP",
+      "dest_map": "MAP_CDGJ_CAVE",
       "dest_warp_id": "1"
     },
     {
@@ -177,6 +177,20 @@
       "elevation": 0,
       "dest_map": "MAP_CDGJ_NORTH_MERRIWAVE_CAVE_HOME",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 23,
+      "y": 38,
+      "elevation": 0,
+      "dest_map": "MAP_NORTH_MERRIWAVE",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 24,
+      "y": 38,
+      "elevation": 0,
+      "dest_map": "MAP_NORTH_MERRIWAVE",
+      "dest_warp_id": "3"
     }
   ],
   "coord_events": [

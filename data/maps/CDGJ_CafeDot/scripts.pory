@@ -376,6 +376,10 @@ movement EmoteExclamationMark {
 	emote_exclamation_mark
 }
 
+movement EmoteQuestionMark {
+	emote_question_mark
+}
+
 movement EmoteHeart {
 	emote_heart
 }

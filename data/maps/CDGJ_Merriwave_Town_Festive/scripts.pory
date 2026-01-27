@@ -1,14 +1,389 @@
 mapscripts CDGJ_Merriwave_Town_Festive_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE [
-        VAR_TEMP_0, 1: CDGJ_Merriwave_Town_Festive_ResetPlayerState
-        VAR_TEMP_1, 1: CDGJ_Merriwave_Town_Festive_ResetPlayerState
+        VAR_CDGJ_FINALE_STATE, 0: CDGJ_Merriwave_Town_Festive_Finale1
+        VAR_CDGJ_FINALE_STATE, 1: CDGJ_Merriwave_Town_Festive_Finale2 // warp causes a new reload so we are now in state 1 xd
     ]
 }
 
-script CDGJ_Merriwave_Town_Festive_ResetPlayerState {
-    lockall
-    setvar(VAR_TEMP_0, 0)
-    setvar(VAR_TEMP_1, 0)
-    releaseall
-    end
+script CDGJ_Merriwave_Town_Festive_Finale1 {
+    setvar(VAR_CDGJ_FINALE_STATE, 1)
+    fadescreen(FADE_TO_BLACK)
+    warp(MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE, 255, 21, 19)
+    waitstate
 }
+
+script CDGJ_Merriwave_Town_Festive_Finale2 {
+    lockall
+    
+    setvar(VAR_CDGJ_FINALE_STATE, 2)
+        
+    fadescreen(FADE_FROM_BLACK)
+    
+    delay(60)
+    
+    applymovement(LOCALID_PLAYER, PlayerWalkToSoup1)
+    waitmovement
+
+    msgbox("Hello! Welcome to the Festival!")
+    waitmessage
+    closemessage
+
+    applymovement(LOCALID_CHEF, ChefReactsToPlayer1)
+    waitmovement
+
+    msgbox("Wait.")
+    waitmessage
+    closemessage
+
+    applymovement(LOCALID_CHEF, ChefReactsToPlayer2)
+    waitmovement
+
+    msgbox("Is that…?\p… … … … … …\n… … … … … …\pStone from the mountain…\pBerries from the forest…\pAnd fresh water from the lake?")
+    waitmessage
+    closemessage
+
+    applymovement(LOCALID_CHEF, ChefReactsToPlayer2)
+    waitmovement
+
+    msgbox("You did it! You really did it!\nPepper told us you'd come through!")
+    waitmessage
+    closemessage
+
+    applymovement(LOCALID_FESTIVAL_HELPER, HelperWalksTowardsPlayer)
+    waitmovement
+
+    msgbox("So, uhh… … …\nThis soup isn't for people.\pJust to be clear.")
+    waitmessage
+    closemessage
+
+    applymovement(LOCALID_FESTIVAL_HELPER, HelperWalksBackToSpot)
+    waitmovement
+
+    delay(60)
+
+    applymovement(LOCALID_CHEF, WalkUp)
+    waitmovement
+
+    msgbox("We learned the hard way after some\p… … … … … …\n… … … … … …\pmishaps.")
+    waitmessage
+    closemessage
+
+    applymovement(LOCALID_CHEF, WalkDownLockDirection)
+    waitmovement
+
+    delay(60)
+    delay(30)
+
+    msgbox("Alright! Let's get started!")
+    waitmessage
+    closemessage
+
+    applymovement(LOCALID_FESTIVAL_NPC1, EmoteHeart)
+    waitmovement
+    applymovement(LOCALID_FESTIVAL_NPC2, EmoteHeart)
+    waitmovement
+    applymovement(LOCALID_FESTIVAL_NPC3, EmoteHeart)
+    waitmovement
+    applymovement(LOCALID_FESTIVAL_NPC4, EmoteHeart)
+    waitmovement
+    applymovement(LOCALID_FESTIVAL_NPC5, EmoteHeart)
+    waitmovement
+    applymovement(LOCALID_FESTIVAL_NPC6, EmoteHeart)
+    waitmovement
+    applymovement(LOCALID_FESTIVAL_NPC7, EmoteHeart)
+    waitmovement
+    applymovement(LOCALID_FESTIVAL_NPC8, EmoteHeart)
+    waitmovement
+    applymovement(LOCALID_FESTIVAL_HELPER, EmoteHeart)
+    waitmovement
+
+    applymovement(LOCALID_CHEF, FaceDown)
+    waitmovement
+
+    delay(60)
+
+    applymovement(LOCALID_FESTIVAL_HELPER, HelperWalksToPot)
+    waitmovement
+
+    special(ShakeCamera)
+    delay(60)
+
+    special(ShakeCamera)
+    delay(60)
+
+    special(ShakeCamera)
+    delay(60)
+
+    msgbox("Easy does it. The pokemon have\nbeen waiting all day.")
+    waitmessage
+    closemessage
+
+    applymovement(LOCALID_FESTIVAL_HELPER, HelperBackFromPot)
+    waitmovement
+
+    special(ShakeCamera)
+    delay(60)
+
+    special(ShakeCamera)
+    delay(60)
+
+    applymovement(LOCALID_CHEF, ChefReactsToPlayer2)
+    waitmovement
+
+    msgbox("And there it is!")
+    waitmessage
+    closemessage
+
+    applymovement(LOCALID_FESTIVAL_NPC1, EmoteHeart)
+    waitmovement
+    applymovement(LOCALID_FESTIVAL_NPC2, EmoteHeart)
+    waitmovement
+    applymovement(LOCALID_FESTIVAL_NPC3, EmoteHeart)
+    waitmovement
+    applymovement(LOCALID_FESTIVAL_NPC4, EmoteHeart)
+    waitmovement
+    applymovement(LOCALID_FESTIVAL_NPC5, EmoteHeart)
+    waitmovement
+    applymovement(LOCALID_FESTIVAL_NPC6, EmoteHeart)
+    waitmovement
+    applymovement(LOCALID_FESTIVAL_NPC7, EmoteHeart)
+    waitmovement
+    applymovement(LOCALID_FESTIVAL_NPC8, EmoteHeart)
+    waitmovement
+    applymovement(LOCALID_FESTIVAL_HELPER, EmoteHeart)
+    waitmovement
+
+    playse(SE_APPLAUSE)
+    waitse
+
+    msgbox("Pokémon do so much for us.\nIt's nice to do something for them.")
+    waitmessage
+    closemessage
+
+    applymovement(LOCALID_CHEF, WalkUp)
+    waitmovement
+
+    msgbox("Thank you CLOVE, for getting us\nthese final secret ingredients.\pHere, I want you to have some to\nshare with your Pokémon.")
+    waitmessage
+    closemessage
+
+    giveitem(ITEM_SACRED_ASH, 3)
+
+    msgbox("Oh, and I think Pepper wanted\nto meet you by the Gym.\pBest not to keep them waiting!\nThanks again!")
+    waitmessage
+    closemessage
+
+    releaseall
+}
+
+movement PlayerWalkToSoup1 {
+    walk_down * 6
+}
+
+movement ChefReactsToPlayer1 {
+    emote_question_mark
+    delay_16
+    delay_8
+    face_up
+    delay_16
+}
+
+movement ChefReactsToPlayer2 {
+    emote_double_exclamation_mark
+    jump_in_place_up
+    jump_in_place_up
+}
+
+movement HelperWalksTowardsPlayer {
+    walk_right * 2
+    walk_up * 3
+}
+
+movement HelperWalksBackToSpot {
+    walk_down * 3
+    walk_left * 2
+    face_right
+}
+
+movement HelperWalksToPot {
+    walk_right
+    walk_up
+    walk_right
+}
+
+
+movement HelperBackFromPot {
+    walk_left
+    walk_down
+    walk_left
+    face_right
+}
+
+movement WalkUp {
+    walk_up
+}
+
+movement WalkDownLockDirection {
+    lock_facing_direction
+    walk_down
+    unlock_facing_direction
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC2 {
+    faceplayer
+    msgbox("Soup smells... different.\nNot for me I think!\pBut the sentiment is nice at least!")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC3 {
+    faceplayer
+    msgbox("I was curious to try the soup once…\n… … … … … …\pOnce.")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_CHEF {
+    faceplayer
+    msgbox("I hope the Pokémon like it.")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_HELPER {
+    faceplayer
+    msgbox("All worth it.")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC4 {
+    faceplayer
+    msgbox("The soup needed just three ingredients.\nSimple right?")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC1 {
+    faceplayer
+    msgbox("I don't understand how anyone\ncould eat rocks.")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC8 {
+    faceplayer
+    msgbox("Soup soup soup! Soup in the balloon!\n(the balloon is my tummy.)")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC7 {
+    faceplayer
+    msgbox("I didn't even know there was\na festival today.\pI just came here to fart\nbut kept running into people\pand I'm too afraid to fart near other\npeople and now I've just accepted\pfate and am destined to stink.\nAlso, soup looks gross.")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC5 {
+    faceplayer
+    msgbox("Still on a date.")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC6 {
+    faceplayer
+    msgbox("Still on a date.")
+    waitmessage
+    closemessage
+    release
+}
+
+// script CDGJ_Merriwave_Town_Festive_EventScript_SUFFIX {
+//     faceplayer
+//     msgbox("")
+//     waitmessage
+//     closemessage
+//     release
+// }
+
+// script CDGJ_Merriwave_Town_Festive_EventScript_SUFFIX {
+//     faceplayer
+//     msgbox("")
+//     waitmessage
+//     closemessage
+//     release
+// }
+
+// script CDGJ_Merriwave_Town_Festive_EventScript_SUFFIX {
+//     faceplayer
+//     msgbox("")
+//     waitmessage
+//     closemessage
+//     release
+// }
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
+script CDGJ_Merriwave_Town_Festive_EventScript_FINALEBATTLE {
+    faceplayer
+
+    applymovement(LOCALID_RIVAL_FINALE, EmoteExclamationMark)
+    waitmovement
+
+    delay(30)
+
+    msgbox("CLOVE! It's so good so see you.\nI heard you got all of the ingredients\nand the soup went well!\pI could hear it from over here.\p… … … … … …\n… … … … … …\pBut hey. I was thinking.\nMaybe there's one last thing to\pmake this festival perfect…")
+    waitmessage
+    closemessage
+    
+    delay(30)
+
+    applymovement(LOCALID_PLAYER, EmoteQuestionMark)
+    waitmovement
+
+    delay(30)
+
+    msgbox("Hah! I have been doing a lot of\nthinking since I decided to retire.\pIt turns out that none of this works,\nthe town, the festival, the\prelation between trainers and\npokemon. If none of us care\pabout each other. It turns out the\nsecret is just being there.")
+    waitmessage
+    closemessage
+
+    delay(30)
+
+    applymovement(LOCALID_RIVAL_FINALE, FaceUp)
+
+    delay(60)
+    delay(60)
+
+    applymovement(LOCALID_RIVAL_FINALE, FacePlayer)
+
+    msgbox("Would you battle me?\pNot as a test. Not for a badge.\nJust one last time.\pBefore I stop being a gym leader?")
+    call(Common_EventScript_OutOfCenterPartyHeal)
+
+    trainerbattle_single(
+        TRAINER_GRUNT_WEATHER_INST_4,
+        "Let's see how far you've come.",
+        "Haha! Yeah! That felt right." 
+    )
+
+
+    // applymovement(LOCALID_RIVAL_FINALE, WalkUp)
+    // removeobject(LOCALID_RIVAL_FINALE)
+    release
+}
+
+

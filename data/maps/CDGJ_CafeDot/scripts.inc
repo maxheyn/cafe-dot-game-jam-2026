@@ -582,71 +582,77 @@ EmoteExclamationMark:
 	step_end
 
 # 379 "data/maps/CDGJ_CafeDot/scripts.pory"
-EmoteHeart:
+EmoteQuestionMark:
 # 380 "data/maps/CDGJ_CafeDot/scripts.pory"
-	emote_heart
+	emote_question_mark
 	step_end
 
 # 383 "data/maps/CDGJ_CafeDot/scripts.pory"
-FacePlayer:
+EmoteHeart:
 # 384 "data/maps/CDGJ_CafeDot/scripts.pory"
-	face_player
+	emote_heart
 	step_end
 
 # 387 "data/maps/CDGJ_CafeDot/scripts.pory"
-FaceLeft:
+FacePlayer:
 # 388 "data/maps/CDGJ_CafeDot/scripts.pory"
-	face_left
+	face_player
 	step_end
 
 # 391 "data/maps/CDGJ_CafeDot/scripts.pory"
-FaceRight:
+FaceLeft:
 # 392 "data/maps/CDGJ_CafeDot/scripts.pory"
-	face_right
+	face_left
 	step_end
 
 # 395 "data/maps/CDGJ_CafeDot/scripts.pory"
-FaceDown:
+FaceRight:
 # 396 "data/maps/CDGJ_CafeDot/scripts.pory"
-	face_down
+	face_right
 	step_end
 
 # 399 "data/maps/CDGJ_CafeDot/scripts.pory"
-FaceUp:
+FaceDown:
 # 400 "data/maps/CDGJ_CafeDot/scripts.pory"
-	face_up
+	face_down
 	step_end
 
 # 403 "data/maps/CDGJ_CafeDot/scripts.pory"
-FaceOriginalDirection:
+FaceUp:
 # 404 "data/maps/CDGJ_CafeDot/scripts.pory"
-	face_original_direction
+	face_up
 	step_end
 
 # 407 "data/maps/CDGJ_CafeDot/scripts.pory"
-JumpInPlace:
+FaceOriginalDirection:
 # 408 "data/maps/CDGJ_CafeDot/scripts.pory"
-	face_player
-# 409 "data/maps/CDGJ_CafeDot/scripts.pory"
-	jump_in_place_down
-# 410 "data/maps/CDGJ_CafeDot/scripts.pory"
-	jump_in_place_down
+	face_original_direction
+	step_end
+
 # 411 "data/maps/CDGJ_CafeDot/scripts.pory"
-	jump_in_place_down
+JumpInPlace:
 # 412 "data/maps/CDGJ_CafeDot/scripts.pory"
+	face_player
+# 413 "data/maps/CDGJ_CafeDot/scripts.pory"
+	jump_in_place_down
+# 414 "data/maps/CDGJ_CafeDot/scripts.pory"
+	jump_in_place_down
+# 415 "data/maps/CDGJ_CafeDot/scripts.pory"
+	jump_in_place_down
+# 416 "data/maps/CDGJ_CafeDot/scripts.pory"
 	face_player
 	step_end
 
 CDGJ_CafeDot_EventScript_Item_OnTable::
-# 419 "data/maps/CDGJ_CafeDot/scripts.pory"
-	giveitem ITEM_MOOMOO_MILK, 1
-# 420 "data/maps/CDGJ_CafeDot/scripts.pory"
-	waitmessage
-# 421 "data/maps/CDGJ_CafeDot/scripts.pory"
-	closemessage
 # 423 "data/maps/CDGJ_CafeDot/scripts.pory"
-	setflag FLAG_CDGJ_OBTAIN_CAFE_DOT_MOOMOO_MILK
+	giveitem ITEM_MOOMOO_MILK, 1
+# 424 "data/maps/CDGJ_CafeDot/scripts.pory"
+	waitmessage
 # 425 "data/maps/CDGJ_CafeDot/scripts.pory"
+	closemessage
+# 427 "data/maps/CDGJ_CafeDot/scripts.pory"
+	setflag FLAG_CDGJ_OBTAIN_CAFE_DOT_MOOMOO_MILK
+# 429 "data/maps/CDGJ_CafeDot/scripts.pory"
 	removeobject 6
 	end
 

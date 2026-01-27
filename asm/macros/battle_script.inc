@@ -1405,6 +1405,10 @@
 	.4byte \restoreBattlerInstr
 	.endm
 
+	.macro itemreviveall
+	callnative BS_ItemReviveAll
+	.endm
+
 	.macro itemcurestatus jumpInstr:req, restoreBattlerInstr:req
 	callnative BS_ItemCureStatus
 	.4byte \jumpInstr

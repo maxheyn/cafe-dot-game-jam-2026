@@ -178,7 +178,7 @@ movement GuardGoesBack {
 script CDGJ_NorthMerriwave_EventScript_WarpLogic1 {
     setvar(VAR_TEMP_1, 1)
     if (flag(FLAG_CDGJ_WATER_GET)) {
-        warp(MAP_TESTWARP, 1)
+        warp(MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE, 1)
     } else {
         warp(MAP_MERRIWAVE_TOWN, 1)
     }
@@ -189,9 +189,9 @@ script CDGJ_NorthMerriwave_EventScript_WarpLogic1 {
 script CDGJ_NorthMerriwave_EventScript_WarpLogic2 {
     setvar(VAR_TEMP_1, 1)
     if (flag(FLAG_CDGJ_WATER_GET)) {
-        warp(MAP_MERRIWAVE_TOWN, 1)
+        warp(MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE, 2)
     } else {
-        warp(MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE, 1)
+        warp(MAP_MERRIWAVE_TOWN, 2)
     }
     waitstate
     end

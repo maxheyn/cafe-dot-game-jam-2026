@@ -1095,6 +1095,7 @@
 #define EFFECT_ITEM_RESTORE_PP              10
 #define EFFECT_ITEM_INCREASE_ALL_STATS      11
 #define EFFECT_ITEM_USE_POKE_FLUTE          12
+#define EFFECT_ITEM_CDGJ_REVIVE_ALL         13
 
 // Enigma Berry dummy constant
 #define EFFECT_ITEM_ENIGMA_BERRY_EREADER    1
