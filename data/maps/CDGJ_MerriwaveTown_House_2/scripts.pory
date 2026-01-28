@@ -1,1 +1,9 @@
 mapscripts CDGJ_MerriwaveTown_House_2_MapScripts {}
+
+script CDGJ_MerriwaveTown_House_2_EventScript_1 {
+    faceplayer
+    msgbox("OUTTA THE WAY! I'M EARNING ZONE MINUTES!")
+    waitmessage
+    closemessage
+    release
+}

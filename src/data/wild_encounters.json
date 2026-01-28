@@ -11511,7 +11511,7 @@
               {
                 "min_level": 2,
                 "max_level": 4,
-                "species": "SPECIES_PIDOVE"
+                "species": "SPECIES_COTTONEE"
               },
               {
                 "min_level": 2,
@@ -11541,12 +11541,12 @@
               {
                 "min_level": 3,
                 "max_level": 5,
-                "species": "SPECIES_PIDOVE"
+                "species": "SPECIES_COTTONEE"
               },
               {
                 "min_level": 3,
                 "max_level": 5,
-                "species": "SPECIES_PIDOVE"
+                "species": "SPECIES_COTTONEE"
               },
               {
                 "min_level": 3,
@@ -11649,7 +11649,7 @@
               {
                 "min_level": 9,
                 "max_level": 12,
-                "species": "SPECIES_SCRAFTY"
+                "species": "SPECIES_SCRAGGY"
               },
               {
                 "min_level": 10,
@@ -11664,7 +11664,7 @@
               {
                 "min_level": 8,
                 "max_level": 14,
-                "species": "SPECIES_SCRAFTY"
+                "species": "SPECIES_SCRAGGY"
               },
               {
                 "min_level": 9,

@@ -59,74 +59,76 @@ CDGJ_ConnectingRoute_EventScript_Nurse::
 	compare VAR_RESULT, YES
 	goto_if_eq CDGJ_ConnectingRoute_EventScript_Nurse_2
 CDGJ_ConnectingRoute_EventScript_Nurse_1:
-# 72 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
-	waitmessage
 # 73 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
+	waitmessage
+# 74 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
 	closemessage
-# 75 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
+# 76 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
 	release
 	end
 
 CDGJ_ConnectingRoute_EventScript_Nurse_2:
 # 67 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
 	call Common_EventScript_OutOfCenterPartyHeal
-# 69 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
+# 68 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
+	setrespawn HEAL_LOCATION_CDGJ_CONNECTING_ROUTE
+# 70 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
 	msgbox CDGJ_ConnectingRoute_EventScript_Nurse_Text_1
 	goto CDGJ_ConnectingRoute_EventScript_Nurse_1
 
 
 CDGJ_ConnectingRoute_EventScript_Item1::
-# 80 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
-	giveitem ITEM_FOCUS_SASH, 1
 # 81 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
-	waitmessage
+	giveitem ITEM_FOCUS_SASH, 1
 # 82 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
+	waitmessage
+# 83 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
 	closemessage
-# 84 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
+# 85 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
 	setflag FLAG_CDGJ_FOCUSSASH_GET
-# 86 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
+# 87 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
 	removeobject LOCALID_ITEM_FOCUSSASH
 	end
 
 
 CDGJ_ConnectingRoute_EventScript_Item2::
-# 92 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
-	giveitem ITEM_ROCKY_HELMET, 1
 # 93 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
-	waitmessage
+	giveitem ITEM_ROCKY_HELMET, 1
 # 94 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
+	waitmessage
+# 95 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
 	closemessage
-# 96 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
+# 97 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
 	setflag FLAG_CDGJ_ROCKYHELMET_GET
-# 98 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
+# 99 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
 	removeobject LOCALID_ITEM_ROCKYHELM
 	end
 
 
 CDGJ_ConnectingRoute_EventScript_LOCALID_TOLL_INFO::
-# 104 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
-	applymovement LOCALID_TOLL_INFO, FacePlayer
 # 105 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
-	msgbox CDGJ_ConnectingRoute_EventScript_LOCALID_TOLL_INFO_Text_0
+	applymovement LOCALID_TOLL_INFO, FacePlayer
 # 106 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
-	waitmessage
+	msgbox CDGJ_ConnectingRoute_EventScript_LOCALID_TOLL_INFO_Text_0
 # 107 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
-	closemessage
+	waitmessage
 # 108 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
+	closemessage
+# 109 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
 	release
 	return
 
 
 CDGJ_ConnectingRoute_EventScript_LOCALID_CHORGOOGA::
-# 112 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
-	applymovement LOCALID_CHORGOOGA, FacePlayer
 # 113 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
-	msgbox CDGJ_ConnectingRoute_EventScript_LOCALID_CHORGOOGA_Text_0
+	applymovement LOCALID_CHORGOOGA, FacePlayer
 # 114 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
-	waitmessage
+	msgbox CDGJ_ConnectingRoute_EventScript_LOCALID_CHORGOOGA_Text_0
 # 115 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
-	closemessage
+	waitmessage
 # 116 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
+	closemessage
+# 117 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
 	release
 	return
 
@@ -184,13 +186,13 @@ CDGJ_ConnectingRoute_EventScript_Nurse_Text_0:
 	.string "Do your Pokemon need healing?$"
 
 CDGJ_ConnectingRoute_EventScript_Nurse_Text_1:
-# 69 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
+# 70 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
 	.string "All healed up!$"
 
 CDGJ_ConnectingRoute_EventScript_LOCALID_TOLL_INFO_Text_0:
-# 105 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
+# 106 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
 	.string "Did you know that this route used\nto be a toll route?\pThey opened it up to everyone after\nthe townspeople complained that\pthe cost of passing was\ntoo high!$"
 
 CDGJ_ConnectingRoute_EventScript_LOCALID_CHORGOOGA_Text_0:
-# 113 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
+# 114 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
 	.string "Chorgooga! Chorgooga!\nI love saying Chorgooga!\pSay it with me!\nChorgooooooooooooo\pooooooooooooo\pooooooooooooo\pooooooooooooo\poooooooooooooga.$"

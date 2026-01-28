@@ -7,9 +7,9 @@
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_TOWN",
-  "allow_cycling": false,
+  "allow_cycling": true,
   "allow_escaping": false,
-  "allow_running": false,
+  "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
@@ -157,57 +157,57 @@
     {
       "local_id": "LID7",
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 37,
-      "y": 15,
+      "x": 41,
+      "y": 19,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_LEFT_UP_RIGHT_DOWN",
+      "movement_range_x": 8,
+      "movement_range_y": 4,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CDGJ_Merriwave_Town_Festive_EventScript_7",
       "flag": "0"
     },
     {
       "local_id": "LID3",
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
-      "x": 23,
-      "y": 14,
+      "x": 19,
+      "y": 13,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CDGJ_Merriwave_Town_Festive_EventScript_3",
       "flag": "0"
     },
     {
       "local_id": "LID6",
       "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
-      "x": 32,
-      "y": 12,
+      "x": 33,
+      "y": 13,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 2,
+      "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CDGJ_Merriwave_Town_Festive_EventScript_6",
       "flag": "0"
     },
     {
       "local_id": "LID1",
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
-      "x": 11,
+      "x": 13,
       "y": 8,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 11,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CDGJ_Merriwave_Town_Festive_EventScript_1",
       "flag": "0"
     },
     {
@@ -221,7 +221,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CDGJ_Merriwave_Town_Festive_EventScript_4",
       "flag": "0"
     },
     {
@@ -235,7 +235,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CDGJ_Merriwave_Town_Festive_EventScript_5",
       "flag": "0"
     },
     {
@@ -244,12 +244,12 @@
       "x": 11,
       "y": 19,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CDGJ_Merriwave_Town_Festive_EventScript_2",
       "flag": "0"
     },
     {
@@ -263,7 +263,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CDGJ_Merriwave_Town_Festive_EventScript_8",
       "flag": "0"
     },
     {
@@ -277,7 +277,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CDGJ_Merriwave_Town_Festive_EventScript_10",
       "flag": "0"
     },
     {
@@ -291,21 +291,21 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CDGJ_Merriwave_Town_Festive_EventScript_9",
       "flag": "0"
     },
     {
       "local_id": "LID11",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_4",
-      "x": 43,
-      "y": 19,
+      "x": 42,
+      "y": 26,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
+      "movement_range_x": 4,
+      "movement_range_y": 4,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CDGJ_Merriwave_Town_Festive_EventScript_11",
       "flag": "0"
     },
     {
@@ -328,7 +328,7 @@
       "x": 37,
       "y": 28,
       "elevation": 0,
-      "dest_map": "MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE",
+      "dest_map": "MAP_CDGJ_CAFE_DOT_FESTIVE",
       "dest_warp_id": "0"
     },
     {
@@ -344,6 +344,48 @@
       "elevation": 0,
       "dest_map": "MAP_NORTH_MERRIWAVE",
       "dest_warp_id": "3"
+    },
+    {
+      "x": 45,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE_POKECENTER",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 29,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE_HOUSE_4",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 24,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE_HOUSE_3",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 18,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE_HOUSE_2",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE_HOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 17,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE_POKEMART",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [],

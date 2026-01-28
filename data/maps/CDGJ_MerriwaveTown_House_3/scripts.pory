@@ -1,1 +1,9 @@
 mapscripts CDGJ_MerriwaveTown_House_3_MapScripts {}
+
+script CDGJ_MerriwaveTown_House_3_EventScript_1 {
+    faceplayer
+    msgbox("One day, I woke up with a\nsimultaneous infection of\psalmonella and Campylobacter!\pI'm not sure why I just told\nyou that! Thanks though!")
+    waitmessage
+    closemessage
+    release
+}

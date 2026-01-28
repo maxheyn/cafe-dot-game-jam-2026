@@ -65,6 +65,7 @@ script CDGJ_ConnectingRoute_EventScript_Nurse {
 
     if (var(VAR_RESULT) == YES) {
 		call(Common_EventScript_OutOfCenterPartyHeal)
+        setrespawn(HEAL_LOCATION_CDGJ_CONNECTING_ROUTE)
 		
         msgbox("All healed up!")
     }

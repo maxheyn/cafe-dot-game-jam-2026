@@ -111,9 +111,9 @@ CDGJ_Newroute_EventScript_TrainerBattle1::
 
 CDGJ_Newroute_EventScript_TrainerBattle2::
 # 93 "data/maps/CDGJ_Newroute/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_RUSTURF_TUNNEL, CDGJ_Newroute_EventScript_TrainerBattle1_Text_0, CDGJ_Newroute_EventScript_TrainerBattle1_Text_1
+	trainerbattle_single TRAINER_GRUNT_RUSTURF_TUNNEL, CDGJ_Newroute_EventScript_TrainerBattle2_Text_0, CDGJ_Newroute_EventScript_TrainerBattle2_Text_1
 # 99 "data/maps/CDGJ_Newroute/scripts.pory"
-	msgbox CDGJ_Newroute_EventScript_TrainerBattle1_Text_2
+	msgbox CDGJ_Newroute_EventScript_TrainerBattle2_Text_2
 # 100 "data/maps/CDGJ_Newroute/scripts.pory"
 	waitmessage
 # 101 "data/maps/CDGJ_Newroute/scripts.pory"
@@ -123,9 +123,9 @@ CDGJ_Newroute_EventScript_TrainerBattle2::
 
 CDGJ_Newroute_EventScript_TrainerBattle3::
 # 107 "data/maps/CDGJ_Newroute/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_WEATHER_INST_1, CDGJ_Newroute_EventScript_TrainerBattle1_Text_0, CDGJ_Newroute_EventScript_TrainerBattle1_Text_1
+	trainerbattle_single TRAINER_GRUNT_WEATHER_INST_1, CDGJ_Newroute_EventScript_TrainerBattle3_Text_0, CDGJ_Newroute_EventScript_TrainerBattle3_Text_1
 # 113 "data/maps/CDGJ_Newroute/scripts.pory"
-	msgbox CDGJ_Newroute_EventScript_TrainerBattle1_Text_2
+	msgbox CDGJ_Newroute_EventScript_TrainerBattle3_Text_2
 # 114 "data/maps/CDGJ_Newroute/scripts.pory"
 	waitmessage
 # 115 "data/maps/CDGJ_Newroute/scripts.pory"
@@ -135,9 +135,9 @@ CDGJ_Newroute_EventScript_TrainerBattle3::
 
 CDGJ_Newroute_EventScript_TrainerBattle4::
 # 121 "data/maps/CDGJ_Newroute/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_WEATHER_INST_2, CDGJ_Newroute_EventScript_TrainerBattle1_Text_0, CDGJ_Newroute_EventScript_TrainerBattle1_Text_1
+	trainerbattle_single TRAINER_GRUNT_WEATHER_INST_2, CDGJ_Newroute_EventScript_TrainerBattle4_Text_0, CDGJ_Newroute_EventScript_TrainerBattle4_Text_1
 # 127 "data/maps/CDGJ_Newroute/scripts.pory"
-	msgbox CDGJ_Newroute_EventScript_TrainerBattle1_Text_2
+	msgbox CDGJ_Newroute_EventScript_TrainerBattle4_Text_2
 # 128 "data/maps/CDGJ_Newroute/scripts.pory"
 	waitmessage
 # 129 "data/maps/CDGJ_Newroute/scripts.pory"
@@ -155,12 +155,48 @@ CDGJ_Newroute_EventScript_TriggerBerryNotGottenYet_Text_0:
 
 CDGJ_Newroute_EventScript_TrainerBattle1_Text_0:
 # 81 "data/maps/CDGJ_Newroute/scripts.pory"
-	.string "You're a new trainer, right? Me too!$"
+	.string "I'm on sentry duty! No berrys get past me!$"
 
 CDGJ_Newroute_EventScript_TrainerBattle1_Text_1:
 # 82 "data/maps/CDGJ_Newroute/scripts.pory"
-	.string "Wow! Your Pokémon trusts you already.$"
+	.string "Okay, maybe you can get past me...$"
 
 CDGJ_Newroute_EventScript_TrainerBattle1_Text_2:
 # 85 "data/maps/CDGJ_Newroute/scripts.pory"
-	.string "Good luck out there! Catch'em all!$"
+	.string "The yummy berries are up above!$"
+
+CDGJ_Newroute_EventScript_TrainerBattle2_Text_0:
+# 95 "data/maps/CDGJ_Newroute/scripts.pory"
+	.string "I caught some cool Pokémon from abroad!$"
+
+CDGJ_Newroute_EventScript_TrainerBattle2_Text_1:
+# 96 "data/maps/CDGJ_Newroute/scripts.pory"
+	.string "Cool, but not strong enough to beat you!$"
+
+CDGJ_Newroute_EventScript_TrainerBattle2_Text_2:
+# 99 "data/maps/CDGJ_Newroute/scripts.pory"
+	.string "I'll go abroad again to catch some\nmore Pokémon! I've heard maybe\pthat the Sinnoh region has some\ncool ones!$"
+
+CDGJ_Newroute_EventScript_TrainerBattle3_Text_0:
+# 109 "data/maps/CDGJ_Newroute/scripts.pory"
+	.string "It's so fun jumping over the ledges.$"
+
+CDGJ_Newroute_EventScript_TrainerBattle3_Text_1:
+# 110 "data/maps/CDGJ_Newroute/scripts.pory"
+	.string "It's not as fun climbing them up again.$"
+
+CDGJ_Newroute_EventScript_TrainerBattle3_Text_2:
+# 113 "data/maps/CDGJ_Newroute/scripts.pory"
+	.string "Ledges, more like...\p\pActually I don't know where\nI was going with that one.$"
+
+CDGJ_Newroute_EventScript_TrainerBattle4_Text_0:
+# 123 "data/maps/CDGJ_Newroute/scripts.pory"
+	.string "Mountain biking goes hard frfr.$"
+
+CDGJ_Newroute_EventScript_TrainerBattle4_Text_1:
+# 124 "data/maps/CDGJ_Newroute/scripts.pory"
+	.string "Yeah I said frfr, what of it?$"
+
+CDGJ_Newroute_EventScript_TrainerBattle4_Text_2:
+# 127 "data/maps/CDGJ_Newroute/scripts.pory"
+	.string "Get hip with it fam squad. We\nrizzin' up Ohio with this one.$"

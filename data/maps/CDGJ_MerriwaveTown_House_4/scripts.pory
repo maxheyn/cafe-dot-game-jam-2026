@@ -1,1 +1,17 @@
 mapscripts CDGJ_MerriwaveTown_House_4_MapScripts {}
+
+script CDGJ_MerriwaveTown_House_4_EventScript_1 {
+    faceplayer
+    msgbox("Don't tell the boss. I'm taking\na sick day today.\pSetting up the festival is so\nexhausting, I just don't wanna!")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_MerriwaveTown_House_4_EventScript_2 {
+    faceplayer
+    msgbox("I'm his boss. He thinks I can't\nhear him… … … … … …\pI'm also taking the day off.")
+    waitmessage
+    closemessage
+    release
+}

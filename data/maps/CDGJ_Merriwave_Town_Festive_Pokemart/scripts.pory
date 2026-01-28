@@ -1,0 +1,62 @@
+mapscripts CDGJ_Merriwave_Town_Festive_Pokemart_MapScripts {}
+
+mart CDGJ_MerriwaveTown_Mart_Festive_Items {
+    ITEM_POKE_BALL
+    ITEM_GREAT_BALL
+    ITEM_ULTRA_BALL
+    ITEM_QUICK_BALL
+    ITEM_DUSK_BALL
+    ITEM_ORAN_BERRY
+    ITEM_POTION
+    ITEM_SUPER_POTION
+    ITEM_HYPER_POTION
+    ITEM_FULL_RESTORE
+    ITEM_REVIVE
+    ITEM_ANTIDOTE
+    ITEM_PARALYZE_HEAL
+    ITEM_AWAKENING
+    ITEM_REPEL
+    ITEM_FULL_HEAL
+	ITEM_SUPER_REPEL
+    ITEM_MAX_REPEL
+    ITEM_FIRE_STONE
+    ITEM_WATER_STONE
+    ITEM_THUNDER_STONE
+    ITEM_SHINY_STONE
+    ITEM_DUSK_STONE
+    ITEM_DAWN_STONE
+    ITEM_SHINY_STONE
+    ITEM_ICE_STONE
+    ITEM_LEAF_STONE
+    ITEM_MOON_STONE
+    ITEM_SUN_STONE
+    ITEM_DIRE_HIT
+    ITEM_X_ACCURACY
+    ITEM_X_ATTACK
+    ITEM_X_DEFEND
+    ITEM_X_DEFENSE
+    ITEM_X_SP_ATK
+    ITEM_X_SP_DEF
+    ITEM_X_SPECIAL
+    ITEM_X_SPEED
+}
+
+script CDGJ_MerriwaveTown_Mart_Festive_Clerk {
+	lock
+	faceplayer
+
+	pokemart(CDGJ_MerriwaveTown_Mart_Festive_Items)
+
+	msgbox("Enjoy the festival!")
+
+	release
+	end
+}
+
+script CDGJ_Merriwave_Town_Festive_Pokemart_EventScript_1 {
+    faceplayer
+    msgbox("The Pokemart stocks extra items during\nthe festival! I love stocking up!")
+    waitmessage
+    closemessage
+    release
+}

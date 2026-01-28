@@ -4455,7 +4455,7 @@
       "id": "LAYOUT_MERRIWAVE_TOWN_HOUSE",
       "name": "MerriwaveTown_House_Layout",
       "width": 11,
-      "height": 8,
+      "height": 13,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_CDGJ_INTERIOR",
       "border_filepath": "data/layouts/CDGJ_MerriwaveTown_House/border.bin",
@@ -4575,7 +4575,7 @@
       "id": "LAYOUT_CDGJ_MERRIWAVE_TOWN_HOUSE_4",
       "name": "CDGJ_MerriwaveTown_House_4_Layout",
       "width": 11,
-      "height": 8,
+      "height": 13,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_CDGJ_INTERIOR",
       "border_filepath": "data/layouts/CDGJ_MerriwaveTown_House_4/border.bin",
@@ -4585,7 +4585,7 @@
       "id": "LAYOUT_CDGJ_MERRIWAVE_TOWN_HOUSE_3",
       "name": "CDGJ_MerriwaveTown_House_3_Layout",
       "width": 11,
-      "height": 8,
+      "height": 13,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_CDGJ_INTERIOR",
       "border_filepath": "data/layouts/CDGJ_MerriwaveTown_House_3/border.bin",
@@ -4595,7 +4595,7 @@
       "id": "LAYOUT_CDGJ_MERRIWAVE_TOWN_HOUSE_2",
       "name": "CDGJ_MerriwaveTown_House_2_Layout",
       "width": 11,
-      "height": 8,
+      "height": 13,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_CDGJ_INTERIOR",
       "border_filepath": "data/layouts/CDGJ_MerriwaveTown_House_2/border.bin",
@@ -4650,6 +4650,76 @@
       "secondary_tileset": "gTileset_CDGJ_Town",
       "border_filepath": "data/layouts/testwarp/border.bin",
       "blockdata_filepath": "data/layouts/testwarp/map.bin"
+    },
+    {
+      "id": "LAYOUT_CDGJ_CAFE_DOT_FESTIVE",
+      "name": "CDGJ_CafeDot_Festive_Layout",
+      "width": 20,
+      "height": 13,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_CDGJ_INTERIOR",
+      "border_filepath": "data/layouts/CDGJ_CafeDot_Festive/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_CafeDot_Festive/map.bin"
+    },
+    {
+      "id": "LAYOUT_CDGJ_MERRIWAVE_TOWN_FESTIVE_HOUSE_4",
+      "name": "CDGJ_MerriwaveTown_Festive_House_4_Layout",
+      "width": 11,
+      "height": 13,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_CDGJ_INTERIOR",
+      "border_filepath": "data/layouts/CDGJ_MerriwaveTown_Festive_House_4/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_MerriwaveTown_Festive_House_4/map.bin"
+    },
+    {
+      "id": "LAYOUT_CDGJ_MERRIWAVE_TOWN_FESTIVE_HOUSE_2",
+      "name": "CDGJ_MerriwaveTown_Festive_House_2_Layout",
+      "width": 11,
+      "height": 13,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_CDGJ_INTERIOR",
+      "border_filepath": "data/layouts/CDGJ_MerriwaveTown_Festive_House_2/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_MerriwaveTown_Festive_House_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_CDGJ_MERRIWAVE_TOWN_FESTIVE_HOUSE",
+      "name": "CDGJ_MerriwaveTown_Festive_House_Layout",
+      "width": 11,
+      "height": 13,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_CDGJ_INTERIOR",
+      "border_filepath": "data/layouts/CDGJ_MerriwaveTown_Festive_House/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_MerriwaveTown_Festive_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_CDGJ_MERRIWAVE_TOWN_FESTIVE_HOUSE_3",
+      "name": "CDGJ_MerriwaveTown_Festive_House_3_Layout",
+      "width": 11,
+      "height": 13,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_CDGJ_INTERIOR",
+      "border_filepath": "data/layouts/CDGJ_MerriwaveTown_Festive_House_3/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_MerriwaveTown_Festive_House_3/map.bin"
+    },
+    {
+      "id": "LAYOUT_CDGJ_MERRIWAVE_TOWN_FESTIVE_POKEMART",
+      "name": "CDGJ_Merriwave_Town_Festive_Pokemart_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/CDGJ_Merriwave_Town_Festive_Pokemart/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_Merriwave_Town_Festive_Pokemart/map.bin"
+    },
+    {
+      "id": "LAYOUT_CDGJ_MERRIWAVE_TOWN_FESTIVE_POKECENTER",
+      "name": "CDGJ_Merriwave_Town_Festive_Pokecenter_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/CDGJ_Merriwave_Town_Festive_Pokecenter/border.bin",
+      "blockdata_filepath": "data/layouts/CDGJ_Merriwave_Town_Festive_Pokecenter/map.bin"
     }
   ]
 }

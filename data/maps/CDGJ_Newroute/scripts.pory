@@ -78,11 +78,11 @@ script CDGJ_Newroute_EventScript_Item3 {
 script CDGJ_Newroute_EventScript_TrainerBattle1 {
     trainerbattle_single(
         TRAINER_DECLAN,
-        "You're a new trainer, right? Me too!",
-        "Wow! Your Pokémon trusts you already." 
+        "I'm on sentry duty! No berrys get past me!",
+        "Okay, maybe you can get past me..." 
     )
 
-    msgbox("Good luck out there! Catch'em all!")
+    msgbox("The yummy berries are up above!")
     waitmessage
     closemessage
 
@@ -92,11 +92,11 @@ script CDGJ_Newroute_EventScript_TrainerBattle1 {
 script CDGJ_Newroute_EventScript_TrainerBattle2 {
     trainerbattle_single(
         TRAINER_GRUNT_RUSTURF_TUNNEL,
-        "You're a new trainer, right? Me too!",
-        "Wow! Your Pokémon trusts you already." 
+        "I caught some cool Pokémon from abroad!",
+        "Cool, but not strong enough to beat you!" 
     )
 
-    msgbox("Good luck out there! Catch'em all!")
+    msgbox("I'll go abroad again to catch some\nmore Pokémon! I've heard maybe\pthat the Sinnoh region has some\ncool ones!")
     waitmessage
     closemessage
 
@@ -106,11 +106,11 @@ script CDGJ_Newroute_EventScript_TrainerBattle2 {
 script CDGJ_Newroute_EventScript_TrainerBattle3 {
     trainerbattle_single(
         TRAINER_GRUNT_WEATHER_INST_1,
-        "You're a new trainer, right? Me too!",
-        "Wow! Your Pokémon trusts you already." 
+        "It's so fun jumping over the ledges.",
+        "It's not as fun climbing them up again." 
     )
 
-    msgbox("Good luck out there! Catch'em all!")
+    msgbox("Ledges, more like...\p\pActually I don't know where\nI was going with that one.")
     waitmessage
     closemessage
 
@@ -120,11 +120,11 @@ script CDGJ_Newroute_EventScript_TrainerBattle3 {
 script CDGJ_Newroute_EventScript_TrainerBattle4 {
     trainerbattle_single(
         TRAINER_GRUNT_WEATHER_INST_2,
-        "You're a new trainer, right? Me too!",
-        "Wow! Your Pokémon trusts you already." 
+        "Mountain biking goes hard frfr.",
+        "Yeah I said frfr, what of it?" 
     )
 
-    msgbox("Good luck out there! Catch'em all!")
+    msgbox("Get hip with it fam squad. We\nrizzin' up Ohio with this one.")
     waitmessage
     closemessage
 

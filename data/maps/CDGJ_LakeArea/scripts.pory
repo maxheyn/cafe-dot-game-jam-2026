@@ -3,11 +3,11 @@ mapscripts CDGJ_LakeArea_MapScripts {}
 script CDGJ_LakeArea_EventScript_TrainerBattle1 {
     trainerbattle_single(
         TRAINER_GRUNT_WEATHER_INST_3,
-        "You're a new trainer, right? Me too!",
-        "Wow! Your Pokémon trusts you already." 
+        "Too much noise in town. The lake is calm.",
+        "Maybe not so calm after these battles!" 
     )
 
-    msgbox("Good luck out there! Catch'em all!")
+    msgbox("I need to sit down and enjoy the water.")
     waitmessage
     closemessage
 
@@ -17,11 +17,11 @@ script CDGJ_LakeArea_EventScript_TrainerBattle1 {
 script CDGJ_LakeArea_EventScript_TrainerBattle2 {
     trainerbattle_single(
         TRAINER_GRUNT_MUSEUM_1,
-        "You're a new trainer, right? Me too!",
-        "Wow! Your Pokémon trusts you already." 
+        "I want to go swimming but I don't know SURF!",
+        "Did they forget to add SURF to the game?" 
     )
 
-    msgbox("Good luck out there! Catch'em all!")
+    msgbox("If only I could SURF!")
     waitmessage
     closemessage
 
@@ -31,11 +31,11 @@ script CDGJ_LakeArea_EventScript_TrainerBattle2 {
 script CDGJ_LakeArea_EventScript_TrainerBattle3 {
     trainerbattle_single(
         TRAINER_GRUNT_MUSEUM_2,
-        "You're a new trainer, right? Me too!",
-        "Wow! Your Pokémon trusts you already." 
+        "This lakewater looks perfect for soup.",
+        "I could drink this lakewater any day." 
     )
 
-    msgbox("Good luck out there! Catch'em all!")
+    msgbox("I want to bottle up the lakewater!")
     waitmessage
     closemessage
 

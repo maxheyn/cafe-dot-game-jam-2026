@@ -309,29 +309,94 @@ script CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC6 {
     release
 }
 
-// script CDGJ_Merriwave_Town_Festive_EventScript_SUFFIX {
-//     faceplayer
-//     msgbox("")
-//     waitmessage
-//     closemessage
-//     release
-// }
+script CDGJ_Merriwave_Town_Festive_EventScript_1 {
+    faceplayer
+    msgbox("I love seeing the stall here in town\nbut it looks like they are still mainly\pgetting set up. Must be some sort\nof time constraint on their end!")
+    waitmessage
+    closemessage
+    release
+}
 
-// script CDGJ_Merriwave_Town_Festive_EventScript_SUFFIX {
-//     faceplayer
-//     msgbox("")
-//     waitmessage
-//     closemessage
-//     release
-// }
+script CDGJ_Merriwave_Town_Festive_EventScript_2 {
+    faceplayer
+    msgbox("Man the smell of that soup is awful.\nI moved up here to get away from\pit, but it feels like there's no escape.")
+    waitmessage
+    closemessage
+    release
+}
 
-// script CDGJ_Merriwave_Town_Festive_EventScript_SUFFIX {
-//     faceplayer
-//     msgbox("")
-//     waitmessage
-//     closemessage
-//     release
-// }
+script CDGJ_Merriwave_Town_Festive_EventScript_3 {
+    faceplayer
+    msgbox("The Pokemart kicked me out because\nI kept asking them to play\pthe KPop Demon Hunters soundtrack\nover the loudspeakers! Meanies!")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_4 {
+    faceplayer
+    msgbox("After the soup ceremony all of the\ntownspeople come around and do some\pshopping at the stalls!")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_5 {
+    faceplayer
+    msgbox("Did you know they just give the\nconstruction worker outfit to anyone\pwho asks? I majored in theater!!!")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_6 {
+    faceplayer
+    msgbox("My girlfriend is over there tabling!\nShe's selling custom art prints\pof frogs!")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_7 {
+    faceplayer
+    msgbox("This lady won't shut up about frogs, man.")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_8 {
+    faceplayer
+    msgbox("I draw frogs! I love frogs!\nRibbit! Ribbit!")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_9 {
+    faceplayer
+    msgbox("I paid for a table slot but forgot\nto actually bring any merch...")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_10 {
+    faceplayer
+    msgbox("I'm the Short-Term Memory Nugget Guy!\nI give out one Nugget per person!")
+    waitmessage
+    closemessage
+    giveitem(ITEM_NUGGET)
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_EventScript_11 {
+    faceplayer
+    msgbox("I don't even care all that much for\nthe festival. I just love being able to\pvisit Cafe Dot during this time of year!")
+    waitmessage
+    closemessage
+    release
+}
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------------------------------------------------------------

@@ -16,9 +16,9 @@ CDGJ_Route_101_Extended_EventScript_TrainerBattle1::
 
 CDGJ_Route_101_Extended_EventScript_TrainerBattle2::
 # 18 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
-	trainerbattle_single TRAINER_ALBERTO, CDGJ_Route_101_Extended_EventScript_TrainerBattle1_Text_0, CDGJ_Route_101_Extended_EventScript_TrainerBattle1_Text_1
+	trainerbattle_single TRAINER_ALBERTO, CDGJ_Route_101_Extended_EventScript_TrainerBattle2_Text_0, CDGJ_Route_101_Extended_EventScript_TrainerBattle2_Text_1
 # 24 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
-	msgbox CDGJ_Route_101_Extended_EventScript_TrainerBattle1_Text_2
+	msgbox CDGJ_Route_101_Extended_EventScript_TrainerBattle2_Text_2
 # 25 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
 	waitmessage
 # 26 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
@@ -28,9 +28,9 @@ CDGJ_Route_101_Extended_EventScript_TrainerBattle2::
 
 CDGJ_Route_101_Extended_EventScript_TrainerBattle3::
 # 32 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
-	trainerbattle_single TRAINER_ED, CDGJ_Route_101_Extended_EventScript_TrainerBattle1_Text_0, CDGJ_Route_101_Extended_EventScript_TrainerBattle1_Text_1
+	trainerbattle_single TRAINER_ED, CDGJ_Route_101_Extended_EventScript_TrainerBattle3_Text_0, CDGJ_Route_101_Extended_EventScript_TrainerBattle3_Text_1
 # 38 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
-	msgbox CDGJ_Route_101_Extended_EventScript_TrainerBattle1_Text_2
+	msgbox CDGJ_Route_101_Extended_EventScript_TrainerBattle3_Text_2
 # 39 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
 	waitmessage
 # 40 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
@@ -80,59 +80,97 @@ CDGJ_Route_101_Extended_EventScript_LedgePerson_Dialogue::
 	end
 
 
-CDGJ_Route_101_Extended_EventScript_Item1::
+CDGJ_Route_101_Extended_EventScript_OtherPerson_Dialogue::
 # 82 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
-	giveitem ITEM_LIFE_ORB, 1
+	faceplayer
 # 83 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+	msgbox CDGJ_Route_101_Extended_EventScript_OtherPerson_Dialogue_Text_0
+# 85 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
 	waitmessage
-# 84 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
-	closemessage
 # 86 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
-	setflag FLAG_CDGJ_OBTAIN_MOUNTAINPASS_ITEM1
+	closemessage
 # 88 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+	releaseall
+	end
+
+
+CDGJ_Route_101_Extended_EventScript_Item1::
+# 94 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+	giveitem ITEM_LIFE_ORB, 1
+# 95 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+	waitmessage
+# 96 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+	closemessage
+# 98 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+	setflag FLAG_CDGJ_OBTAIN_MOUNTAINPASS_ITEM1
+# 100 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
 	removeobject LOCALID_MP_ITEM1
 	end
 
 
 CDGJ_Route_101_Extended_EventScript_Item2::
-# 95 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+# 107 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
 	giveitem ITEM_KINGS_ROCK, 1
-# 96 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+# 108 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
 	waitmessage
-# 97 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+# 109 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
 	closemessage
-# 99 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+# 111 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
 	setflag FLAG_CDGJ_OBTAIN_MOUNTAINPASS_ITEM2
-# 101 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+# 113 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
 	removeobject LOCALID_MP_ITEM2
 	end
 
 
 CDGJ_Route_101_Extended_EventScript_Item3::
-# 108 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+# 120 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
 	giveitem ITEM_LEFTOVERS, 1
-# 109 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+# 121 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
 	waitmessage
-# 110 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+# 122 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
 	closemessage
-# 112 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+# 124 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
 	setflag FLAG_CDGJ_OBTAIN_MOUNTAINPASS_ITEM3
-# 114 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+# 126 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
 	removeobject LOCALID_MP_ITEM3
 	end
 
 
 CDGJ_Route_101_Extended_EventScript_TrainerBattle1_Text_0:
 # 6 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
-	.string "You're a new trainer, right? Me too!$"
+	.string "Hiking is the name of the game!$"
 
 CDGJ_Route_101_Extended_EventScript_TrainerBattle1_Text_1:
 # 7 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
-	.string "Wow! Your Pokémon trusts you already.$"
+	.string "Wait no, the name of the game is Pokémon.$"
 
 CDGJ_Route_101_Extended_EventScript_TrainerBattle1_Text_2:
 # 10 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
-	.string "Good luck out there! Catch'em all!$"
+	.string "I'm not even sure what a game is.$"
+
+CDGJ_Route_101_Extended_EventScript_TrainerBattle2_Text_0:
+# 20 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+	.string "I think I dropped my Leftovers somewhere.$"
+
+CDGJ_Route_101_Extended_EventScript_TrainerBattle2_Text_1:
+# 21 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+	.string "Man I'm so hungry now.$"
+
+CDGJ_Route_101_Extended_EventScript_TrainerBattle2_Text_2:
+# 24 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+	.string "If only I knew where my Leftovers were.$"
+
+CDGJ_Route_101_Extended_EventScript_TrainerBattle3_Text_0:
+# 34 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+	.string "I am the mountain, battle me to pass!$"
+
+CDGJ_Route_101_Extended_EventScript_TrainerBattle3_Text_1:
+# 35 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+	.string "I'm not really a mountain, it was a joke!$"
+
+CDGJ_Route_101_Extended_EventScript_TrainerBattle3_Text_2:
+# 38 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+	.string "I should go into comedy.$"
 
 CDGJ_Route_101_Extended_EventScript_BikePerson_Dialogue_Text_0:
 # 49 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
@@ -145,3 +183,7 @@ CDGJ_Route_101_Extended_EventScript_BikePerson_Dialogue_Text_1:
 CDGJ_Route_101_Extended_EventScript_LedgePerson_Dialogue_Text_0:
 # 69 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
 	.string "Jumping down this ledge will get you\nback to Merriwave Town.\pBut be careful because it's not\nso straightfoward back up!$"
+
+CDGJ_Route_101_Extended_EventScript_OtherPerson_Dialogue_Text_0:
+# 83 "data/maps/CDGJ_Route_101_Extended/scripts.pory"
+	.string "I'M LOST!!!$"

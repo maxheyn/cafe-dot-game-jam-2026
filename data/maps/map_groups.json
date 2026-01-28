@@ -60,7 +60,14 @@
     "CDGJ_Berryroot_Woods_House",
     "CDGJ_LakeArea_Mart",
     "CDGJ_Merriwave_Town_Festive",
-    "testwarp"
+    "testwarp",
+    "CDGJ_CafeDot_Festive",
+    "CDGJ_MerriwaveTown_Festive_House",
+    "CDGJ_MerriwaveTown_Festive_House_2",
+    "CDGJ_MerriwaveTown_Festive_House_3",
+    "CDGJ_MerriwaveTown_Festive_House_4",
+    "CDGJ_Merriwave_Town_Festive_Pokemart",
+    "CDGJ_Merriwave_Town_Festive_Pokecenter"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

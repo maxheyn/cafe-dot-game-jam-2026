@@ -1,4 +1,17 @@
-raw `
-CDGJ_MerriwaveTown_House_MapScripts::
-	.byte 0
-`
+mapscripts CDGJ_MerriwaveTown_House_MapScripts {}
+
+script CDGJ_MerriwaveTown_House_EventScript_1 {
+    faceplayer
+    msgbox("We look forward to the Festival\nevery year! It's a nice way\pto give thanks to the little guys\nthat we love so dearly.")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_MerriwaveTown_House_EventScript_2 {
+    faceplayer
+    msgbox("I volunteer to make the soup every\nyear! I heard you're helping us get\pthe ingredients?")
+    waitmessage
+    closemessage
+    release
+}

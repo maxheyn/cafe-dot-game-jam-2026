@@ -1197,3 +1197,17 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/CDGJ_Merriwave_Town_Festive/scripts.inc"
 
 	.include "data/maps/testwarp/scripts.inc"
+
+	.include "data/maps/CDGJ_CafeDot_Festive/scripts.inc"
+
+	.include "data/maps/CDGJ_MerriwaveTown_Festive_House_4/scripts.inc"
+
+	.include "data/maps/CDGJ_MerriwaveTown_Festive_House_2/scripts.inc"
+
+	.include "data/maps/CDGJ_MerriwaveTown_Festive_House/scripts.inc"
+
+	.include "data/maps/CDGJ_MerriwaveTown_Festive_House_3/scripts.inc"
+
+	.include "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.inc"
+
+	.include "data/maps/CDGJ_Merriwave_Town_Festive_Pokecenter/scripts.inc"

@@ -16,9 +16,9 @@ CDGJ_LakeArea_EventScript_TrainerBattle1::
 
 CDGJ_LakeArea_EventScript_TrainerBattle2::
 # 18 "data/maps/CDGJ_LakeArea/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_MUSEUM_1, CDGJ_LakeArea_EventScript_TrainerBattle1_Text_0, CDGJ_LakeArea_EventScript_TrainerBattle1_Text_1
+	trainerbattle_single TRAINER_GRUNT_MUSEUM_1, CDGJ_LakeArea_EventScript_TrainerBattle2_Text_0, CDGJ_LakeArea_EventScript_TrainerBattle2_Text_1
 # 24 "data/maps/CDGJ_LakeArea/scripts.pory"
-	msgbox CDGJ_LakeArea_EventScript_TrainerBattle1_Text_2
+	msgbox CDGJ_LakeArea_EventScript_TrainerBattle2_Text_2
 # 25 "data/maps/CDGJ_LakeArea/scripts.pory"
 	waitmessage
 # 26 "data/maps/CDGJ_LakeArea/scripts.pory"
@@ -28,9 +28,9 @@ CDGJ_LakeArea_EventScript_TrainerBattle2::
 
 CDGJ_LakeArea_EventScript_TrainerBattle3::
 # 32 "data/maps/CDGJ_LakeArea/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_MUSEUM_2, CDGJ_LakeArea_EventScript_TrainerBattle1_Text_0, CDGJ_LakeArea_EventScript_TrainerBattle1_Text_1
+	trainerbattle_single TRAINER_GRUNT_MUSEUM_2, CDGJ_LakeArea_EventScript_TrainerBattle3_Text_0, CDGJ_LakeArea_EventScript_TrainerBattle3_Text_1
 # 38 "data/maps/CDGJ_LakeArea/scripts.pory"
-	msgbox CDGJ_LakeArea_EventScript_TrainerBattle1_Text_2
+	msgbox CDGJ_LakeArea_EventScript_TrainerBattle3_Text_2
 # 39 "data/maps/CDGJ_LakeArea/scripts.pory"
 	waitmessage
 # 40 "data/maps/CDGJ_LakeArea/scripts.pory"
@@ -126,15 +126,39 @@ CDGJ_LakeArea_EventScript_Item1::
 
 CDGJ_LakeArea_EventScript_TrainerBattle1_Text_0:
 # 6 "data/maps/CDGJ_LakeArea/scripts.pory"
-	.string "You're a new trainer, right? Me too!$"
+	.string "Too much noise in town. The lake is calm.$"
 
 CDGJ_LakeArea_EventScript_TrainerBattle1_Text_1:
 # 7 "data/maps/CDGJ_LakeArea/scripts.pory"
-	.string "Wow! Your Pokémon trusts you already.$"
+	.string "Maybe not so calm after these battles!$"
 
 CDGJ_LakeArea_EventScript_TrainerBattle1_Text_2:
 # 10 "data/maps/CDGJ_LakeArea/scripts.pory"
-	.string "Good luck out there! Catch'em all!$"
+	.string "I need to sit down and enjoy the water.$"
+
+CDGJ_LakeArea_EventScript_TrainerBattle2_Text_0:
+# 20 "data/maps/CDGJ_LakeArea/scripts.pory"
+	.string "I want to go swimming but I don't know SURF!$"
+
+CDGJ_LakeArea_EventScript_TrainerBattle2_Text_1:
+# 21 "data/maps/CDGJ_LakeArea/scripts.pory"
+	.string "Did they forget to add SURF to the game?$"
+
+CDGJ_LakeArea_EventScript_TrainerBattle2_Text_2:
+# 24 "data/maps/CDGJ_LakeArea/scripts.pory"
+	.string "If only I could SURF!$"
+
+CDGJ_LakeArea_EventScript_TrainerBattle3_Text_0:
+# 34 "data/maps/CDGJ_LakeArea/scripts.pory"
+	.string "This lakewater looks perfect for soup.$"
+
+CDGJ_LakeArea_EventScript_TrainerBattle3_Text_1:
+# 35 "data/maps/CDGJ_LakeArea/scripts.pory"
+	.string "I could drink this lakewater any day.$"
+
+CDGJ_LakeArea_EventScript_TrainerBattle3_Text_2:
+# 38 "data/maps/CDGJ_LakeArea/scripts.pory"
+	.string "I want to bottle up the lakewater!$"
 
 CDGJ_LakeArea_EventScript_LakeWaterHintGuy_Text_0:
 # 48 "data/maps/CDGJ_LakeArea/scripts.pory"

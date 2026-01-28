@@ -7,6 +7,7 @@ script CDGJ_CaveExit_EventScript_Nurse {
 
     if (var(VAR_RESULT) == YES) {
 		call(Common_EventScript_OutOfCenterPartyHeal)
+        setrespawn(HEAL_LOCATION_CDGJ_CAVE_EXIT)
 		
         msgbox("All healed up!")
     }
@@ -37,11 +38,11 @@ script CDGJ_CaveExit_EventScript_TrainerBattle1 {
 script CDGJ_CaveExit_EventScript_TrainerBattle2 {
     trainerbattle_single(
         TRAINER_GRUNT_SEAFLOOR_CAVERN_3,
-        "You're a new trainer, right? Me too!",
-        "Wow! Your Pokémon trusts you already." 
+        "How tough am I? I eat a bowl of nails\nfor breakfast.",
+        "Without any milk." 
     )
 
-    msgbox("Good luck out there! Catch'em all!")
+    msgbox("Admittedly, nails are not very\nnutritious.")
     waitmessage
     closemessage
 
@@ -51,11 +52,11 @@ script CDGJ_CaveExit_EventScript_TrainerBattle2 {
 script CDGJ_CaveExit_EventScript_TrainerBattle3 {
     trainerbattle_single(
         TRAINER_GABRIELLE_1,
-        "You're a new trainer, right? Me too!",
-        "Wow! Your Pokémon trusts you already." 
+        "Need to get back to town soon!",
+        "Quickest way back is over the mountain." 
     )
 
-    msgbox("Good luck out there! Catch'em all!")
+    msgbox("The mountain has a few trainers\nahead, but you seem like you\pcould take them.")
     waitmessage
     closemessage
 
@@ -65,11 +66,11 @@ script CDGJ_CaveExit_EventScript_TrainerBattle3 {
 script CDGJ_CaveExit_EventScript_TrainerBattle4 {
     trainerbattle_single(
         TRAINER_MARCEL,
-        "You're a new trainer, right? Me too!",
-        "Wow! Your Pokémon trusts you already." 
+        "I've gotta get these miles!",
+        "Maybe I should get some rest instead!" 
     )
 
-    msgbox("Good luck out there! Catch'em all!")
+    msgbox("Battles really take the wind out of me!")
     waitmessage
     closemessage
 
@@ -79,11 +80,11 @@ script CDGJ_CaveExit_EventScript_TrainerBattle4 {
 script CDGJ_CaveExit_EventScript_TrainerBattle5 {
     trainerbattle_single(
         TRAINER_GRUNT_PETALBURG_WOODS,
-        "You're a new trainer, right? Me too!",
-        "Wow! Your Pokémon trusts you already." 
+        "The smell of berries lingers near here.",
+        "Yeah, I have a sniffer aligned to berries." 
     )
 
-    msgbox("Good luck out there! Catch'em all!")
+    msgbox("Man I love berries.")
     waitmessage
     closemessage
 
@@ -93,11 +94,11 @@ script CDGJ_CaveExit_EventScript_TrainerBattle5 {
 script CDGJ_CaveExit_EventScript_TrainerBattle6 {
     trainerbattle_single(
         TRAINER_LEROY,
-        "You're a new trainer, right? Me too!",
-        "Wow! Your Pokémon trusts you already." 
+        "That lady down there is giving away a bike.",
+        "I'm over it, bikes are so 2019." 
     )
 
-    msgbox("Good luck out there! Catch'em all!")
+    msgbox("You'll never see me on a bike, no way.")
     waitmessage
     closemessage
 

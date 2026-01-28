@@ -3,11 +3,11 @@ mapscripts CDGJ_Route_101_Extended_MapScripts {}
 script CDGJ_Route_101_Extended_EventScript_TrainerBattle1 {
     trainerbattle_single(
         TRAINER_GRUNT_SEAFLOOR_CAVERN_4,
-        "You're a new trainer, right? Me too!",
-        "Wow! Your Pokémon trusts you already." 
+        "Hiking is the name of the game!",
+        "Wait no, the name of the game is Pokémon." 
     )
 
-    msgbox("Good luck out there! Catch'em all!")
+    msgbox("I'm not even sure what a game is.")
     waitmessage
     closemessage
 
@@ -17,11 +17,11 @@ script CDGJ_Route_101_Extended_EventScript_TrainerBattle1 {
 script CDGJ_Route_101_Extended_EventScript_TrainerBattle2 {
     trainerbattle_single(
         TRAINER_ALBERTO,
-        "You're a new trainer, right? Me too!",
-        "Wow! Your Pokémon trusts you already." 
+        "I think I dropped my Leftovers somewhere.",
+        "Man I'm so hungry now." 
     )
 
-    msgbox("Good luck out there! Catch'em all!")
+    msgbox("If only I knew where my Leftovers were.")
     waitmessage
     closemessage
 
@@ -31,11 +31,11 @@ script CDGJ_Route_101_Extended_EventScript_TrainerBattle2 {
 script CDGJ_Route_101_Extended_EventScript_TrainerBattle3 {
     trainerbattle_single(
         TRAINER_ED,
-        "You're a new trainer, right? Me too!",
-        "Wow! Your Pokémon trusts you already." 
+        "I am the mountain, battle me to pass!",
+        "I'm not really a mountain, it was a joke!" 
     )
 
-    msgbox("Good luck out there! Catch'em all!")
+    msgbox("I should go into comedy.")
     waitmessage
     closemessage
 
@@ -72,6 +72,18 @@ script CDGJ_Route_101_Extended_EventScript_LedgePerson_Dialogue {
     closemessage
 
     applymovement(LOCALID_HELP_GO_DOWN, FaceDown)
+	
+	releaseall
+
+	end
+}
+
+script CDGJ_Route_101_Extended_EventScript_OtherPerson_Dialogue {
+    faceplayer
+    msgbox("I'M LOST!!!")
+
+    waitmessage
+    closemessage
 	
 	releaseall
 

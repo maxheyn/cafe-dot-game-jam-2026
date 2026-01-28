@@ -1,8 +1,12 @@
 mapscripts CDGJ_MerriwaveTown_PokemonCenter_1F_MapScripts {}
 
 
-script CDGJ_MerriwaveTown_PokemonCenter_1F_Nurse {
-    setvar(VAR_0x800B, 0)
+script CDGJ_MerriwaveTown_PokemonCenter_1F_EventScript_Nurse {
+    setvar(VAR_0x800B, LOCALID_MERRIWAVE_NURSE)
     call(Common_EventScript_PkmnCenterNurse)
+    waitmessage
+    waitbuttonpress
+    release
+    setrespawn(HEAL_LOCATION_CDGJ_MERRIWAVE_TOWN_POKEMON_CENTER_1F)
     end
 }
