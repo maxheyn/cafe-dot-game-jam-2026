@@ -18,11 +18,11 @@ script CDGJ_ConnectingRoute_EventScript_TrainerBattle1 {
 script CDGJ_ConnectingRoute_EventScript_TrainerBattle2 {
     trainerbattle_single(
         TRAINER_GRUNT_MT_PYRE_1,
-        "Hard to get my bike through here.",
-        "Too many sharp turns." 
+        "I'm researching the effects of battles\non the toll company profits!.",
+        "Many I should research something else." 
     )
 
-    msgbox("I miss my bike.")
+    msgbox("Time for some new studies!")
     waitmessage
     closemessage
 

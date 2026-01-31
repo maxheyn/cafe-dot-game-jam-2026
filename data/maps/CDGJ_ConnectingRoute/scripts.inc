@@ -147,15 +147,15 @@ CDGJ_ConnectingRoute_EventScript_TrainerBattle1_Text_2:
 
 CDGJ_ConnectingRoute_EventScript_TrainerBattle2_Text_0:
 # 21 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
-	.string "Hard to get my bike through here.$"
+	.string "I'm researching the effects of battles\non the toll company profits!.$"
 
 CDGJ_ConnectingRoute_EventScript_TrainerBattle2_Text_1:
 # 22 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
-	.string "Too many sharp turns.$"
+	.string "Many I should research something else.$"
 
 CDGJ_ConnectingRoute_EventScript_TrainerBattle2_Text_2:
 # 25 "data/maps/CDGJ_ConnectingRoute/scripts.pory"
-	.string "I miss my bike.$"
+	.string "Time for some new studies!$"
 
 CDGJ_ConnectingRoute_EventScript_TrainerBattle3_Text_0:
 # 35 "data/maps/CDGJ_ConnectingRoute/scripts.pory"

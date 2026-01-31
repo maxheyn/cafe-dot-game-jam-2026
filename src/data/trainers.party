@@ -93,11 +93,11 @@ START
 /* NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE NORTH MERRIWAVE */
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_4 ===
-Name: BRENT
-Class: Bug Maniac
-Pic: Bug Maniac
-Gender: Male
-Music: Suspicious
+Name: LYLA
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Girl
 Double Battle: No
 AI: Basic Trainer
 
@@ -105,16 +105,16 @@ Weedle
 Level: 3
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Scatterbug
+Wooloo
 Level: 3
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_1 ===
 Name: BILLY
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Youngster
+Pic: Youngster
 Gender: Male
-Music: Aqua
+Music: Male
 Double Battle: No
 AI: Check Bad Move
 
@@ -123,11 +123,11 @@ Level: 4
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ROSE_2 ===
-Name: ROSE
-Class: Aroma Lady
-Pic: Aroma Lady
-Gender: Female
-Music: Female
+Name: BENJI
+Class: Sailor
+Pic: Sailor
+Gender: Male
+Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
@@ -152,13 +152,13 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 /* CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE CAVE */
 
 === TRAINER_SAWYER_1 ===
-Name: SAMANTHA
-Class: Pkmn Breeder
-Pic: Pokemon Breeder F
-Gender: Female
-Music: Hiker
+Name: JOHNNY
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move
 
 Roggenrola
 Level: 5
@@ -166,8 +166,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
 Name: LANDON
-Class: Pkmn Breeder
-Pic: Pokemon Breeder M
+Class: Hiker
+Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -182,11 +182,11 @@ Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_2 ===
-Name: EMILIA
-Class: Pkmn Breeder
-Pic: Pokemon Breeder F
-Gender: Female
-Music: Hiker
+Name: EMILIO
+Class: Pkmn Ranger
+Pic: Pokemon Ranger M
+Gender: Male
+Music: Cool
 Double Battle: No
 AI: Basic Trainer
 
@@ -199,9 +199,9 @@ Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_3 ===
-Name: SPRANG
-Class: Pkmn Breeder
-Pic: Pokemon Breeder M
+Name: DYLAN
+Class: Hiker
+Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -216,11 +216,11 @@ IVs: 0 HP / 0 Atk / 2 Def / 0 SpA / 2 SpD / 0 Spe
 /* TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE TREEHOUSE PLACE  */
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_2 ===
-Name: ANDERS
-Class: Team Aqua
-Pic: Aqua Grunt M
+Name: REX
+Class: Triathlete
+Pic: Cycling Triathlete M
 Gender: Male
-Music: Aqua
+Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
@@ -233,11 +233,11 @@ Level: 8
 IVs: 0 HP / 2 Atk / 0 Def / 0 SpA / 0 SpD / 1 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_3 ===
-Name: MARCUS
-Class: Team Aqua
-Pic: Aqua Grunt M
+Name: GABRIEL
+Class: Rich Boy
+Pic: Black Belt
 Gender: Male
-Music: Aqua
+Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
@@ -251,11 +251,11 @@ IVs: 4 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 
 === TRAINER_GABRIELLE_1 ===
-Name: GABRIELLE
-Class: Pkmn Breeder
-Pic: Pokemon Breeder F
-Gender: Female
-Music: Female
+Name: JONES
+Class: Rich Boy
+Pic: Dragon Tamer
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Check Bad Move
 
@@ -273,14 +273,13 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 2 SpD / 0 Spe
 
 
 === TRAINER_MARCEL ===
-Name: GRANCH
-Class: Cooltrainer
-Pic: Cooltrainer M
+Name: DANNY
+Class: Triathlete
+Pic: Cycling Triathlete M
 Gender: Male
-Music: Cool
-Items: Hyper Potion
+Music: Intense
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move
 
 Litleo
 Level: 10
@@ -292,11 +291,11 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 2 SpD / 2 Spe
 
 
 === TRAINER_GRUNT_PETALBURG_WOODS ===
-Name: LUISA
-Class: Team Aqua
-Pic: Aqua Grunt M
+Name: CAM
+Class: Rich Boy
+Pic: Rich Boy
 Gender: Male
-Music: Aqua
+Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
@@ -313,12 +312,12 @@ Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LEROY ===
-Name: LEROY
-Class: Cooltrainer
-Pic: Cooltrainer M
+Name: ALAINA
+Class: Rich Boy
+Pic: Rich Boy
 Gender: Male
-Music: Cool
 Items: Potion
+Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
@@ -335,11 +334,11 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 /* MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS MOUNTAIN PASS  */
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_4 ===
-Name: SPIRALINA
-Class: Team Aqua
-Pic: Aqua Grunt F
-Gender: Female
-Music: Aqua
+Name: ZANDER
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
@@ -356,11 +355,11 @@ Level: 11
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_ALBERTO ===
-Name: JUAN
-Class: Bird Keeper
-Pic: Bird Keeper
+Name: ALEXEI
+Class: Hiker
+Pic: Hiker
 Gender: Male
-Music: Cool
+Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
@@ -373,20 +372,20 @@ Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ED ===
-Name: ALVIN
-Class: Collector
-Pic: Collector
+Name: PATTY
+Class: Picnicker
+Pic: Picnicker
 Gender: Male
 Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
 Zangoose
-Level: 15
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seviper
-Level: 15
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 /* BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE  */
@@ -394,11 +393,11 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 /* BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE BERRY PLACE  */
 
 === TRAINER_DECLAN ===
-Name: DECLAN
-Class: Swimmer M
-Pic: Swimmer M
+Name: FLYNN
+Class: Youngster
+Pic: Youngster
 Gender: Male
-Music: Swimmer
+Music: Male
 Double Battle: No
 AI: Check Bad Move
 
@@ -411,28 +410,28 @@ Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_RUSTURF_TUNNEL ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
+Name: JAMIE
+Class: Picnicker
+Pic: Picnicker
+Gender: Female
+Music: Girl
 Double Battle: No
 AI: Check Bad Move
+
+Skitty
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Girafarig
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Skitty
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_GRUNT_WEATHER_INST_1 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
+Name: MEELA
+Class: Picnicker
+Pic: Picnicker
+Gender: Female
+Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
@@ -445,11 +444,11 @@ Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_2 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Name: TRAYVON
+Class: Triathlete
+Pic: Cycling Triathlete M
 Gender: Male
-Music: Aqua
+Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
@@ -474,11 +473,11 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 /* LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA LAKE AREA   */
 
 === TRAINER_GRUNT_WEATHER_INST_3 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Name: PATRICK
+Class: Sailor
+Pic: Sailor
 Gender: Male
-Music: Aqua
+Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
@@ -495,11 +494,11 @@ Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MUSEUM_1 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Name: KAREN
+Class: Tuber M
+Pic: Tuber M
 Gender: Male
-Music: Aqua
+Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
@@ -508,11 +507,11 @@ Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MUSEUM_2 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
+Name: SANDY
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
@@ -533,11 +532,11 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 /* TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS TOLL PASS */
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
-Music: Magma
+Name: LOTUS
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
@@ -550,11 +549,11 @@ Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_1 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Name: CHERRI
+Class: Tuber M
+Pic: Tuber M
 Gender: Male
-Music: Aqua
+Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
@@ -563,11 +562,11 @@ Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_2 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Name: LUKAS
+Class: Youngster
+Pic: Youngster
 Gender: Male
-Music: Aqua
+Music: Male
 Double Battle: No
 AI: Check Bad Move
 
@@ -580,11 +579,11 @@ Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_3 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Name: KYLAN
+Class: Dragon Tamer
+Pic: Dragon Tamer
 Gender: Male
-Music: Aqua
+Music: Male
 Double Battle: No
 AI: Check Bad Move
 
@@ -2959,8 +2958,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Name: STEVE
 Class: Pokemaniac
 Pic: Pokemaniac
-Gender: Male
-Music: Suspicious
+Gender: Female
+Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
