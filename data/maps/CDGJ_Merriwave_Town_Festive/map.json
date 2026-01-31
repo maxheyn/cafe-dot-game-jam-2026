@@ -2,7 +2,7 @@
   "id": "MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE",
   "name": "CDGJ_Merriwave_Town_Festive",
   "layout": "LAYOUT_CDGJ_MERRIWAVE_TOWN_FESTIVE",
-  "music": "MUS_FORTREE",
+  "music": "MUS_CDGJ_TOWN",
   "region_map_section": "MAPSEC__CDGJ_FESTIVAL",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

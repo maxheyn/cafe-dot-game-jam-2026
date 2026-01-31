@@ -2,7 +2,7 @@
   "id": "MAP_MERRIWAVE_TOWN",
   "name": "CDGJ_Merriwave_Town",
   "layout": "LAYOUT_MERRIWAVE_TOWN",
-  "music": "MUS_FORTREE",
+  "music": "MUS_CDGJ_TOWN",
   "region_map_section": "MAPSEC__CDGJ_MERRIWAVE_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
