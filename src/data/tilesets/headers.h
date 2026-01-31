@@ -874,3 +874,36 @@ const struct Tileset gTileset_CDGJ_INTERIOR =
     .metatileAttributes = gMetatileAttributes_CDGJ_INTERIOR,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_cdgj_pokecenter =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_cdgj_pokecenter,
+    .palettes = gTilesetPalettes_cdgj_pokecenter,
+    .metatiles = gMetatiles_cdgj_pokecenter,
+    .metatileAttributes = gMetatileAttributes_cdgj_pokecenter,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_cdgj_pokecenter_real =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_cdgj_pokecenter_real,
+    .palettes = gTilesetPalettes_cdgj_pokecenter_real,
+    .metatiles = gMetatiles_cdgj_pokecenter_real,
+    .metatileAttributes = gMetatileAttributes_cdgj_pokecenter_real,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_cdgj_pokemart =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_cdgj_pokemart,
+    .palettes = gTilesetPalettes_cdgj_pokemart,
+    .metatiles = gMetatiles_cdgj_pokemart,
+    .metatileAttributes = gMetatileAttributes_cdgj_pokemart,
+    .callback = NULL,
+};

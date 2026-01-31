@@ -1710,3 +1710,60 @@ const u16 gTilesetPalettes_CDGJ_INTERIOR[][16] =
 };
 
 const u32 gTilesetTiles_CDGJ_INTERIOR[] = INCBIN_U32("data/tilesets/secondary/cdgj_interior/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_cdgj_pokecenter[][16] =
+{
+    INCBIN_U16("data/tilesets/primary/cdgj_pokecenter/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/cdgj_pokecenter/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/cdgj_pokecenter/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/cdgj_pokecenter/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/cdgj_pokecenter/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/cdgj_pokecenter/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/cdgj_pokecenter/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/cdgj_pokecenter/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/cdgj_pokecenter/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/cdgj_pokecenter/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/cdgj_pokecenter/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/cdgj_pokecenter/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/cdgj_pokecenter/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_cdgj_pokecenter[] = INCBIN_U32("data/tilesets/primary/cdgj_pokecenter/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_cdgj_pokecenter_real[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokecenter_real/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokecenter_real/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokecenter_real/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokecenter_real/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokecenter_real/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokecenter_real/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokecenter_real/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokecenter_real/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokecenter_real/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokecenter_real/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokecenter_real/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokecenter_real/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokecenter_real/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_cdgj_pokecenter_real[] = INCBIN_U32("data/tilesets/secondary/cdgj_pokecenter_real/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_cdgj_pokemart[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokemart/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokemart/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokemart/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokemart/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokemart/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokemart/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokemart/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokemart/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokemart/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokemart/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokemart/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokemart/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cdgj_pokemart/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_cdgj_pokemart[] = INCBIN_U32("data/tilesets/secondary/cdgj_pokemart/tiles.4bpp.lz");

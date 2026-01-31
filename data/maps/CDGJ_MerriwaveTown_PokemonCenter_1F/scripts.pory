@@ -4,9 +4,33 @@ mapscripts CDGJ_MerriwaveTown_PokemonCenter_1F_MapScripts {}
 script CDGJ_MerriwaveTown_PokemonCenter_1F_EventScript_Nurse {
     setvar(VAR_0x800B, LOCALID_MERRIWAVE_NURSE)
     call(Common_EventScript_PkmnCenterNurse)
+    setrespawn(HEAL_LOCATION_CDGJ_MERRIWAVE_TOWN)
     waitmessage
     waitbuttonpress
     release
-    setrespawn(HEAL_LOCATION_CDGJ_MERRIWAVE_TOWN_POKEMON_CENTER_1F)
     end
+}
+
+script CDGJ_MerriwaveTown_PokemonCenter_1F_EventScript_1 {
+    faceplayer
+    msgbox("Lots of people travel to Merriwave\nTown every year for the festival!")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_MerriwaveTown_PokemonCenter_1F_EventScript_2 {
+    faceplayer
+    msgbox("I'm on my lunch break!")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_MerriwaveTown_PokemonCenter_1F_EventScript_3 {
+    faceplayer
+    msgbox("Do you think there's more of them???")
+    waitmessage
+    closemessage
+    release
 }

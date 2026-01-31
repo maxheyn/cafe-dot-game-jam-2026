@@ -3,7 +3,7 @@ mapscripts CDGJ_NorthMerriwave_MapScripts {}
 script CDGJ_NorthMerriwave_EventScript_CaveSign {
     lockall
 
-	msgbox("Flowstone Cave ahead")
+	msgbox("Flowstone Cave")
 	waitmessage
 	closemessage
 

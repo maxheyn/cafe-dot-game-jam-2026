@@ -219,3 +219,12 @@ const u16 gMetatileAttributes_CDGJ_Town[] = INCBIN_U16("data/tilesets/secondary/
 
 const u16 gMetatiles_CDGJ_INTERIOR[] = INCBIN_U16("data/tilesets/secondary/cdgj_interior/metatiles.bin");
 const u16 gMetatileAttributes_CDGJ_INTERIOR[] = INCBIN_U16("data/tilesets/secondary/cdgj_interior/metatile_attributes.bin");
+
+const u16 gMetatiles_cdgj_pokecenter[] = INCBIN_U16("data/tilesets/primary/cdgj_pokecenter/metatiles.bin");
+const u16 gMetatileAttributes_cdgj_pokecenter[] = INCBIN_U16("data/tilesets/primary/cdgj_pokecenter/metatile_attributes.bin");
+
+const u16 gMetatiles_cdgj_pokecenter_real[] = INCBIN_U16("data/tilesets/secondary/cdgj_pokecenter_real/metatiles.bin");
+const u16 gMetatileAttributes_cdgj_pokecenter_real[] = INCBIN_U16("data/tilesets/secondary/cdgj_pokecenter_real/metatile_attributes.bin");
+
+const u16 gMetatiles_cdgj_pokemart[] = INCBIN_U16("data/tilesets/secondary/cdgj_pokemart/metatiles.bin");
+const u16 gMetatileAttributes_cdgj_pokemart[] = INCBIN_U16("data/tilesets/secondary/cdgj_pokemart/metatile_attributes.bin");

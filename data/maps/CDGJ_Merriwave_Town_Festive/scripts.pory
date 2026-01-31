@@ -173,6 +173,8 @@ script CDGJ_Merriwave_Town_Festive_Finale2 {
     waitmessage
     closemessage
 
+    setrespawn(HEAL_LOCATION_CDGJ_MERRIWAVE_TOWN_FESTIVE)
+
     releaseall
 }
 
@@ -383,10 +385,18 @@ script CDGJ_Merriwave_Town_Festive_EventScript_9 {
 
 script CDGJ_Merriwave_Town_Festive_EventScript_10 {
     faceplayer
-    msgbox("I'm the Short-Term Memory Nugget Guy!\nI give out one Nugget per person!")
+    msgbox("I'm the Short-Term Memory Nugget Guy!\nI give out one Nugget per person!\pDo you want a Nugget?", MSGBOX_YESNO)
     waitmessage
     closemessage
-    giveitem(ITEM_NUGGET)
+
+    if (var(VAR_RESULT) == YES) {
+        giveitem(ITEM_NUGGET)
+    } else {
+        msgbox("Come back anytime! But remember\nonly one Nugget per person!\pI'm the Short-Term Memory Nugget Guy!")
+        waitmessage
+        closemessage
+    }
+    
     release
 }
 
@@ -438,6 +448,8 @@ script CDGJ_Merriwave_Town_Festive_EventScript_FINALEBATTLE {
 
     msgbox("Would you battle me?\pNot as a test. Not for a badge.\nJust one last time.\pBefore I stop being a gym leader?")
     call(Common_EventScript_OutOfCenterPartyHeal)
+
+    setrespawn(HEAL_LOCATION_CDGJ_MERRIWAVE_TOWN_FESTIVE)
 
     trainerbattle_single(
         TRAINER_GRUNT_WEATHER_INST_4,

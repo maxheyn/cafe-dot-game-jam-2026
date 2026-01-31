@@ -27,7 +27,7 @@
   "object_events": [
     {
       "local_id": "LOCALID_SPECIAL_BERRY",
-      "graphics_id": "OBJ_EVENT_GFX_APRICORN_TREE",
+      "graphics_id": "OBJ_EVENT_GFX_OLD_MAN",
       "x": 32,
       "y": 8,
       "elevation": 0,

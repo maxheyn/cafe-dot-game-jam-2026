@@ -2,10 +2,34 @@ mapscripts CDGJ_Merriwave_Town_Festive_Pokecenter_MapScripts {}
 
 script CDGJ_Merriwave_Town_Festive_Pokecenter_EventScript_Nurse {
     setvar(VAR_0x800B, LOCALID_MERRIWAVE_FESTIVE_NURSE)
+    setrespawn(HEAL_LOCATION_CDGJ_MERRIWAVE_TOWN_FESTIVE)
     call(Common_EventScript_PkmnCenterNurse)
     waitmessage
     waitbuttonpress
     release
-    setrespawn(HEAL_LOCATION_CDGJ_MERRIWAVE_TOWN_FESTIVE_POKECENTER)
     end
+}
+
+script CDGJ_Merriwave_Town_Festive_Pokecenter_EventScript_1 {
+    faceplayer
+    msgbox("We both tried some of the soup.\nHad to rush here. Got told\pthat they only treat Pokémon.\nMan what is this place?")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_Pokecenter_EventScript_2 {
+    faceplayer
+    msgbox("Whatever you do, don't try the soup!")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_Merriwave_Town_Festive_Pokecenter_EventScript_3 {
+    faceplayer
+    msgbox("I wonder if the other professors from\nthe various regions ever come\pto visit here. I'd love to\nmeet them!")
+    waitmessage
+    closemessage
+    release
 }

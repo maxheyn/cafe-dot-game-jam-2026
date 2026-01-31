@@ -242,7 +242,7 @@ CDGJ_NorthMerriwave_EventScript_WarpLogic2_2:
 
 CDGJ_NorthMerriwave_EventScript_CaveSign_Text_0:
 # 6 "data/maps/CDGJ_NorthMerriwave/scripts.pory"
-	.string "Flowstone Cave ahead$"
+	.string "Flowstone Cave$"
 
 CDGJ_NorthMerriwave_EventScript_AlcoveSign_Text_0:
 # 18 "data/maps/CDGJ_NorthMerriwave/scripts.pory"

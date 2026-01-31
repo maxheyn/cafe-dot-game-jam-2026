@@ -263,460 +263,477 @@ CDGJ_Merriwave_Town_Festive_Finale2::
 # 174 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	closemessage
 # 176 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	setrespawn HEAL_LOCATION_CDGJ_MERRIWAVE_TOWN_FESTIVE
+# 178 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	releaseall
 	return
 
 
-# 179 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 181 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 PlayerWalkToSoup1:
-# 180 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 182 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	walk_down
-# 180 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 182 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	walk_down
-# 180 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 182 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	walk_down
-# 180 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 182 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	walk_down
-# 180 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 182 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	walk_down
-# 180 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 182 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	walk_down
 	step_end
 
-# 183 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-ChefReactsToPlayer1:
-# 184 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	emote_question_mark
 # 185 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	delay_16
+ChefReactsToPlayer1:
 # 186 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	delay_8
+	emote_question_mark
 # 187 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	face_up
+	delay_16
 # 188 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	delay_8
+# 189 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	face_up
+# 190 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	delay_16
 	step_end
 
-# 191 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-ChefReactsToPlayer2:
-# 192 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	emote_double_exclamation_mark
 # 193 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	jump_in_place_up
+ChefReactsToPlayer2:
 # 194 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	emote_double_exclamation_mark
+# 195 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	jump_in_place_up
+# 196 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	jump_in_place_up
 	step_end
 
-# 197 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 199 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 HelperWalksTowardsPlayer:
-# 198 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 200 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	walk_right
-# 198 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 200 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	walk_right
-# 199 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 201 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	walk_up
-# 199 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 201 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	walk_up
-# 199 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 201 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	walk_up
 	step_end
 
-# 202 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 204 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 HelperWalksBackToSpot:
-# 203 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	walk_down
-# 203 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	walk_down
-# 203 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	walk_down
-# 204 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	walk_left
-# 204 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	walk_left
 # 205 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	walk_down
+# 205 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	walk_down
+# 205 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	walk_down
+# 206 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	walk_left
+# 206 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	walk_left
+# 207 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	face_right
 	step_end
 
-# 208 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-HelperWalksToPot:
-# 209 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	walk_right
 # 210 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	walk_up
+HelperWalksToPot:
 # 211 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	walk_right
+# 212 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	walk_up
+# 213 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	walk_right
 	step_end
 
-# 215 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-HelperBackFromPot:
-# 216 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	walk_left
 # 217 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	walk_down
+HelperBackFromPot:
 # 218 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	walk_left
 # 219 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	walk_down
+# 220 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	walk_left
+# 221 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	face_right
 	step_end
 
-# 222 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 224 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 WalkUp:
-# 223 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 225 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	walk_up
 	step_end
 
-# 226 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-WalkDownLockDirection:
-# 227 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	lock_facing_direction
 # 228 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	walk_down
+WalkDownLockDirection:
 # 229 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	lock_facing_direction
+# 230 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	walk_down
+# 231 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	unlock_facing_direction
 	step_end
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC2::
-# 233 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 234 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC2_Text_0
 # 235 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 236 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC2_Text_0
 # 237 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 238 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 239 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC3::
-# 241 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 242 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC3_Text_0
 # 243 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 244 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC3_Text_0
 # 245 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 246 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 247 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_CHEF::
-# 249 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 250 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_CHEF_Text_0
 # 251 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 252 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_CHEF_Text_0
 # 253 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 254 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 255 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_HELPER::
-# 257 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 258 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_HELPER_Text_0
 # 259 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 260 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_HELPER_Text_0
 # 261 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 262 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 263 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC4::
-# 265 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 266 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC4_Text_0
 # 267 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 268 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC4_Text_0
 # 269 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 270 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 271 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC1::
-# 273 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 274 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC1_Text_0
 # 275 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 276 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC1_Text_0
 # 277 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 278 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 279 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC8::
-# 281 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 282 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC8_Text_0
 # 283 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 284 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC8_Text_0
 # 285 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 286 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 287 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC7::
-# 289 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 290 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC7_Text_0
 # 291 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 292 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC7_Text_0
 # 293 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 294 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 295 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC5::
-# 297 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 298 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC5_Text_0
 # 299 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 300 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC5_Text_0
 # 301 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 302 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 303 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC6::
-# 305 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 306 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC5_Text_0
 # 307 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 308 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC5_Text_0
 # 309 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 310 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 311 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_1::
-# 313 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 314 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_1_Text_0
 # 315 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 316 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_1_Text_0
 # 317 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 318 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 319 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_2::
-# 321 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 322 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_2_Text_0
 # 323 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 324 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_2_Text_0
 # 325 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 326 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 327 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_3::
-# 329 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 330 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_3_Text_0
 # 331 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 332 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_3_Text_0
 # 333 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 334 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 335 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_4::
-# 337 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 338 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_4_Text_0
 # 339 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 340 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_4_Text_0
 # 341 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 342 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 343 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_5::
-# 345 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 346 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_5_Text_0
 # 347 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 348 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_5_Text_0
 # 349 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 350 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 351 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_6::
-# 353 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 354 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_6_Text_0
 # 355 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 356 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_6_Text_0
 # 357 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 358 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 359 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_7::
-# 361 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 362 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_7_Text_0
 # 363 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 364 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_7_Text_0
 # 365 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 366 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 367 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_8::
-# 369 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 370 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_8_Text_0
 # 371 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 372 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_8_Text_0
 # 373 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 374 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 375 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_9::
-# 377 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 378 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_9_Text_0
 # 379 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
+	faceplayer
 # 380 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_9_Text_0
 # 381 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 382 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 383 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_10::
-# 385 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	faceplayer
-# 386 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_10_Text_0
 # 387 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
-# 388 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
-# 389 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	giveitem ITEM_NUGGET
-# 390 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	release
-	return
-
-
-CDGJ_Merriwave_Town_Festive_EventScript_11::
-# 394 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	faceplayer
+# 388 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_10_Text_0, MSGBOX_YESNO
+# 389 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 390 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 392 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq CDGJ_Merriwave_Town_Festive_EventScript_10_2
 # 395 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_11_Text_0
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_10_Text_1
 # 396 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	waitmessage
 # 397 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	closemessage
-# 398 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+CDGJ_Merriwave_Town_Festive_EventScript_10_1:
+# 400 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	release
+	return
+
+CDGJ_Merriwave_Town_Festive_EventScript_10_2:
+# 393 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	giveitem ITEM_NUGGET
+	goto CDGJ_Merriwave_Town_Festive_EventScript_10_1
+
+
+CDGJ_Merriwave_Town_Festive_EventScript_11::
+# 404 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	faceplayer
+# 405 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_11_Text_0
+# 406 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	waitmessage
+# 407 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
+# 408 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
 
 CDGJ_Merriwave_Town_Festive_EventScript_FINALEBATTLE::
-# 408 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 418 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	faceplayer
-# 410 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 420 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	applymovement LOCALID_RIVAL_FINALE, EmoteExclamationMark
-# 411 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmovement
-# 413 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	delay 30
-# 415 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_FINALEBATTLE_Text_0
-# 416 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	waitmessage
-# 417 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	closemessage
-# 419 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	delay 30
 # 421 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	applymovement LOCALID_PLAYER, EmoteQuestionMark
-# 422 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	waitmovement
-# 424 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 423 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	delay 30
+# 425 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_FINALEBATTLE_Text_0
 # 426 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_FINALEBATTLE_Text_1
-# 427 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	waitmessage
-# 428 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 427 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	closemessage
-# 430 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 429 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	delay 30
+# 431 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	applymovement LOCALID_PLAYER, EmoteQuestionMark
 # 432 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	applymovement LOCALID_RIVAL_FINALE, FaceUp
+	waitmovement
 # 434 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	delay 60
-# 435 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	delay 60
+	delay 30
+# 436 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_FINALEBATTLE_Text_1
 # 437 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	applymovement LOCALID_RIVAL_FINALE, FacePlayer
-# 439 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_EventScript_FINALEBATTLE_Text_2
+	waitmessage
+# 438 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	closemessage
 # 440 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	call Common_EventScript_OutOfCenterPartyHeal
+	delay 30
 # 442 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	applymovement LOCALID_RIVAL_FINALE, FaceUp
+# 444 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	delay 60
+# 445 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	delay 60
+# 447 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	applymovement LOCALID_RIVAL_FINALE, FacePlayer
+# 449 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	msgbox CDGJ_Merriwave_Town_Festive_EventScript_FINALEBATTLE_Text_2
+# 450 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	call Common_EventScript_OutOfCenterPartyHeal
+# 452 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	setrespawn HEAL_LOCATION_CDGJ_MERRIWAVE_TOWN_FESTIVE
+# 454 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	trainerbattle_single TRAINER_GRUNT_WEATHER_INST_4, CDGJ_Merriwave_Town_Festive_EventScript_FINALEBATTLE_Text_3, CDGJ_Merriwave_Town_Festive_EventScript_FINALEBATTLE_Text_4
-# 451 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 463 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	release
 	return
 
@@ -770,101 +787,105 @@ CDGJ_Merriwave_Town_Festive_Finale2_Text_11:
 	.string "Oh, and I think Pepper wanted\nto meet you by the Gym.\pBest not to keep them waiting!\nThanks again!$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC2_Text_0:
-# 234 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 236 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "Soup smells... different.\nNot for me I think!\pBut the sentiment is nice at least!$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC3_Text_0:
-# 242 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 244 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "I was curious to try the soup once…\n… … … … … …\pOnce.$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_CHEF_Text_0:
-# 250 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 252 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "I hope the Pokémon like it.$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_HELPER_Text_0:
-# 258 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 260 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "All worth it.$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC4_Text_0:
-# 266 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 268 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "The soup needed just three ingredients.\nSimple right?$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC1_Text_0:
-# 274 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 276 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "I don't understand how anyone\ncould eat rocks.$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC8_Text_0:
-# 282 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 284 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "Soup soup soup! Soup in the balloon!\n(the balloon is my tummy.)$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC7_Text_0:
-# 290 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 292 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "I didn't even know there was\na festival today.\pI just came here to fart\nbut kept running into people\pand I'm too afraid to fart near other\npeople and now I've just accepted\pfate and am destined to stink.\nAlso, soup looks gross.$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_LOCALID_FESTIVAL_NPC5_Text_0:
-# 298 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 300 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "Still on a date.$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_1_Text_0:
-# 314 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 316 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "I love seeing the stall here in town\nbut it looks like they are still mainly\pgetting set up. Must be some sort\nof time constraint on their end!$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_2_Text_0:
-# 322 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 324 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "Man the smell of that soup is awful.\nI moved up here to get away from\pit, but it feels like there's no escape.$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_3_Text_0:
-# 330 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 332 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "The Pokemart kicked me out because\nI kept asking them to play\pthe KPop Demon Hunters soundtrack\nover the loudspeakers! Meanies!$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_4_Text_0:
-# 338 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 340 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "After the soup ceremony all of the\ntownspeople come around and do some\pshopping at the stalls!$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_5_Text_0:
-# 346 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 348 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "Did you know they just give the\nconstruction worker outfit to anyone\pwho asks? I majored in theater!!!$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_6_Text_0:
-# 354 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 356 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "My girlfriend is over there tabling!\nShe's selling custom art prints\pof frogs!$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_7_Text_0:
-# 362 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 364 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "This lady won't shut up about frogs, man.$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_8_Text_0:
-# 370 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 372 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "I draw frogs! I love frogs!\nRibbit! Ribbit!$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_9_Text_0:
-# 378 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 380 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "I paid for a table slot but forgot\nto actually bring any merch...$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_10_Text_0:
-# 386 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
-	.string "I'm the Short-Term Memory Nugget Guy!\nI give out one Nugget per person!$"
+# 388 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	.string "I'm the Short-Term Memory Nugget Guy!\nI give out one Nugget per person!\pDo you want a Nugget?$"
+
+CDGJ_Merriwave_Town_Festive_EventScript_10_Text_1:
+# 395 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+	.string "Come back anytime! But remember\nonly one Nugget per person!\pI'm the Short-Term Memory Nugget Guy!$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_11_Text_0:
-# 395 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 405 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "I don't even care all that much for\nthe festival. I just love being able to\pvisit Cafe Dot during this time of year!$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_FINALEBATTLE_Text_0:
-# 415 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 425 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "CLOVE! It's so good so see you.\nI heard you got all of the ingredients\nand the soup went well!\pI could hear it from over here.\p… … … … … …\n… … … … … …\pBut hey. I was thinking.\nMaybe there's one last thing to\pmake this festival perfect…$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_FINALEBATTLE_Text_1:
-# 426 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 436 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "Hah! I have been doing a lot of\nthinking since I decided to retire.\pIt turns out that none of this works,\nthe town, the festival, the\prelation between trainers and\npokemon. If none of us care\pabout each other. It turns out the\nsecret is just being there.$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_FINALEBATTLE_Text_2:
-# 439 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 449 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "Would you battle me?\pNot as a test. Not for a badge.\nJust one last time.\pBefore I stop being a gym leader?$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_FINALEBATTLE_Text_3:
-# 444 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 456 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "Let's see how far you've come.$"
 
 CDGJ_Merriwave_Town_Festive_EventScript_FINALEBATTLE_Text_4:
-# 445 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
+# 457 "data/maps/CDGJ_Merriwave_Town_Festive/scripts.pory"
 	.string "Haha! Yeah! That felt right.$"

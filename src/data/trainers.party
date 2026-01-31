@@ -653,6 +653,267 @@ IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 - Assurance
 - Swagger
 
+/* DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS */
+/* DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS */
+/* DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS DEV TEAMS */
+
+=== TRAINER_GRUNT_AQUA_HIDEOUT_5 ===
+Name: ASTER
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Items: Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Force Setup First Turn
+
+Azumarill (F) @ Sitrus Berry
+Level: 30
+Ability: Huge Power
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Play Rough
+- Liquidation
+- Aqua Jet
+- Belly Drum
+
+Blaziken (F) @ Life Orb
+Shiny: Yes
+Level: 30
+Ability: Speed Boost
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flare Blitz
+- Close Combat
+- Protect
+- Stone Edge
+
+Empoleon (F) @ Leftovers
+Level: 30
+Ability: Competitive
+Nature: Calm
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Scald
+- Flash Cannon
+- Ice Beam
+- Stealth Rock
+
+Ampharos (F) @ Ampharosite
+Shiny: Yes
+Level: 30
+Ability: Static
+Nature: Bold
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Dragon Pulse
+- Agility
+- Cotton Guard
+
+=== TRAINER_GRUNT_AQUA_HIDEOUT_6 ===
+Name: CALLIE
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Items: Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Force Setup First Turn
+
+Scolipede @ Focus Sash
+Level: 30
+Ability: Speed Boost
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- X-Scissor
+- Toxic Spikes
+- Venoshock
+- Aqua Tail
+
+Bronzong @ Leftovers
+Shiny: Yes
+Level: 30
+Ability: Levitate
+Nature: Sassy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Stealth Rock
+- Gyro Ball
+- Earthquake
+- Protect
+
+Volcarona @ Insect Plate
+Level: 30
+Ability: Flame Body
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Quiver Dance
+- Flamethrower
+- Psychic
+- Giga Drain
+
+Arbok @ Black Sludge
+Level: 30
+Ability: Intimidate
+Nature: Careful
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Gunk Shot
+- Sludge Bomb
+- Thunder Fang
+- Coil
+
+Zubat
+Level: 32
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_FREDRICK ===
+Name: JOONI
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Force Setup First Turn
+
+Cramorant @ Heavy-Duty Boots
+Level: 30
+Ability: Gulp Missile
+Nature: Bold
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surf
+- Hurricane
+- Ice Beam
+- Roost
+
+Flygon @ Choice Scarf
+Level: 30
+Ability: Levitate
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Dragon Claw
+- U-turn
+- Stone Edge
+
+Luxray @ Flame Orb
+Level: 30
+Ability: Guts
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Facade
+- Wild Charge
+- Crunch
+- Superpower
+
+Toxicroak @ Life Orb
+Level: 30
+Ability: Dry Skin
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Swords Dance
+- Drain Punch
+- Gunk Shot
+- Sucker Punch
+
+=== TRAINER_MATT ===
+Name: MAX
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Force Setup First Turn
+
+Trubbish @ Eviolite
+Level: 30
+Ability: Sticky Hold
+Nature: Impish
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Spikes
+- Toxic Spikes
+- Gunk Shot
+- Explosion
+
+Weezing @ Black Sludge
+Level: 30
+Ability: Levitate
+Nature: Bold
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Will-O-Wisp
+- Sludge Bomb
+- Pain Split
+- Haze
+
+Skuntank @ Life Orb
+Level: 30
+Ability: Aftermath
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Poison Jab
+- Sucker Punch
+- Crunch
+- Flamethrower
+
+Gloom @ Eviolite
+Level: 30
+Ability: Effect Spore
+Nature: Bold
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sleep Powder
+- Strength Sap
+- Giga Drain
+- Sludge Bomb
+
+=== TRAINER_ZANDER ===
+Name: ANIE
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Items: Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Force Setup First Turn
+
+Leafeon @ Normalium_Z
+Level: 30
+Ability: Leaf Guard
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leaf Blade
+- Knock Off
+- Swords Dance
+- Celebrate
+
+Glaceon @ Choice Specs
+Level: 30
+Ability: Ice Body
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Ice Beam
+- Freeze-Dry
+- Shadow Ball
+- Water Pulse
+
+Sylveon @ Choice Specs
+Level: 30
+Ability: Pixilate
+Nature: Calm
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hyper Voice
+- Draining Kiss
+- Psychic
+- Mystical Fire
+
+Hydreigeon (Hydreigon) @ Leftovers
+Level: 30
+Ability: Levitate
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Nasty Plot
+- Draco Meteor
+- Flash Cannon
+- Substitute
+
 /* 
 END
 CDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJ
@@ -660,79 +921,6 @@ CDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJ
 CDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJCDGJ
 */
 
-=== TRAINER_GRUNT_AQUA_HIDEOUT_5 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt F
-Gender: Female
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Carvanha
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_AQUA_HIDEOUT_6 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt F
-Gender: Female
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Zubat
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_FREDRICK ===
-Name: FREDRICK
-Class: Expert
-Pic: Expert M
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Basic Trainer
-
-Makuhita
-Level: 30
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Machoke
-Level: 30
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_MATT ===
-Name: MATT
-Class: Aqua Admin
-Pic: Aqua Admin M
-Gender: Male
-Music: Aqua
-Items: Super Potion
-Double Battle: No
-AI: Basic Trainer
-
-Mightyena
-Level: 34
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Golbat
-Level: 34
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_ZANDER ===
-Name: ZANDER
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Hariyama
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SHELLY_WEATHER_INSTITUTE ===
 Name: SHELLY

@@ -4434,20 +4434,20 @@
     {
       "id": "LAYOUT_MERRIWAVE_TOWN_POKEMON_CENTER_1F",
       "name": "MerriwaveTown_PokemonCenter_1F_Layout",
-      "width": 14,
-      "height": 9,
+      "width": 16,
+      "height": 11,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_PokemonCenter",
+      "secondary_tileset": "gTileset_cdgj_pokecenter_real",
       "border_filepath": "data/layouts/CDGJ_MerriwaveTown_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_MerriwaveTown_PokemonCenter_1F/map.bin"
     },
     {
       "id": "LAYOUT_MERRIWAVE_TOWN_MART",
       "name": "MerriwaveTown_Mart_Layout",
-      "width": 11,
+      "width": 13,
       "height": 8,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_Shop",
+      "primary_tileset": "gTileset_CafeDotGeneral",
+      "secondary_tileset": "gTileset_cdgj_pokemart",
       "border_filepath": "data/layouts/CDGJ_MerriwaveTown_Mart/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_MerriwaveTown_Mart/map.bin"
     },
@@ -4614,8 +4614,8 @@
     {
       "id": "LAYOUT_CDGJ_BERRYROOT_WOODS_HOUSE",
       "name": "CDGJ_Berryroot_Woods_House_Layout",
-      "width": 11,
-      "height": 8,
+      "width": 13,
+      "height": 10,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_CDGJ_INTERIOR",
       "border_filepath": "data/layouts/CDGJ_Berryroot_Woods_House/border.bin",
@@ -4627,7 +4627,7 @@
       "width": 11,
       "height": 8,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_Shop",
+      "secondary_tileset": "gTileset_cdgj_pokemart",
       "border_filepath": "data/layouts/CDGJ_LakeArea_Mart/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_LakeArea_Mart/map.bin"
     },
@@ -4704,20 +4704,20 @@
     {
       "id": "LAYOUT_CDGJ_MERRIWAVE_TOWN_FESTIVE_POKEMART",
       "name": "CDGJ_Merriwave_Town_Festive_Pokemart_Layout",
-      "width": 11,
+      "width": 13,
       "height": 8,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_Shop",
+      "secondary_tileset": "gTileset_cdgj_pokemart",
       "border_filepath": "data/layouts/CDGJ_Merriwave_Town_Festive_Pokemart/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_Merriwave_Town_Festive_Pokemart/map.bin"
     },
     {
       "id": "LAYOUT_CDGJ_MERRIWAVE_TOWN_FESTIVE_POKECENTER",
       "name": "CDGJ_Merriwave_Town_Festive_Pokecenter_Layout",
-      "width": 14,
-      "height": 9,
+      "width": 16,
+      "height": 11,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_PokemonCenter",
+      "secondary_tileset": "gTileset_cdgj_pokecenter_real",
       "border_filepath": "data/layouts/CDGJ_Merriwave_Town_Festive_Pokecenter/border.bin",
       "blockdata_filepath": "data/layouts/CDGJ_Merriwave_Town_Festive_Pokecenter/map.bin"
     }

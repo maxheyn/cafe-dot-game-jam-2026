@@ -788,6 +788,10 @@
 #define METATILE_Underwater_FloorShadow  0x228
 #define METATILE_Underwater_RockWall     0x21E
 
+// gTileset_cdgj_pokecenter
+#define METATILE_cdgj_pokecenter_real_PC_Off  0x253
+#define METATILE_cdgj_pokecenter_real_PC_On   0x254
+
 // Other
 #define METATILE_RSMossdeepGym_RedArrow_Down   0x205
 #define METATILE_RSMossdeepGym_RedArrow_Left   0x20C

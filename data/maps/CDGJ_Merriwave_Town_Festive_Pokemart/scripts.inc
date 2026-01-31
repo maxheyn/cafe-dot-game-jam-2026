@@ -81,40 +81,42 @@ CDGJ_MerriwaveTown_Mart_Festive_Items:
 	.2byte ITEM_X_SPECIAL
 # 41 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
 	.2byte ITEM_X_SPEED
+# 42 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
+	.2byte ITEM_RARE_CANDY
 	.2byte ITEM_NONE
 
 CDGJ_MerriwaveTown_Mart_Festive_Clerk::
-# 45 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
-	lock
 # 46 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
+	lock
+# 47 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
 	faceplayer
-# 48 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
+# 49 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
 	pokemart CDGJ_MerriwaveTown_Mart_Festive_Items
-# 50 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
+# 51 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
 	msgbox CDGJ_MerriwaveTown_Mart_Festive_Clerk_Text_0
-# 52 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
+# 53 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
 	release
 	end
 
 
 CDGJ_Merriwave_Town_Festive_Pokemart_EventScript_1::
-# 57 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
-	faceplayer
 # 58 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
-	msgbox CDGJ_Merriwave_Town_Festive_Pokemart_EventScript_1_Text_0
+	faceplayer
 # 59 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
-	waitmessage
+	msgbox CDGJ_Merriwave_Town_Festive_Pokemart_EventScript_1_Text_0
 # 60 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
-	closemessage
+	waitmessage
 # 61 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
+	closemessage
+# 62 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
 	release
 	return
 
 
 CDGJ_MerriwaveTown_Mart_Festive_Clerk_Text_0:
-# 50 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
+# 51 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
 	.string "Enjoy the festival!$"
 
 CDGJ_Merriwave_Town_Festive_Pokemart_EventScript_1_Text_0:
-# 58 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
+# 59 "data/maps/CDGJ_Merriwave_Town_Festive_Pokemart/scripts.pory"
 	.string "The Pokemart stocks extra items during\nthe festival! I love stocking up!$"

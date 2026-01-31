@@ -1,1 +1,237 @@
-mapscripts CDGJ_CafeDot_Festive_MapScripts {}
+mapscripts CDGJ_CafeDot_Festive_MapScripts {
+    MAP_SCRIPT_ON_FRAME_TABLE [
+		VAR_CDGJ_CAFE_POSTGAME_STATE, 0: CDGJ_CafeDot_Festive_EventScript_IntroForPostGame
+	]
+}
+
+script CDGJ_CafeDot_Festive_EventScript_IntroForPostGame {
+    lockall
+
+    applymovement(LOCALID_PLAYER, PlayerMoveUpOne)
+    waitmovement
+
+    applymovement(LOCALID_BARISTA_POSTGAME_1, EmoteExclamationMark)
+    waitmovement
+    delay(30)
+    applymovement(LOCALID_BARISTA_POSTGAME_1, BaristaMoveToPlayerOnEnter)
+    waitmovement
+
+    msgbox("Hi! Welcome to Cafe Dot!\nTo celebrate the festival, we are\phosting a Pokémon competition for strong\ntrainers! Feel free to battle them!\pThey are at the tables over here to\nyour left. If you need anything like\pbattle items or Rare Candies, the\nPokémart in town just stocked up!")
+    waitmessage
+    closemessage
+
+    applymovement(LOCALID_BARISTA_POSTGAME_1, BaristaMoveBackToSeat)
+    waitmovement
+
+    setvar(VAR_CDGJ_CAFE_POSTGAME_STATE, 1)
+
+    releaseall
+
+    end
+}
+
+script CDGJ_CafeDot_Festive_EventScript_NeverBeenInACompetitionBefore {
+    faceplayer
+    msgbox("I've never been in a battle competition\nbefore! I'll just watch this time.\pNext time I might join in!")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_CafeDot_Festive_EventScript_OhWowYouLookStrongButAreYou {
+    faceplayer
+    msgbox("Oh wow! You look strong! But those\nguys over there also look\pstrong. Are you going to challenge them?")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_CafeDot_Festive_EventScript_Barista1 {
+    faceplayer
+    msgbox("Good luck! The Pokémart in town\nis selling some good battle supplies!\pIf you are low on cash, I've heard\nthat there's someone in town who\pgives out free Nuggets!")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_CafeDot_Festive_EventScript_Barista2 {
+    faceplayer
+    msgbox("Good luck! The Pokémart in town\nis selling some good battle supplies!\pIf you are low on cash, I've heard\nthat there's someone in town who\pgives out free Nuggets!")
+    waitmessage
+    closemessage
+    release
+}
+
+script CDGJ_CafeDot_Festival_EventScript_BattleAster {
+    faceplayer
+
+    if (flag(FLAG_CDGJ_ASTER_BEATEN)) {
+        msgbox("You've come a long way.")
+        waitmessage
+        closemessage
+        
+        release
+
+        end
+    }
+
+    msgbox("Some build teams for type coverage.\nBut I just travel with my friends.\pYou ready?", MSGBOX_YESNO)
+
+    if (var(VAR_RESULT) == YES) {
+        trainerbattle_single(
+            TRAINER_GRUNT_AQUA_HIDEOUT_5,
+            "Let's do this!",
+            "Thanks for the battle!" 
+        )
+        setflag(FLAG_CDGJ_ASTER_BEATEN)
+    }
+
+    waitmessage
+    closemessage
+
+    release
+
+    end
+}
+
+script CDGJ_CafeDot_Festival_EventScript_BattleCallie {
+    faceplayer
+
+    if (flag(FLAG_CDGJ_CALLIE_BEATEN)) {
+        msgbox("You're paying attention now, right?")
+        waitmessage
+        closemessage
+        
+        release
+
+        end
+    }
+
+    msgbox("You should pay more attention to\nyour surroundings!\pYou ready?", MSGBOX_YESNO)
+
+    if (var(VAR_RESULT) == YES) {
+        trainerbattle_single(
+            TRAINER_GRUNT_AQUA_HIDEOUT_6,
+            "Let's do this!",
+            "Huh. Maybe I should be paying more\nattention to battles instead." 
+        )
+        setflag(FLAG_CDGJ_CALLIE_BEATEN)
+    }
+
+    waitmessage
+    closemessage
+
+    release
+
+    end
+}
+
+script CDGJ_CafeDot_Festival_EventScript_BattleAnie {
+    faceplayer
+
+    if (flag(FLAG_CDGJ_ANIE_BEATEN)) {
+        msgbox("I'm consistent, up until a point.")
+        waitmessage
+        closemessage
+        
+        release
+
+        end
+    }
+
+    msgbox("Don't underestimate the power\nof my Pokémon!\pYou ready?", MSGBOX_YESNO)
+
+    if (var(VAR_RESULT) == YES) {
+        trainerbattle_single(
+            TRAINER_ZANDER,
+            "Let's do this!",
+            "Nice job! I won't pretend that it didn't\nhurt some, though!" 
+        )
+        setflag(FLAG_CDGJ_ANIE_BEATEN)
+    }
+
+    waitmessage
+    closemessage
+
+    release
+
+    end
+}
+
+script CDGJ_CafeDot_Festival_EventScript_BattleJooni {
+    faceplayer
+
+    if (flag(FLAG_CDGJ_JOONI_BEATEN)) {
+        msgbox("Momentum's a funny thing.")
+        waitmessage
+        closemessage
+        
+        release
+
+        end
+    }
+
+    msgbox("Oh! This is the post-game easter\negg. You ready?", MSGBOX_YESNO)
+
+    if (var(VAR_RESULT) == YES) {
+        trainerbattle_single(
+            TRAINER_FREDRICK,
+            "Let's do this!",
+            "I should have taken this more seriously." 
+        )
+        setflag(FLAG_CDGJ_JOONI_BEATEN)
+    }
+
+    waitmessage
+    closemessage
+
+    release
+
+    end
+}
+
+script CDGJ_CafeDot_Festival_EventScript_BattleMax {
+    faceplayer
+
+    if (flag(FLAG_CDGJ_MAX_BEATEN)) {
+        msgbox("Look, don't judge me.\nIt was funny, yeah?")
+        waitmessage
+        closemessage
+        
+        release
+
+        end
+    }
+
+    msgbox("My team is kind of booty…\pYou ready?", MSGBOX_YESNO)
+
+    if (var(VAR_RESULT) == YES) {
+        trainerbattle_single(
+            TRAINER_MATT,
+            "Let's do this!",
+            "Well, I picked em…" 
+        )
+        setflag(FLAG_CDGJ_MAX_BEATEN)
+    }
+
+    waitmessage
+    closemessage
+
+    release
+
+    end
+}
+
+movement PlayerMoveUpOne {
+    walk_up
+}
+
+movement BaristaMoveToPlayerOnEnter {
+    walk_right * 3
+    walk_down
+}
+
+movement BaristaMoveBackToSeat {
+    walk_up
+    walk_left * 3
+}

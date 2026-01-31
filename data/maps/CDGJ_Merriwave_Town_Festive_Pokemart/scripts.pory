@@ -39,6 +39,7 @@ mart CDGJ_MerriwaveTown_Mart_Festive_Items {
     ITEM_X_SP_DEF
     ITEM_X_SPECIAL
     ITEM_X_SPEED
+    ITEM_RARE_CANDY
 }
 
 script CDGJ_MerriwaveTown_Mart_Festive_Clerk {

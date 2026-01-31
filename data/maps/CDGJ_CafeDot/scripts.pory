@@ -122,7 +122,6 @@ script CDGJ_CafeDot_EventScript_ChooseStarter {
 	waitmessage
 	closemessage
 
-	// Show Pichu
 	showmonpic(SPECIES_APPLIN, 10, 3)
 	msgbox("Applin, the Apple Core Pokémon.\pDo you want this Pokémon?", MSGBOX_YESNO)
 	if (var(VAR_RESULT) == YES) {
@@ -131,7 +130,7 @@ script CDGJ_CafeDot_EventScript_ChooseStarter {
 		playfanfare(MUS_OBTAIN_ITEM)
 
 		setmonmove(0, 0, MOVE_BULLET_SEED)
-		setmonmove(0, 1, MOVE_WITHDRAW)
+		setmonmove(0, 1, MOVE_ROLLOUT)
 		setmonmove(0, 2, MOVE_POUNCE)
 		setmonmove(0, 3, MOVE_DRAGON_CHEER)
 
@@ -145,7 +144,6 @@ script CDGJ_CafeDot_EventScript_ChooseStarter {
 	}
 	hidemonpic
 	
-	// Show Mime Jr.
 	showmonpic(SPECIES_RIOLU, 10, 3)
 	msgbox("Riolu, the Emanation Pokémon.\pDo you want this Pokémon?", MSGBOX_YESNO)
 	if (var(VAR_RESULT) == YES) {
@@ -156,7 +154,7 @@ script CDGJ_CafeDot_EventScript_ChooseStarter {
 		setmonmove(0, 0, MOVE_BULLET_PUNCH)
 		setmonmove(0, 1, MOVE_BULK_UP)
 		setmonmove(0, 2, MOVE_QUICK_ATTACK)
-		setmonmove(0, 3, MOVE_POISON_JAB)
+		setmonmove(0, 3, MOVE_AERIAL_ACE)
 		
 		hidemonpic
 		
@@ -168,7 +166,6 @@ script CDGJ_CafeDot_EventScript_ChooseStarter {
 	}
 	hidemonpic
 	
-	// Show Togepi
 	showmonpic(SPECIES_TOGEPI, 10, 3)
 	msgbox("Togepi, the Spike Ball Pokémon.\pDo you want this Pokémon?", MSGBOX_YESNO)
 	if (var(VAR_RESULT) == YES) {
