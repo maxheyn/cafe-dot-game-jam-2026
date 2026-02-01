@@ -617,7 +617,11 @@ gSongTable::
 	song ph_nurse_held, MUSIC_PLAYER_SE2, 2
 	song ph_nurse_solo, MUSIC_PLAYER_SE2, 2
 	song mus_cdgj_town, MUSIC_PLAYER_BGM, 0
-
+	song mus_cdgj_cafe, MUSIC_PLAYER_BGM, 0
+	song mus_cdgj_route, MUSIC_PLAYER_BGM, 0
+	song mus_cdgj_cave, MUSIC_PLAYER_BGM, 0
+	song mus_cdgj_oddhouse, MUSIC_PLAYER_BGM, 0
+	song mus_cdgj_townfestive, MUSIC_PLAYER_BGM, 0
 
 	.align 2
 dummy_song_header:

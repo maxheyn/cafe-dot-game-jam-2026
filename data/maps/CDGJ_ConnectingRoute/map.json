@@ -2,7 +2,7 @@
   "id": "MAP_CONNECTINGROUTE",
   "name": "CDGJ_ConnectingRoute",
   "layout": "LAYOUT_CONNECTINGROUTE",
-  "music": "MUS_DUMMY",
+  "music": "MUS_CDGJ_ROUTE",
   "region_map_section": "MAPSEC__CDGJ_TOLLPASS",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

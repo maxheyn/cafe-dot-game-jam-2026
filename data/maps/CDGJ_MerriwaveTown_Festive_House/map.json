@@ -2,7 +2,7 @@
   "id": "MAP_CDGJ_MERRIWAVE_TOWN_FESTIVE_HOUSE",
   "name": "CDGJ_MerriwaveTown_Festive_House",
   "layout": "LAYOUT_CDGJ_MERRIWAVE_TOWN_FESTIVE_HOUSE",
-  "music": "MUS_DUMMY",
+  "music": "MUS_CDGJ_TOWNFESTIVE",
   "region_map_section": "MAPSEC__CDGJ_FESTIVAL",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

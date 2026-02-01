@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE_SEA_ROUTE",
   "name": "CDGJ_Route_SeaRoute",
   "layout": "LAYOUT_ROUTE_SEA_ROUTE",
-  "music": "MUS_DUMMY",
+  "music": "MUS_CDGJ_TOWN",
   "region_map_section": "MAPSEC__CDGJ_MERRIWAVE_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

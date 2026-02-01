@@ -2,7 +2,7 @@
   "id": "MAP_CDGJ_NORTH_MERRIWAVE_CAVE_HOME",
   "name": "CDGJ_NorthMerriwave_CaveHome",
   "layout": "LAYOUT_CDGJ_NORTH_MERRIWAVE_CAVE_HOME",
-  "music": "MUS_DUMMY",
+  "music": "MUS_CDGJ_ODDHOUSE",
   "region_map_section": "MAPSEC__CDGJ_NORTHMERRIWAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

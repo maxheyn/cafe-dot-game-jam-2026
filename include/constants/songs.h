@@ -546,7 +546,13 @@
 #define PH_NURSE_HELD               608
 #define PH_NURSE_SOLO               609
 
+// CDJG Music defs
 #define MUS_CDGJ_TOWN               610
+#define MUS_CDGJ_CAFE               611
+#define MUS_CDGJ_ROUTE              612
+#define MUS_CDGJ_CAVE               613
+#define MUS_CDGJ_ODDHOUSE           614
+#define MUS_CDGJ_TOWNFESTIVE        615
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

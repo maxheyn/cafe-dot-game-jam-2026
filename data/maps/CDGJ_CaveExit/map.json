@@ -2,7 +2,7 @@
   "id": "MAP_CAVE_EXIT",
   "name": "CDGJ_CaveExit",
   "layout": "LAYOUT_CAVE_EXIT",
-  "music": "MUS_DUMMY",
+  "music": "MUS_CDGJ_ROUTE",
   "region_map_section": "MAPSEC__CDGJ_BERRYROOT_WOODS",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

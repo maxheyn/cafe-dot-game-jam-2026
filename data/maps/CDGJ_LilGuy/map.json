@@ -2,7 +2,7 @@
   "id": "MAP_LILGUY",
   "name": "CDGJ_LilGuy",
   "layout": "LAYOUT_LILGUY",
-  "music": "MUS_DUMMY",
+  "music": "MUS_CDGJ_ROUTE",
   "region_map_section": "MAPSEC__CDGJ_BERRYROOT_WOODS",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

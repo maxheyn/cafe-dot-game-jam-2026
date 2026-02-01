@@ -2,7 +2,7 @@
   "id": "MAP_CAFE_DOT",
   "name": "CDGJ_CafeDot",
   "layout": "LAYOUT_CAFE_DOT",
-  "music": "MUS_CDGJ_TOWN",
+  "music": "MUS_CDGJ_CAFE",
   "region_map_section": "MAPSEC__CDGJ_CAFEDOT",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

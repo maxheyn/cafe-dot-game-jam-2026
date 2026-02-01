@@ -201,5 +201,12 @@
 .include "sound/voicegroups/rg_sevii_45.inc"
 .include "sound/voicegroups/rg_sevii_67.inc"
 .include "sound/voicegroups/drumsets/rg_credits.inc"
-.include "sound/voicegroups/cdgj_town.inc"
+
+@ CDJG
 .include "sound/voicegroups/drumsets/cdgj.inc"
+.include "sound/voicegroups/cdgj_town.inc"
+.include "sound/voicegroups/cdgj_cafe.inc"
+.include "sound/voicegroups/cdgj_route.inc"
+.include "sound/voicegroups/cdgj_cave.inc"
+.include "sound/voicegroups/cdgj_oddhouse.inc"
+.include "sound/voicegroups/cdgj_townfestive.inc"
